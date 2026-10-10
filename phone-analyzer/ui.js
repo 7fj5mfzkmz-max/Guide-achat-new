@@ -1,0 +1,245 @@
+(function () {
+  "use strict";
+  var card = document.getElementById("analyse-modele");
+  var form = document.getElementById("phone-analyzer-form");
+  var input = document.getElementById("phone-product-url");
+  var stage = document.getElementById("phone-analyzer-result");
+  var manualToggle = document.getElementById("phone-manual-toggle");
+  var manualEntry = document.getElementById("phone-manual-entry");
+  if (!card || !form || !input || !stage) return;
+
+  var PROFILS = { etudiant: "Étudiant", professionnel: "Professionnel", gamer: "Gamer", photographe: "Photographe" };
+  var KIT = window.GuideCategoryKit && window.GuideCategoryKit.get();   // profil de la catégorie (smartphones aujourd’hui)
+  var SPEC_LABELS = (KIT && KIT.specLabels) || { ecran: "Écran", refresh: "Fréquence d’écran", processeur: "Processeur", ram: "Mémoire", stockage: "Stockage", batterie: "Batterie", charge: "Charge", photo: "Photo", etancheite: "Étanchéité", os: "Système" };
+  var CRIT_LABELS = { autonomie: "autonomie", performance: "performance", gaming: "jeu", prix: "prix", recharge: "recharge", durabilite: "durée du suivi/réparabilité", stockage: "stockage", photo: "photo", ecran: "écran", connectivite: "connectivité" };
+  var state = { page: null, identity: null, queue: [], year: null, pageOffered: false, needsCapture: false };
+  var CORE_SPECS = (KIT && KIT.coreSpecs) || ["ecran", "processeur", "ram", "batterie", "charge", "refresh"];
+
+  function esc(v) { return String(v == null ? "" : v).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;" }[c]; }); }
+  function norm(s) { return String(s || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim(); }
+  function shorten(s, n) { s = String(s || ""); return s.length > n ? s.slice(0, n - 1).trim() + "…" : s; }
+  function usable(v) { return v != null && String(v).trim() !== "" && !/^\s*à documenter\s*$/i.test(String(v)); }
+  function myProfile() { try { return localStorage.getItem("guide-profile"); } catch (_) { return null; } }
+
+  /* Un seul écran visible à la fois : le formulaire est masqué dès qu'une étape s'affiche. */
+  function show(html, opts) {
+    form.hidden = true;
+    stage.hidden = false;
+    stage.setAttribute("aria-busy", opts && opts.busy ? "true" : "false");
+    stage.innerHTML = html;
+    card.classList.add("is-active");
+    var focus = stage.querySelector("[data-autofocus]");
+    if (focus && focus.focus) focus.focus({ preventScroll: true });
+  }
+  function reset() {
+    stage.hidden = true; stage.innerHTML = "";
+    form.hidden = false; card.classList.remove("is-active");
+    input.focus({ preventScroll: true });
+  }
+  function retryButton(label) { return '<button class="btn btn-secondary" type="button" data-act="reset">' + esc(label || "Essayer un autre lien") + "</button>"; }
+  function loading(text) { show('<div class="model-analyzer-loading" role="status"><span class="model-analyzer-spinner" aria-hidden="true"></span><p>' + esc(text) + "</p></div>", { busy: true }); }
+
+  function displayName(c, year) {
+    var name = c.nom || c.model || "", brand = c.marque || c.brand || "";
+    var label = brand && norm(name).indexOf(norm(brand)) < 0 ? brand + " " + name : name;
+    var y = c.annee_sortie || year;
+    return label + (y ? " (" + y + ")" : "");
+  }
+  function pageName() {
+    var p = state.page;
+    if (!p) return null;
+    /* Identification confirmée par le référentiel produit (code-barres) : son libellé fait foi. */
+    if (state.identity && state.identity.status === "identified" && state.identity.name) return shorten(state.identity.name, 110);
+    var n = (p.product && p.product.name) || (p.clues && (p.clues.name || p.clues.title));
+    return n ? shorten(n, 110) : null;
+  }
+
+  /* --- vues --- */
+  function viewNotAModel(label) {
+    show('<div class="model-analyzer-card"><h3>Ce lien correspond à ' + esc(label || "une page générale") + '.</h3><p>Collez le lien d’une fiche produit précise pour poursuivre l’analyse.</p>' + retryButton() + "</div>");
+  }
+  function viewConfirm(label, onYes, onNo) {
+    show('<div class="model-analyzer-card" role="group" aria-labelledby="ma-q"><h3 id="ma-q">Avez-vous bien sélectionné ' + esc(label) + " ?</h3>" +
+      "<p>Le modèle n’a pas pu être identifié avec certitude. Confirmez la référence avant de lancer l’analyse.</p>" +
+      '<div class="model-analyzer-actions"><button class="btn" type="button" data-act="yes" data-autofocus>Oui, c’est bien ce modèle</button><button class="btn btn-secondary" type="button" data-act="no">Non</button></div></div>');
+    stage.querySelector('[data-act="yes"]').addEventListener("click", onYes);
+    stage.querySelector('[data-act="no"]').addEventListener("click", onNo);
+  }
+  function viewManual(note, withCapture) {
+    var capture = withCapture ? '<div class="model-analyzer-capture"><strong>Le site bloque la lecture automatique.</strong><p>Sur Safari, vous pouvez lire la fiche telle que vous la voyez et la transmettre au guide.</p><a class="btn" href="capture.html">Lire la page avec Safari</a></div>' : '';
+    show('<div class="model-analyzer-card"><h3>Quel modèle recherchez-vous ?</h3><p>' + esc(note || "Le lien ne permet pas d’identifier le modèle avec certitude.") + " Saisissez sa marque et sa référence complète.</p>" + capture +
+      '<form class="model-analyzer-input-row" data-manual><input type="text" data-autofocus required placeholder="Ex. Nokia G10" aria-label="Marque et modèle" autocomplete="off"><button class="btn" type="submit">Utiliser ce modèle</button></form>' + retryButton() + "</div>");
+    stage.querySelector("[data-manual]").addEventListener("submit", function (e) {
+      e.preventDefault();
+      var text = e.target.querySelector("input").value.trim();
+      if (text) {
+        state.pageOffered = true;
+        loading('Recherche technique du modèle…');
+        (window.PhoneAnalyzerFetcher ? window.PhoneAnalyzerFetcher.resolveModel : function (v) { return Promise.reject(new Error('Résolveur indisponible')); })(text)
+          .then(function (data) {
+            if (!data || !data.ok) return viewManual('Le modèle « ' + text + ' » n’a pas été retrouvé automatiquement. Essayez avec la marque et le nom commercial complet.', false);
+            state.page = data;
+            state.identity = data.identity || null;
+            showAnalysis(null, data);
+          })
+          .catch(function () { viewManual('La recherche technique a dépassé le délai prévu. Vous pouvez réessayer avec la référence complète.', false); });
+      }
+    });
+  }
+  function scoreBar(v) { var n = Math.max(0, Math.min(9, v)); return '<span class="model-analyzer-bar" aria-hidden="true"><i style="width:' + Math.round(n / 9 * 100) + '%"></i></span>'; }
+
+  /* Analyse finale, toujours avec un score quand au moins un critère est documenté.
+     c = fiche du catalogue (ou null), page = résultat du serveur (ou null). */
+  function showAnalysis(c, page) {
+    var cat = {}; /* Le catalogue local ne fournit plus de caractéristiques à l’analyseur. */
+    var pageSpecs = (page && page.specs) || {};
+    var merged = {};
+    [pageSpecs, cat.caracteristiques || {}].forEach(function (src) { Object.keys(src).forEach(function (k) { if (usable(src[k])) merged[k] = src[k]; }); });
+    var pagePrice = page && page.product && /^(EUR|€)?$/i.test(page.product.currency || "") && page.product.price ? page.product.price : null;
+    var price = cat.prix_indicatif || pagePrice;
+
+    var scores = {}, estimated = false, documented = [], chemistry = null;
+    var reviewBased = false;
+    var kimovilScores = (page && page.sourceScores) || (page && page.reviews && page.reviews.reviewScores) || {};
+    var calibratedScores = (page && page.sourceScores) || (page && page.reviews && page.reviews.reviewScores) || {};
+    var title = c ? displayName(c, state.year) : (pageName() || 'Modèle lu sur la page');
+    // Une analyse publique disponible devient prioritaire sur les scores historiques du catalogue.
+    // Le catalogue conserve ses caractéristiques, mais ne peut plus écraser une mesure/revue plus récente.
+    var est = window.PhoneAnalyzerSpecScore.estimate({ specs: merged, price: price, modelName: title, reviews: null, sourceScores: calibratedScores });
+    scores = est.profiles; documented = est.documented; chemistry = est.chemistry; estimated = true;
+    var decisionDomains = {};
+    var confidence = 'source référencée';
+    var mine = myProfile();
+    var profs = Object.keys(PROFILS).filter(function (k) { return scores[k]; }).map(function (k) {
+      var s = scores[k];
+      return '<li' + (k === mine ? ' class="is-mine"' : "") + "><span>" + esc(PROFILS[k]) + "</span>" + scoreBar(s.score) + "<strong title=\"" + Math.round((s.coverage || 0) * 100) + "% des critères pondérés documentés\">" + s.score + "/10" + (s.provisional ? " *" : "") + "</strong></li>";
+    }).join("");
+    var rows = Object.keys(SPEC_LABELS).filter(function (k) { return merged[k]; }).map(function (k) { return "<div><dt>" + esc(SPEC_LABELS[k]) + "</dt><dd>" + esc(merged[k]) + "</dd></div>"; }).join("");
+    var list = function (arr) { return arr.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join(""); };
+    var notes = "";
+    var sources = (page && page.specSources) || {};
+    var fromRef = Object.keys(sources).filter(function (k) { return sources[k] === "icecat"; }).map(function (k) { return SPEC_LABELS[k] || k; });
+    var unknownKeys = CORE_SPECS.filter(function (k) { return !merged[k]; }).map(function (k) { return SPEC_LABELS[k] || k; });
+    if (!c) notes += "<p>Le modèle est identifié à partir du lien source. Les caractéristiques techniques sont réconciliées à partir des référentiels disponibles.</p>";
+    if (state.identity && state.identity.conflict) notes += '<p class="model-analyzer-note">' + esc(state.identity.conflict) + "</p>";
+    if (page && page.reconciliation && page.reconciliation.disagreements) notes += '<p class="model-analyzer-note"><strong>Vérification croisée :</strong> ' + esc(page.reconciliation.disagreements) + ' caractéristique(s) diffère(nt) entre les sources. La valeur principale est conservée avec sa provenance.</p>';
+    if (page && page.source && page.source.url) notes += '<p class="model-analyzer-note model-analyzer-source-note"><strong>Sources techniques.</strong> <a href="' + esc(page.source.url) + '" target="_blank" rel="noopener noreferrer">Voir la fiche source →</a></p>';
+    if (estimated && !reviewBased) notes += "<p>Certaines données sont incomplètes ; le résultat repose uniquement sur les informations disponibles. Une donnée inconnue n’est jamais transformée en défaut.</p>";
+
+    var domainNames = { performance: "Performance", autonomie: "Autonomie", photo: "Photo", ecran: "Écran", connectivite: "Connectivité" };
+    var domainRows = Object.keys(domainNames).filter(function(k){ return kimovilScores[k] != null; }).map(function(k){
+      var v = Number(kimovilScores[k]);
+      return '<div class="model-analyzer-domain"><span><strong>' + esc(domainNames[k]) + '</strong><small>référence technique</small></span><b>' + v.toFixed(1) + '/10</b></div>';
+    }).join('');
+    var sourceMap = { phonesdata: 'PhonesData', kimovil: 'Kimovil', gsmarena: 'GSMArena', icecat: 'Icecat', apple: 'Apple', page: 'fiche vendeur', catalogue: 'catalogue local', reader: 'lecteur secondaire' };
+    var actualSources = Object.keys((page && page.specSources) || {}).map(function(k){ return page.specSources[k]; }).filter(Boolean);
+    if (page && page.product && page.product.source) actualSources.push(page.product.source);
+    if (page && page.evidence) actualSources = actualSources.concat(page.evidence.map(function(e){ return /phonesdata/i.test(e) ? 'phonesdata' : /kimovil/i.test(e) ? 'kimovil' : /gsmarena/i.test(e) ? 'gsmarena' : null; }).filter(Boolean));
+    var sourceNames = Array.from(new Set(actualSources)).map(function(k){ return sourceMap[k] || k; });
+    if (!sourceNames.length) sourceNames = ['source du produit'];
+    var sourceLabel = sourceNames.join(' + ');
+    var confidenceBlock = '<div class="decision-confidence"><span>Référentiels techniques : <strong>' + esc(sourceLabel) + '</strong></span><small>Les valeurs gardent leur provenance ; une divergence entre sources est signalée comme incertitude.</small></div>'; 
+    var profileLinks = Object.keys(PROFILS).filter(function(k){return scores[k];}).map(function(k){return '<a class="decision-profile-chip'+(k===mine?' is-current':'')+'" href="#choisir-profil" data-profile-jump="'+esc(k)+'">'+esc(PROFILS[k])+'</a>';}).join('');
+    var decisionBlock = profileLinks ? '<div class="decision-profile-block"><div><strong>Votre lecture par usage</strong><small>La note change selon ce que vous faites du téléphone.</small></div><div class="decision-profile-chips">'+profileLinks+'</div></div>' : '';
+    var coreKnown = CORE_SPECS.filter(function(k){ return usable(merged[k]); }).length;
+    var analysisIndex = Math.round((coreKnown / CORE_SPECS.length) * 100);
+    var indexSourceLabel = sourceLabel;
+    var indexWord = analysisIndex >= 80 ? 'fiable' : (analysisIndex >= 50 ? 'à compléter' : 'incomplet');
+    var analysisIndexBlock = '<div class="analysis-index"><span>Indice d’analyse <strong>'+analysisIndex+'/100</strong></span><small>'+indexWord+'</small><em>Source technique : '+esc(indexSourceLabel)+'. Une donnée absente reste inconnue et n’est pas pénalisée.</em></div>';
+    var sourceBlock = analysisIndexBlock + confidenceBlock + decisionBlock + (domainRows ? '<details class="model-analyzer-why"><summary>Pourquoi cette note ?</summary><div class="model-analyzer-why-body"><p>La note par profil ne part pas d’un chiffre marketing unique. Elle combine plusieurs domaines documentés, avec une pondération différente selon l’usage.</p><div class="model-analyzer-domains">' + domainRows + '</div><p class="model-analyzer-note">Une note élevée exige des caractéristiques documentées sur plusieurs critères. 120 Hz, beaucoup de RAM ou une grosse batterie ne suffisent pas à eux seuls ; les fiches techniques ne remplacent pas les essais terrain.</p></div></details>' : '');
+    var hasProvisional = Object.keys(scores).some(function(k){ return scores[k] && scores[k].provisional; });
+    var scoreNote = !profs ? "<p><strong>Score indisponible pour le moment :</strong> aucune caractéristique fiable n’est disponible pour ce modèle. Une information absente n’est pas considérée comme un défaut.</p>"
+      : '<p class="model-analyzer-note">Score Guide·Achat calculé à partir des caractéristiques techniques disponibles (' + esc(sourceLabel) + '). Il mesure la <strong>compatibilité avec un profil d’usage</strong>, pas une qualité générale absolue.</p>' + (hasProvisional ? '<p class="model-analyzer-note"><strong>* Score provisoire :</strong> couverture technique ou tests terrain incomplets. Le jeu/photo reste plafonné sans mesure spécialisée.</p>' : '') + (chemistry && chemistry.status !== "documente" ? '<p class="model-analyzer-note">Technologie de batterie détectée : ' + esc(chemistry.label) + ". Son effet n’est pas bonifié automatiquement sans source comparable.</p>" : "") + '<p class="model-analyzer-note">Analyse fondée sur : ' + esc(documented.map(function (k) { return CRIT_LABELS[k] || k; }).join(", ")) + ". Une donnée non documentée n’est jamais comptée comme un point négatif.</p>";
+
+    var auditLink = '<div class="model-analyzer-next"><div><strong>Vous voulez vérifier le modèle vous-même ?</strong><span>5 familles, 45 secondes : écran, batterie, performance, photo et durée de vie.</span></div><div class="model-analyzer-next-actions"><a class="btn btn-secondary" href="#purchase-audit">Faire l’audit →</a><a class="btn btn-secondary" href="comparateur.html?selection=" + encodeURIComponent(c && c.id ? c.id : "") + "">Comparer →</a></div></div>';
+    show('<div class="model-analyzer-card"><span class="eyebrow">ANALYSE DU MODÈLE</span><h3>' + esc(title) + "</h3>" + notes +
+      (price ? "<p><strong>" + (cat.prix_indicatif ? "Prix indicatif" : "Prix trouvé sur la page") + " :</strong> " + esc(price) + " €</p>" : "") +
+      (rows ? '<dl class="model-analyzer-specs">' + rows + "</dl>" : "") +
+      (fromRef.length ? '<p class="model-analyzer-note">Issu du référentiel produit (code-barres) : ' + esc(fromRef.join(", ")) + ".</p>" : "") +
+      (unknownKeys.length ? '<p class="model-analyzer-note"><strong>Inconnu (non trouvé) :</strong> ' + esc(unknownKeys.join(", ")) + ". Une information inconnue n’est jamais comptée comme un défaut." + (/apple|iphone/i.test(title) && unknownKeys.some(function (k) { return /ram|mémoire|batterie/i.test(k); }) ? " Apple ne publie ni la RAM ni la capacité de la batterie en mAh : ce n’est pas un oubli du guide." : "") + "</p>" : "") +
+      (profs ? '<h4>Compatibilité par profil</h4><ul class="model-analyzer-profiles">' + profs + "</ul>" : "") + sourceBlock + scoreNote +
+      ((cat.points_forts && cat.points_forts.length) ? "<h4>Points forts</h4><ul>" + list(cat.points_forts) + "</ul>" : "") +
+      ((cat.points_faibles && cat.points_faibles.length) ? "<h4>Points de vigilance</h4><ul>" + list(cat.points_faibles) + "</ul>" : "") +
+      auditLink + retryButton("Analyser un autre modèle") + "</div>");
+  }
+
+  /* --- logique --- */
+  function nextCandidate() {
+    var c = state.queue.shift();
+    if (c) return viewConfirm(displayName(c, state.year), function () { showAnalysis(c, state.page); }, nextCandidate);
+    var name = pageName();
+    if (name && !state.pageOffered) {
+      state.pageOffered = true;
+      return viewConfirm(name, function () { showAnalysis(null, state.page); }, nextCandidate);
+    }
+    viewManual("Aucun autre modèle ne correspond.", state.needsCapture);
+  }
+  function searchAndContinue(clues, manual) {
+    /* Le serveur a déjà identifié le modèle puis interrogé PhonesData.
+       Le catalogue local ne décide plus de l’identité et ne complète plus les caractéristiques. */
+    if (state.page && state.page.ok && state.page.specs) return showAnalysis(null, state.page);
+    viewManual("Le modèle n’a pas été retrouvé dans le référentiel PhonesData.", state.needsCapture);
+  }
+  function localFallback(raw) {
+    var local = window.PhoneAnalyzerIdentify.identifyFromUrl(raw);
+    var cls = window.PhoneAnalyzerIdentify.classifyUrl(raw);
+    return { ok: false, kind: cls.kind, pageLabel: cls.label, clues: { urlHint: local.titleHint, asin: local.asin, ean: local.ean } };
+  }
+
+  function openManualEntry() {
+    if (!manualEntry) return viewManual('');
+    manualEntry.hidden = false;
+    manualEntry.innerHTML = '<form class="model-analyzer-input-row" data-direct-manual><input type="text" data-autofocus required placeholder="Ex. Samsung Galaxy A56 5G" aria-label="Marque et modèle" autocomplete="off"><button class="btn" type="submit">Analyser le modèle</button></form>';
+    var f = manualEntry.querySelector('[data-direct-manual]');
+    f.addEventListener('submit', function(e){
+      e.preventDefault();
+      var value = f.querySelector('input').value.trim();
+      if (!value) return;
+      state.page = null; state.identity = null; state.pageOffered = true; state.needsCapture = false;
+      loading('Recherche croisée dans PhonesData, Kimovil et GSMArena…');
+      (window.PhoneAnalyzerFetcher ? window.PhoneAnalyzerFetcher.resolveModel : function (v) { return Promise.reject(new Error('Résolveur indisponible')); })(value)
+        .then(function(data){
+          if(!data || !data.ok) return viewManual('Le modèle « '+value+' » n’a pas été retrouvé dans les référentiels disponibles. Vérifiez la marque et la référence complète.', false);
+          state.page=data; state.identity=data.identity||null; showAnalysis(null,data);
+        })
+        .catch(function(){ viewManual('La recherche technique a échoué. Réessayez avec la référence complète du modèle.', false); });
+    });
+    var inp=manualEntry.querySelector('input'); if(inp) inp.focus({preventScroll:true});
+  }
+
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+    var raw = input.value.trim();
+    if (!/^https?:\/\//i.test(raw)) raw = "https://" + raw;
+    try { new URL(raw); } catch (_) { return viewManual("Ce lien n’est pas valide."); }
+    state.page = null; state.identity = null; state.queue = []; state.pageOffered = false; state.needsCapture = false;
+    loading("Analyse du lien en cours…");
+    window.PhoneAnalyzerFetcher.resolveProduct(raw).catch(function () { return localFallback(raw); }).then(function (data) {
+      if (data.kind === "page") return viewNotAModel(data.pageLabel);
+      var k = data.clues || {};
+      state.year = k.year || null;
+      state.needsCapture = !!data.needsCapture;
+      if (data.ok && data.kind === "product") { state.page = data; state.identity = data.identity || null; }
+      var idName = state.identity && state.identity.status === "identified" ? state.identity.name : null;
+      searchAndContinue({ hints: [idName, k.name, k.title, k.urlHint].concat(k.searchTitles || []), ean: k.ean, asin: k.asin }, false);
+    });
+  });
+  if (manualToggle) manualToggle.addEventListener("click", openManualEntry);
+  /* Arrivée depuis le signet de capture : #capture=… */
+  var captured = window.PhoneAnalyzerCapture && window.PhoneAnalyzerCapture.fromHash(location.hash, window.PhoneAnalyzerIdentify);
+  if (captured) {
+    try { history.replaceState(null, "", location.pathname + location.search + "#analyse-modele"); } catch (_) {}
+    state.page = captured; state.year = captured.clues.year || null; state.queue = []; state.pageOffered = false; state.needsCapture = false;
+    var ck = captured.clues;
+    searchAndContinue({ hints: [ck.name, ck.title, ck.urlHint], ean: ck.ean, asin: ck.asin }, false);
+    if (card.scrollIntoView) card.scrollIntoView({ block: "start" });
+  }
+  stage.addEventListener("click", function(event){
+    var jump=event.target.closest&&event.target.closest('[data-profile-jump]');
+    if(jump){ try{localStorage.setItem('guide-profile',jump.getAttribute('data-profile-jump'));}catch(_){} }
+  });
+  stage.addEventListener("click", function (event) {
+    var t = event.target.closest && event.target.closest('[data-act="reset"]');
+    if (t) reset();
+  });
+})();
