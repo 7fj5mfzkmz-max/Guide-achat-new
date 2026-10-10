@@ -1,0 +1,5 @@
+module.exports = function health(req, res) {
+  res.statusCode = 200;
+  res.setHeader('content-type', 'application/json; charset=utf-8');
+  res.end(JSON.stringify({ ok: true, service: 'guide-achat-resolver' }));
+};
