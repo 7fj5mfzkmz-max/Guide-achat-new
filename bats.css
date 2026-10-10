@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap");
+
+/* ==========================================================================
+   BATS — v100
+   « Batman, la série animée » (1992) : papier noir, ciel bleu nuit, cape bleu
+   acier, mur ocre des fenêtres éclairées, lampe corail de la terrasse.
+   Aplats peints, aucun néon, aucun voile par-dessus le texte.
+
+   Feuille chargée EN DERNIER (après deco.css) sur toutes les pages.
+   Elle ne touche pas aux cartes de catégories (.ct-grid, .ct, .hx-fan*).
+
+   Réglages rapides :
+     - grain de fond .......... html .dd-grain { opacity }
+     - lave de fond ........... .dd-bg i { opacity }
+     - or du bandeau d'accueil . --gold
+   ========================================================================== */
+
+/* ============ 1. Jetons ============ */
+html.dark-theme {
+  --gold: #b9a77c;          /* or du sous-titre « Guide·Achat · outil indépendant » */
+  --gold-deep: #8b7a52;
+  --ochre: #c79a3b;         /* fenêtres éclairées, usage rare */
+  --coral: #d9805f;         /* lampe de la terrasse, usage très rare */
+  --cape: #2c4f9e;          /* cape */
+  --night: #0f1838;
+
+  --paper: #07080c;   --paper-2: #0c1020;
+  --surface: #11151f; --surface-2: #181e2b;
+
+  --amber: var(--gold);  --amber-deep: var(--gold-deep);
+  --accent: var(--gold);
+  --lime: var(--gold);   --lime-tint: #1d1b14;
+  --tone-2: var(--gold);
+
+  --font-display: "Space Grotesk", "DM Sans", system-ui, sans-serif;
+}
+html.dark-theme [data-tone="peach"]:not(.ct),
+html.dark-theme [data-tone="lime"]:not(.ct),
+html.dark-theme [data-tone="amber"]:not(.ct) { --tone: #b9a77c; --tone-deep: #b9a77c; --tone-tint: #1c1a14; }
+html.dark-theme [data-tone="coral"]:not(.ct) { --tone: #d9805f; --tone-deep: #d9805f; --tone-tint: #1f1512; }
+
+/* ============ 2. Fond peint : noir, bleu nuit, lueur d'horizon ============ */
+html.dark-theme {
+  background:
+    radial-gradient(90% 34% at 50% 104%, rgba(150,112,44,.12) 0%, transparent 70%),
+    linear-gradient(180deg, #0d1637 0%, #0a1026 24%, #07080d 62%, #050507 100%) fixed;
+  background-color: #07080c;
+}
+.dd-bg i { filter: blur(90px); mix-blend-mode: normal; }
+.dd-bg i:nth-child(1) { background: #1a2c6e; opacity: .30; }
+.dd-bg i:nth-child(2) { background: #3a2418; opacity: .22; }
+.dd-bg i:nth-child(3) { background: #123a63; opacity: .22; }
+.dd-bg i:nth-child(4) { background: #6b4f1f; opacity: .10; }
+
+/* Grain : désormais DERRIÈRE tout le contenu (jamais par-dessus le texte), fixe, discret. */
+html .dd-grain {
+  z-index: -1 !important;
+  opacity: .075;
+  animation: none !important;
+  inset: 0;
+}
+html .dd-vig { display: none !important; }
+@media (max-width: 640px) {
+  html .dd-grain { opacity: .075; animation: none !important; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html .dd-grain { opacity: .075; }
+}
+
+/* ============ 3. Typographie ============ */
+html.dark-theme h1, html.dark-theme .hx-title { font-weight: 700; letter-spacing: .03em; }
+html.dark-theme h2, html.dark-theme h3:not(.ct h3), html.dark-theme h4 { font-weight: 700; letter-spacing: .005em; }
+html.dark-theme .hx-label, html.dark-theme .hx-kicker, html.dark-theme .drawer-kicker,
+html.dark-theme .eyebrow, html.dark-theme .kicker, html.dark-theme .section-label {
+  font-family: var(--font-display); font-weight: 700; font-size: .78rem; letter-spacing: .14em;
+  text-transform: uppercase; color: var(--gold);
+}
+html.dark-theme .hx-label::before, html.dark-theme .hx-kicker::before { content: none; }
+html.dark-theme .site-nav a, html.dark-theme .brand-name, html.dark-theme .hx-tab, html.dark-theme .btn,
+html.dark-theme .hx-btn, html.dark-theme th { font-family: var(--font-display); }
+html.dark-theme .hx-points b, html.dark-theme .deep-num, html.dark-theme .hx-q i { color: var(--gold) !important; }
+html.dark-theme .hx-link, html.dark-theme .site-footer a { color: #8fa9d4 !important; }
+html.dark-theme .takeaway strong, html.dark-theme .audit-next-step a, html.dark-theme .why-script { color: var(--gold) !important; }
+
+/* ============ 4. En-tête : trois boutons strictement identiques ============ */
+html.dark-theme .header-inner {
+  border-radius: 8px !important;
+  background: linear-gradient(180deg, rgba(13,16,25,.82), rgba(7,8,12,.78)) !important;
+  box-shadow: 0 1px 0 rgba(185,167,124,.18) inset, 0 12px 34px rgba(0,0,0,.5) !important;
+}
+html.dark-theme .brand-mark, html.dark-theme .footer-logo-mark {
+  background: var(--gold) !important; color: #0a0b0f !important; border-radius: 6px;
+}
+html .site-header .header-tools {
+  display: flex; align-items: center; gap: .4rem; margin: 0 0 0 auto; padding: 0; border: 0;
+}
+html .site-header .header-tool,
+html .site-header .brand-menu-toggle {
+  box-sizing: border-box; flex: 0 0 auto;
+  width: 42px; height: 42px; min-width: 42px; min-height: 42px;
+  margin: 0; padding: 0 !important;
+  display: inline-grid; grid-auto-flow: column; place-items: center; place-content: center; gap: .6rem;
+  border: 1px solid var(--line-strong) !important; border-radius: 4px !important;
+  background: rgba(10,12,18,.72) !important; color: var(--ink) !important;
+  font-size: 0 !important; line-height: 0 !important; text-indent: 0;
+  transform: none !important; box-shadow: none !important; position: relative;
+  transition: border-color .2s ease, background .2s ease, color .2s ease;
+}
+html .site-header .header-tool:hover,
+html .site-header .brand-menu-toggle:hover,
+html .site-header .brand-menu-toggle[aria-expanded="true"] {
+  border-color: var(--gold) !important; background: rgba(185,167,124,.10) !important; color: var(--gold) !important; transform: none !important;
+}
+/* Les glyphes texte (⌕ ☾ ☀ ≡) et les barres <i> sont remplacés par des icônes vectorielles, centrées au pixel. */
+html .site-header .header-tool .theme-icon,
+html .site-header .brand-menu-toggle > span:first-child { display: none !important; }
+html .site-header .header-tool::before,
+html .site-header .brand-menu-toggle::before {
+  content: ""; display: block; width: 20px; height: 20px; flex: none; background: currentColor;
+  -webkit-mask: var(--ic) center / contain no-repeat; mask: var(--ic) center / contain no-repeat;
+}
+#search-toggle { --ic: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round'><circle cx='10.5' cy='10.5' r='6'/><path d='M15 15l5.5 5.5'/></svg>"); }
+#theme-toggle { --ic: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z'/></svg>"); }
+#theme-toggle[aria-pressed="true"] { --ic: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round'><circle cx='12' cy='12' r='4'/><path d='M12 2.5v2.4M12 19.1v2.4M2.5 12h2.4M19.1 12h2.4M5.3 5.3l1.7 1.7M17 17l1.7 1.7M5.3 18.7L7 17M17 7l1.7-1.7'/></svg>"); }
+#category-menu-toggle { --ic: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round'><path d='M4 7h16M4 12h16M4 17h16'/></svg>"); }
+#category-menu-toggle[aria-expanded="true"] { --ic: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round'><path d='M6 6l12 12M18 6L6 18'/></svg>"); }
+html .site-header .brand-menu-label { display: none !important; }
+@media (min-width: 901px) {
+  html .site-header .brand-menu-toggle { width: auto; padding: 0 .95rem !important; }
+  html .site-header .brand-menu-label {
+    display: inline !important; font: 700 .78rem/1 var(--font-display); letter-spacing: .12em; text-transform: uppercase;
+  }
+}
+html .site-header .brand-menu-toggle { margin: 0 0 0 .4rem; order: 3; }
+
+/* ============ 5. Accueil : bandeau de notions sans cadre ============ */
+html.dark-theme .hx-marquee {
+  background: transparent !important; border: 0 !important; box-shadow: none !important; padding: .35rem 0 !important;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 9%, #000 91%, transparent 100%);
+  mask-image: linear-gradient(90deg, transparent 0, #000 9%, #000 91%, transparent 100%);
+}
+html.dark-theme .hx-marquee .hx-word-row,
+html.dark-theme .hx-marquee .hx-word-track,
+html.dark-theme .hx-marquee .hx-word-set { border: 0 !important; background: none !important; box-shadow: none !important; }
+html.dark-theme .hx-marquee .hx-word-chip {
+  background: none !important; border: 0 !important; border-radius: 0 !important; box-shadow: none !important;
+  padding: 0 !important; margin: 0 !important; display: inline-flex; align-items: center;
+  font: 600 .8rem/1 var(--font-display); letter-spacing: .16em; text-transform: uppercase; color: var(--muted) !important;
+}
+html.dark-theme .hx-marquee .hx-word-chip::after {
+  content: ""; width: 4px; height: 4px; margin: 0 1.35rem; background: var(--gold-deep); transform: rotate(45deg); flex: none;
+}
+
+/* ============ 6. Boutons : même gabarit partout ============ */
+html.dark-theme .btn, html.dark-theme a.btn, html.dark-theme .hx-btn {
+  background: var(--gold) !important; color: #0a0b0f !important; border: 1px solid #d3c49b !important;
+  border-radius: 4px !important; box-shadow: none !important;
+  min-height: 44px; display: inline-flex; align-items: center; justify-content: center; padding: .55rem 1.15rem;
+  letter-spacing: .1em; line-height: 1.1;
+}
+html.dark-theme .btn:hover, html.dark-theme .hx-btn:hover { background: #c9b88d !important; transform: none; }
+html.dark-theme .btn-ghost, html.dark-theme .btn.secondary, html.dark-theme .btn-secondary {
+  background: transparent !important; color: var(--gold) !important; border: 1px solid var(--gold-deep) !important;
+}
+html.dark-theme .hx-tab[aria-selected="true"], html.dark-theme .hx-tab.is-active,
+html.dark-theme .audit-pill.is-selected, html.dark-theme .profile-picker-tab.is-current {
+  background: var(--gold) !important; color: #0a0b0f !important; border-color: #d3c49b !important;
+}
+html.dark-theme .audit-reset-btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: .45rem; min-height: 40px; padding: 0 1rem;
+  border: 1px solid var(--gold-deep); border-radius: 4px; background: transparent; color: var(--gold); cursor: pointer;
+  font: 700 .78rem/1 var(--font-display); letter-spacing: .1em; text-transform: uppercase;
+}
+html.dark-theme .audit-reset-btn:hover { border-color: var(--gold); background: rgba(185,167,124,.10); }
+html.dark-theme .hx-hero { border-bottom-color: var(--line-strong) !important; }
+html.dark-theme .hx-builder-card::before, html.dark-theme .hx-feature::before, html.dark-theme .hx-final::before,
+html.dark-theme .takeaway::before, html.dark-theme .deep-card::before { --t: rgba(185,167,124,.45); }
+html.dark-theme .hx-bar-fill { background: linear-gradient(90deg, var(--cape), var(--gold)) !important; }
+
+/* ============ 7. Flèches de défilement : un seul bouton discret, visible après défilement ============ */
+html .scroll-fab {
+  position: fixed; right: max(.9rem, env(safe-area-inset-right)); bottom: max(.9rem, env(safe-area-inset-bottom));
+  display: block; gap: 0; z-index: 50;
+  opacity: 0; pointer-events: none; transform: translateY(6px);
+  transition: opacity .25s ease, transform .25s ease;
+}
+html .scroll-fab.is-visible { opacity: 1; pointer-events: auto; transform: none; }
+html .scroll-fab button[data-to="bottom"] { display: none !important; }
+html .scroll-fab button[data-to="top"] {
+  box-sizing: border-box; width: 40px; height: 40px; padding: 0; margin: 0;
+  display: grid; place-items: center; border-radius: 4px;
+  border: 1px solid var(--line-strong); background: rgba(10,12,18,.84); color: var(--gold);
+  font-size: 0; line-height: 0; box-shadow: 0 8px 22px rgba(0,0,0,.45);
+  -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); cursor: pointer;
+}
+html .scroll-fab button[data-to="top"]::before {
+  content: ""; width: 18px; height: 18px; background: currentColor;
+  -webkit-mask: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M5 15l7-7 7 7'/></svg>") center / contain no-repeat;
+  mask: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M5 15l7-7 7 7'/></svg>") center / contain no-repeat;
+}
+html .scroll-fab button[data-to="top"]:hover { border-color: var(--gold); }
+@media (min-width: 1025px) { html .scroll-fab { display: none; } }
+
+/* ============ 8. Résultat de l'audit : les cartes redeviennent visibles ============ */
+/* Cause du « vide » : style.css fixait opacity:0 sur la carte et v90-night.css la ramenait à
+   cette valeur (animation « from » seule). Les cartes existaient mais restaient transparentes. */
+html .criteria-recommendation-card {
+  opacity: 1; transform: none;
+  animation: bats-rise .4s ease both;
+}
+@keyframes bats-rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+html.dark-theme .criteria-recommendations {
+  margin-top: 1.2rem; padding: 1.1rem 1.1rem 1rem; border-radius: 6px;
+  border: 1px solid var(--line-strong); border-top: 2px solid var(--gold-deep);
+  background: linear-gradient(180deg, rgba(16,20,31,.9), rgba(9,11,17,.9));
+}
+html.dark-theme .criteria-recommendation-card {
+  border-radius: 6px; background: rgba(20,25,38,.9); border: 1px solid var(--line-strong);
+}
+html.dark-theme .criteria-recommendation-card:first-child { border-color: var(--gold-deep); position: relative; }
+html.dark-theme .criteria-recommendation-card:first-child::before {
+  content: "Meilleure correspondance"; align-self: flex-start; margin-bottom: .2rem;
+  font: 700 .66rem/1 var(--font-display); letter-spacing: .12em; text-transform: uppercase; color: var(--gold);
+}
+html.dark-theme .criteria-recommendation-score {
+  background: var(--gold); color: #0a0b0f; border-radius: 3px; font-family: var(--font-display);
+}
+html.dark-theme .criteria-recommendation-link { text-decoration-color: var(--gold); }
+html.dark-theme .criteria-empty-state { background: rgba(20,25,38,.9); border: 1px solid var(--line-strong); border-radius: 6px; color: var(--ink); }
+html.dark-theme .criteria-recommendations-note { color: var(--muted); }
+html.dark-theme .audit-result-live { border-radius: 6px; }
+html.dark-theme .audit-live-chip { border-radius: 4px; }
+
+/* ============ 9. Mobile ============ */
+@media (max-width: 640px) {
+  html.dark-theme h1, html.dark-theme .hx-title { letter-spacing: .02em; }
+  html.dark-theme .criteria-recommendations-head { flex-direction: column; align-items: stretch; }
+  html.dark-theme .criteria-recommendations-head .audit-reset-btn { align-self: flex-start; }
+}
+
+/* Liens de résultat : même gabarit carré que les autres boutons */
+html.dark-theme .criteria-recommendation-link {
+  border-radius: 4px; background: transparent; border: 1px solid var(--gold-deep); color: var(--gold);
+  text-decoration: none; padding: .4rem .7rem; min-height: 34px; display: inline-flex; align-items: center;
+}
+html.dark-theme .criteria-recommendation-link:hover { border-color: var(--gold); background: rgba(185,167,124,.10); }
+html.dark-theme .hx-hero { border-bottom: 0 !important; }

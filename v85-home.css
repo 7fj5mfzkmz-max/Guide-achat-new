@@ -1,0 +1,90 @@
+/* v85 — accueil orienté outil/catalogue : moins de « landing page », plus de navigation produit. */
+.hx{--hx-r:18px}
+.hx-hero{padding:clamp(2rem,5vw,4rem) 0 1.2rem;border-bottom:1px solid var(--line)}
+.hx-hero-inner{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(280px,.85fr);gap:clamp(2rem,6vw,5rem);align-items:end}
+.hx-hero-copy{max-width:58rem}
+.hx-kicker{padding:0;background:none;border-radius:0;color:var(--ink-soft);font-size:.72rem;letter-spacing:.12em}
+.hx-title{max-width:12ch;font-size:clamp(2.7rem,6.5vw,5.2rem);letter-spacing:-.045em;margin:.75rem 0 1rem}
+.hx-lead{max-width:42rem;font-size:clamp(1rem,1.8vw,1.18rem);line-height:1.55;margin-bottom:1.35rem}
+.hx-cta{margin-bottom:0}
+.hx-btn{box-shadow:none;border-radius:10px}
+.hx-btn:hover{transform:none;box-shadow:none}
+.hx-stage{min-height:20rem;display:grid;place-items:center;order:2}
+.hx-phone{width:13rem;height:25rem;transform:rotate(-3deg);border-radius:2rem;box-shadow:0 20px 35px rgba(36,23,38,.18);animation:none}
+.hx-phone-bar i{background:var(--lime)}
+.hx-chip{box-shadow:0 5px 15px rgba(36,23,38,.1);animation:none;border-radius:10px}
+.hx-points{grid-column:1/-1;margin-top:1.2rem;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--line)}
+.hx-points li{border:0;border-right:1px solid var(--line);border-radius:0;background:transparent;padding:1rem 1rem 1rem 0;box-shadow:none}
+.hx-points li:last-child{border-right:0;padding-left:1rem}
+.hx-points li:hover{transform:none;border-color:var(--line)}
+.hx-points b{font-size:1rem;color:var(--ink-soft)}
+.hx-points strong{font-size:.95rem}
+.hx-points span{font-size:.84rem}
+
+/* Lexique : il devient un outil de repérage discret, pas un bandeau décoratif. */
+.hx-marquee{margin:0;border-bottom:1px solid var(--line);mask-image:none;-webkit-mask-image:none}
+
+/* Catégories = cœur de l'accueil. */
+#categories{padding-top:clamp(2.4rem,6vw,4rem)}
+#categories .hx-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,.7fr);column-gap:3rem;align-items:end;max-width:none;margin-bottom:1.3rem}
+#categories .hx-head .hx-label{grid-column:1/-1}
+#categories .hx-head h2{font-size:clamp(2rem,4vw,3.2rem);margin:0}
+#categories .hx-head p{margin:0;font-size:.98rem}
+.hx-cards{grid-template-columns:repeat(12,1fr);gap:.7rem}
+.hx-card{border-radius:14px;box-shadow:none;transition:border-color .2s,background .2s,transform .2s}
+.hx-card::before{display:none}
+.hx-card-live{grid-column:span 6;grid-row:span 2;min-height:22rem;background:var(--surface);border:1.5px solid var(--ink)}
+.hx-card-live:hover{transform:none;box-shadow:none;background:var(--surface-2)}
+html.dark-theme .hx-card-live{background:var(--surface);border-color:var(--line-strong)}
+.hx-card-soon{grid-column:span 3;min-height:10.7rem;opacity:1}
+.hx-card-soon:hover{transform:none;background:var(--surface-2)}
+.hx-card h3{font-size:1.35rem;margin:.2rem 0 0}
+.hx-card p{font-size:.88rem;line-height:1.45}
+.hx-badge{padding:0;background:none;color:var(--ink-soft);font-size:.68rem;letter-spacing:.06em}
+.hx-badge-soon{background:none;color:var(--muted)}
+.hx-card-art{min-height:9rem}
+.hx-card-live .hx-card-art{min-height:13rem}
+.hx-mini-phone{box-shadow:0 10px 20px rgba(36,23,38,.16)}
+.hx-mini-chip{box-shadow:none;border-radius:8px;padding:.42rem .7rem;font-size:.72rem;animation:none}
+.hx-card-live:hover .hx-mini-phone,.hx-card-live:hover .m1,.hx-card-live:hover .m2,.hx-card-live:hover .m3,.hx-card-live:hover .m4{transform:none}
+
+/* Le profil devient un outil secondaire, plus compact. */
+#profil{border-top:1px solid var(--line);margin-top:1rem}
+.hx-builder-card{border-radius:14px;box-shadow:none}
+.hx-tab{border-radius:8px;transition:background .2s,color .2s,border-color .2s}
+.hx-tab:hover{transform:none}
+.hx-bar-track{border-radius:3px}
+.hx-bar-fill{border-radius:3px;background:var(--ink)}
+
+/* Les sections pédagogiques restent présentes, mais avec une séparation éditoriale nette. */
+.hx-feature{border-top:1px solid var(--line);padding-top:clamp(2rem,5vw,3.5rem)}
+.hx-visual{border-radius:14px;box-shadow:none}
+.hx-pair,.hx-step{border-radius:10px}
+.hx-pair.is-on,.hx-step.is-on{box-shadow:none}
+.hx-final{border-radius:14px;box-shadow:none}
+
+@media(max-width:860px){
+  .hx-hero-inner{grid-template-columns:1fr;align-items:start}
+  .hx-stage{order:0;min-height:17rem}
+  .hx-phone{width:11rem;height:21rem}
+  .hx-points{grid-template-columns:1fr}
+  .hx-points li,.hx-points li:last-child{border-right:0;border-bottom:1px solid var(--line);padding:1rem 0}
+  .hx-points li:last-child{border-bottom:0}
+  #categories .hx-head{grid-template-columns:1fr;gap:.5rem}
+  .hx-card-live{grid-column:span 12;grid-row:auto;min-height:18rem}
+  .hx-card-soon{grid-column:span 6}
+}
+@media(max-width:560px){
+  .hx-title{max-width:11ch}
+  .hx-card-soon{grid-column:span 12;min-height:auto}
+  .hx-card-art,.hx-card-live .hx-card-art{min-height:7rem}
+}
+/* v85 header: le déclencheur de catégories est visuellement rattaché au logo. */
+.site-header .brand-logo{margin-right:.15rem}
+.site-header .brand-menu-toggle{border-left:1px solid var(--line);padding-left:.8rem;margin-left:.1rem}
+.site-header .brand-menu-toggle span:first-child{display:inline-flex;flex-direction:column;gap:3px}
+.site-header .brand-menu-toggle span:first-child i{display:block;width:13px;height:1.5px;background:currentColor}
+@media(max-width:700px){
+ .site-header .brand-menu-toggle{font-size:0;border-left:0;padding-left:.4rem}
+ .site-header .brand-menu-toggle .brand-menu-label{display:none}
+}

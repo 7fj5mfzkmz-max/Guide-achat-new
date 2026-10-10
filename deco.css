@@ -1,0 +1,391 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Josefin+Sans:wght@400;600;700&display=swap");
+
+/* ==========================================================================
+   DARK DECO — v95
+   Direction : « Batman, la série animée » (1992). Éclairage film noir des
+   années 1940 × architecture Art déco. Peint sur papier noir : fonds presque
+   noirs, bleu nuit de Gotham, bleu acier de la cape, ambre des fenêtres
+   éclairées, brique du ciel. Filets fins, angles à gradins, grain de pellicule.
+
+   Cette feuille est chargée en dernier sur toutes les pages. Elle remplace
+   dark-deco.css (supprimé) et recolore v66 → v90 via les jetons.
+
+   INTOUCHABLE : les cartes de catégories .ct-grid / .ct (accueil), avec leurs
+   blooms et le projecteur. Leurs jetons sont figés plus bas (section 10) ;
+   aucune règle de ce fichier ne cible .ct, .ct-* ni .hx-fan*.
+   ========================================================================== */
+
+/* ============ 1. Jetons : une seule palette, thème sombre unique ============ */
+html.dark-theme {
+  color-scheme: dark;
+  --paper: #0b0e15;   --paper-2: #101521;
+  --ink: #e9ebf1;     --ink-deep: #e9ebf1;
+  --ink-soft: #c0c6d2; --muted: #9aa4b7;
+  --line: rgba(172, 188, 216, .14);
+  --line-strong: rgba(196, 210, 234, .27);
+  --surface: #141a25;  --surface-2: #1b2330;
+  --glass: rgba(9, 11, 17, .74);
+
+  --amber: #d9a24f;   --amber-deep: #a97a33;  /* fenêtres, lampadaires */
+  --steel: #7d9cc6;   --steel-deep: #4e6f9f;  /* cape, acier */
+  --brick: #c4624a;                           /* ciel rouge, rare */
+  --night: #14224a;                           /* bleu nuit */
+  --peri:  #8f97c9;
+
+  --lime: var(--amber);  --lime-tint: #261e11;
+  --teal: var(--steel);  --teal-tint: #131d2c;
+  --orchid: var(--peri); --orchid-tint: #181b2f;
+  --coral: var(--brick); --blue: #5878b8;
+  --accent: var(--amber); --accent-2: var(--steel); --accent-3: var(--peri);
+  --danger: #d9604f;
+
+  --font-display: "Josefin Sans", "Space Grotesk", "DM Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+
+  --tone: var(--peri); --tone-2: var(--amber); --tone-ink: #0b0c10;
+  --tone-deep: var(--peri); --tone-tint: #171a2c;
+}
+html.dark-theme [data-tone="orchid"]:not(.ct) { --tone: #8f97c9; --tone-2: #d9a24f; --tone-tint: #171a2c; --tone-ink: #0b0c10; --tone-deep: #8f97c9; }
+html.dark-theme [data-tone="teal"]:not(.ct)   { --tone: #7d9cc6; --tone-2: #d9a24f; --tone-tint: #131d2c; --tone-ink: #0b0c10; --tone-deep: #7d9cc6; }
+html.dark-theme [data-tone="peach"]:not(.ct),
+html.dark-theme [data-tone="lime"]:not(.ct),
+html.dark-theme [data-tone="amber"]:not(.ct)  { --tone: #d9a24f; --tone-2: #7d9cc6; --tone-tint: #241d10; --tone-ink: #0b0c10; --tone-deep: #d9a24f; }
+html.dark-theme [data-tone="coral"]:not(.ct)  { --tone: #c4624a; --tone-2: #d9a24f; --tone-tint: #261512; --tone-ink: #0b0c10; --tone-deep: #c4624a; }
+html.dark-theme [data-tone="blue"]:not(.ct)   { --tone: #5878b8; --tone-2: #7d9cc6; --tone-tint: #121a2e; --tone-ink: #fff; --tone-deep: #5878b8; }
+html.dark-theme [data-tone]:not(.ct) { --tone-tint: color-mix(in srgb, var(--tone) 13%, var(--surface)); }
+
+/* ============ 2. Fond : papier noir, lave lente, grain de pellicule ============ */
+html.dark-theme {
+  background:
+    radial-gradient(110% 55% at 50% -8%, #0f1a3a 0%, transparent 62%),
+    linear-gradient(180deg, #101521 0%, #0b0e15 60%, #090c12 100%) fixed;
+  background-color: #0b0e15;
+}
+html.dark-theme body,
+html.dark-theme body.site-redesign,
+html.dark-theme body.home-body { background: transparent !important; color: var(--ink); }
+html.dark-theme body.site-redesign::before,
+html.dark-theme body.site-redesign::after { display: none !important; }
+.site-lava { display: none !important; }
+
+.dd-bg { position: fixed; inset: 0; z-index: -1; overflow: hidden; pointer-events: none; contain: strict; }
+.dd-bg i {
+  position: absolute; display: block; will-change: transform, border-radius;
+  filter: blur(80px); mix-blend-mode: screen; opacity: .34;
+  border-radius: 46% 54% 58% 42% / 52% 44% 56% 48%;
+}
+.dd-bg i:nth-child(1) { width: 62vmax; height: 56vmax; left: -22vmax; top: -20vmax; background: #1a2d70; animation: dd-a 41s ease-in-out infinite alternate; }
+.dd-bg i:nth-child(2) { width: 46vmax; height: 52vmax; right: -18vmax; top: 24vh;   background: #6a2a1e; opacity: .22; animation: dd-b 53s ease-in-out infinite alternate; }
+.dd-bg i:nth-child(3) { width: 54vmax; height: 46vmax; left: 14vw;   bottom: -28vmax; background: #1d4a70; opacity: .24; animation: dd-c 61s ease-in-out infinite alternate; }
+.dd-bg i:nth-child(4) { width: 30vmax; height: 34vmax; right: 12vw;  top: -14vmax;  background: #8a5a1c; opacity: .12; animation: dd-d 47s ease-in-out infinite alternate; }
+@keyframes dd-a { 0% { transform: translate3d(0,0,0) scale(1); border-radius: 46% 54% 58% 42% / 52% 44% 56% 48%; }
+                  50% { transform: translate3d(12vmax,9vmax,0) scale(1.12); border-radius: 58% 42% 44% 56% / 44% 58% 42% 56%; }
+                  100% { transform: translate3d(4vmax,20vmax,0) scale(.94); border-radius: 42% 58% 52% 48% / 58% 42% 58% 42%; } }
+@keyframes dd-b { 0% { transform: translate3d(0,0,0) scale(1); border-radius: 54% 46% 42% 58% / 46% 56% 44% 54%; }
+                  50% { transform: translate3d(-14vmax,-8vmax,0) scale(1.18); border-radius: 44% 56% 58% 42% / 58% 44% 56% 42%; }
+                  100% { transform: translate3d(-5vmax,12vmax,0) scale(.9); border-radius: 56% 44% 48% 52% / 42% 58% 46% 54%; } }
+@keyframes dd-c { 0% { transform: translate3d(0,0,0) scale(1); }
+                  50% { transform: translate3d(16vmax,-12vmax,0) scale(1.1); border-radius: 60% 40% 46% 54% / 46% 60% 40% 54%; }
+                  100% { transform: translate3d(-8vmax,-4vmax,0) scale(.92); } }
+@keyframes dd-d { 0% { transform: translate3d(0,0,0) scale(1); }
+                  100% { transform: translate3d(-12vmax,16vmax,0) scale(1.25); border-radius: 40% 60% 54% 46% / 60% 42% 58% 40%; } }
+
+/* Grain façon intros A24 : pellicule grossière, très visible sur le noir, qui scintille
+   (≈ 10 images/s). Calque plein écran PAR-DESSUS le contenu, sans interaction. */
+.dd-grain {
+  position: fixed; inset: -240px; z-index: 9990; pointer-events: none; opacity: .05;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='320' height='320'><filter id='n' x='0' y='0' width='100%' height='100%'><feTurbulence type='fractalNoise' baseFrequency='.5' numOctaves='3' seed='7' stitchTiles='stitch'/><feColorMatrix type='matrix' values='0 0 0 0 .93  0 0 0 0 .95  0 0 0 0 1  3.2 0 0 0 -1.32'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  background-size: 320px 320px; image-rendering: pixelated;
+  animation: dd-grain .9s steps(1) infinite, dd-flick 3.1s steps(1) infinite;
+}
+@keyframes dd-grain { 0% { transform: translate(0,0); } 10% { transform: translate(-83px,41px); } 20% { transform: translate(57px,-96px); }
+  30% { transform: translate(-121px,-33px); } 40% { transform: translate(98px,77px); } 50% { transform: translate(-45px,128px); }
+  60% { transform: translate(131px,-52px); } 70% { transform: translate(-102px,-110px); } 80% { transform: translate(36px,91px); }
+  90% { transform: translate(-67px,-24px); } 100% { transform: translate(0,0); } }
+@keyframes dd-flick { 0%,100% { opacity: .05; } 23% { opacity: .035; } 47% { opacity: .06; } 71% { opacity: .045; } }
+/* Vignettage de pellicule */
+.dd-vig { position: fixed; inset: 0; z-index: 9989; pointer-events: none;
+  background: radial-gradient(120% 95% at 50% 45%, transparent 55%, rgba(0,0,0,.28) 100%); }
+
+/* ============ 3. Typographie ============ */
+html.dark-theme body { font-feature-settings: "kern", "liga"; }
+html.dark-theme h1, html.dark-theme h2, html.dark-theme h3, html.dark-theme h4,
+html.dark-theme .hx-title, html.dark-theme .hx-head h2 { color: var(--ink); }
+html.dark-theme h1, html.dark-theme .hx-title {
+  font-family: var(--font-display); font-weight: 600; text-transform: uppercase;
+  letter-spacing: .045em; line-height: 1.08;
+}
+html.dark-theme h2, html.dark-theme .hx-head h2 {
+  font-family: var(--font-display); font-weight: 600; letter-spacing: .015em; line-height: 1.15;
+}
+html.dark-theme h3:not(.ct h3), html.dark-theme h4 { font-family: var(--font-display); font-weight: 600; letter-spacing: .01em; }
+html.dark-theme p, html.dark-theme li { color: var(--ink-soft); }
+html.dark-theme a { text-decoration-color: color-mix(in srgb, var(--amber) 45%, transparent); }
+html.dark-theme .hx-label, html.dark-theme .hx-kicker, html.dark-theme .drawer-kicker,
+html.dark-theme .eyebrow, html.dark-theme .kicker, html.dark-theme .section-label {
+  font-family: var(--font-display); text-transform: uppercase; letter-spacing: .3em; font-weight: 700;
+  font-size: .72rem; color: var(--amber); background: none; border: 0; padding: 0;
+}
+html.dark-theme .hx-label::before, html.dark-theme .hx-kicker::before {
+  content: "◆"; font-size: .55em; margin-right: .9em; vertical-align: .18em; color: var(--amber-deep);
+}
+
+/* ============ 4. En-tête, menu catégories, recherche ============ */
+html.dark-theme .header-inner {
+  background: linear-gradient(180deg, rgba(14,17,26,.78), rgba(7,9,14,.7)) !important;
+  -webkit-backdrop-filter: blur(16px) saturate(1.1); backdrop-filter: blur(16px) saturate(1.1);
+  border: 1px solid var(--line-strong) !important;
+  box-shadow: 0 1px 0 rgba(217,162,79,.22) inset, 0 12px 34px rgba(0,0,0,.45) !important;
+}
+html.dark-theme .brand-name, html.dark-theme .brand-name b, html.dark-theme .brand-name strong,
+html.dark-theme .site-nav a, html.dark-theme .header-tool, html.dark-theme .brand-menu-label { color: var(--ink) !important; }
+html.dark-theme .brand-name { font-family: var(--font-display); letter-spacing: .06em; }
+html.dark-theme .brand-name small { color: var(--muted) !important; letter-spacing: .12em; text-transform: uppercase; font-size: .58rem; }
+html.dark-theme .brand-mark, html.dark-theme .footer-logo-mark {
+  background: linear-gradient(160deg, #e8b865, #b9852f) !important; color: #0b0c10 !important; border-radius: 10px;
+}
+html.dark-theme .site-nav a { font-family: var(--font-display); text-transform: uppercase; letter-spacing: .16em; font-size: .78rem; }
+html.dark-theme .site-nav a[aria-current], html.dark-theme .site-nav a.is-active, html.dark-theme .site-nav a:hover { color: var(--amber) !important; }
+html.dark-theme .header-tool, html.dark-theme .site-header .brand-menu-toggle {
+  background: rgba(17,21,31,.7) !important; border: 1px solid var(--line-strong) !important;
+}
+html.dark-theme .header-tool:hover, html.dark-theme .brand-menu-toggle:hover { border-color: var(--amber) !important; }
+/* Un seul thème : le sélecteur clair/sombre n'a plus d'objet. */
+html.dark-theme #theme-toggle, html.dark-theme .header-tool-theme { display: inline-flex !important; }
+
+html.dark-theme .category-menu-panel, html.dark-theme .search-panel-sheet {
+  background: linear-gradient(180deg, #0f131c, #090b11) !important;
+  border: 1px solid var(--line-strong) !important; color: var(--ink);
+  box-shadow: 0 30px 80px rgba(0,0,0,.65), 0 1px 0 rgba(217,162,79,.25) inset !important;
+}
+html.dark-theme .category-menu-backdrop, html.dark-theme .search-panel-backdrop { background: rgba(2,3,6,.72) !important; -webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px); }
+html.dark-theme .category-menu-item, html.dark-theme .category-menu-home {
+  background: rgba(19,24,36,.8) !important; border: 1px solid var(--line) !important; color: var(--ink) !important;
+}
+html.dark-theme .category-menu-item:hover, html.dark-theme .category-menu-home:hover { border-color: var(--amber) !important; }
+html.dark-theme .category-menu-item small { color: var(--muted) !important; }
+html.dark-theme .cm-ico svg { stroke: var(--steel); }
+html.dark-theme .cm-ico svg .a, html.dark-theme .cm-ico svg .beam { fill: var(--amber); }
+
+/* ============ 5. Accueil : hero + skyline Art déco ============ */
+html.dark-theme .hx-hero {
+  position: relative; overflow: hidden; isolation: isolate;
+  background: linear-gradient(180deg, transparent 0%, rgba(5,6,10,.38) 100%) !important;
+  border: 0 !important; border-bottom: 1px solid var(--line-strong) !important;
+}
+html.dark-theme .hx-hero::before {  /* trame de points, estompée vers le bas (impression offset) */
+  content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none; opacity: .5;
+  background: radial-gradient(rgba(190,206,235,.30) .8px, transparent 1.2px) 0 0 / 7px 7px;
+  -webkit-mask-image: linear-gradient(115deg, #000 0%, transparent 55%); mask-image: linear-gradient(115deg, #000 0%, transparent 55%);
+}
+html.dark-theme .hx-hero::after {  /* skyline */
+  content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: clamp(70px, 11vw, 150px); z-index: -1; pointer-events: none;
+  background: url("assets/deco/skyline.svg") repeat-x left bottom / auto 100%; opacity: .95;
+}
+html.dark-theme .hx-hero { padding-bottom: clamp(78px, 11.5vw, 160px) !important; }
+html.dark-theme .hx-hero-inner { position: relative; z-index: 1; }
+html.dark-theme .hx-title { font-size: clamp(1.9rem, 4.4vw, 3.5rem) !important; max-width: 16ch; }
+html.dark-theme .hx-points { border-top: 1px solid var(--line-strong); }
+html.dark-theme .hx-points li { border-color: var(--line) !important; }
+html.dark-theme .hx-points b { color: var(--amber) !important; font-family: var(--font-display); letter-spacing: .12em; }
+html.dark-theme .hx-points strong { color: var(--ink); font-family: var(--font-display); text-transform: uppercase; letter-spacing: .1em; font-size: .9rem; }
+html.dark-theme .hx-points span { color: var(--muted) !important; }
+
+html.dark-theme .hx-phone {
+  background: linear-gradient(165deg, #121a33, #080b17) !important; border: 1px solid var(--line-strong) !important;
+  box-shadow: 0 30px 70px rgba(0,0,0,.6), 0 0 0 1px rgba(217,162,79,.12) inset;
+}
+html.dark-theme .hx-phone-title { color: var(--steel) !important; font-family: var(--font-display); letter-spacing: .12em; white-space: nowrap; }
+html.dark-theme .hx-phone-bar { background: rgba(125,156,198,.16) !important; }
+html.dark-theme .hx-phone-bar i { background: linear-gradient(90deg, var(--steel-deep), var(--amber)) !important; }
+html.dark-theme .hx-phone-score { color: var(--amber) !important; }
+html.dark-theme .hx-chip {
+  background: rgba(10,13,20,.88) !important; border: 1px solid rgba(217,162,79,.4) !important; color: var(--ink) !important;
+  box-shadow: 0 10px 28px rgba(0,0,0,.5);
+}
+
+html.dark-theme .hx-marquee {
+  background: rgba(8,10,15,.7) !important; border-block: 1px solid var(--line-strong) !important; color: var(--ink-soft) !important;
+}
+html.dark-theme .hx-marquee span, html.dark-theme .hx-marquee a, html.dark-theme .hx-marquee button {
+  background: transparent !important; color: var(--ink-soft) !important; border: 1px solid var(--line-strong) !important; border-radius: 2px;
+  font-family: var(--font-display); letter-spacing: .08em; text-transform: uppercase; font-size: .72rem;
+}
+
+/* ============ 6. Sections, surfaces, ornements ============ */
+html.dark-theme .hx-section, html.dark-theme .hx-feature, html.dark-theme .hx-builder-card,
+html.dark-theme .hx-final, html.dark-theme .hx-visual, html.dark-theme .hx-faq {
+  background: linear-gradient(180deg, rgba(15,19,29,.82), rgba(9,11,17,.82)) !important;
+  border: 1px solid var(--line) !important; color: var(--ink);
+}
+html.dark-theme .hx-section { background: transparent !important; border: 0 !important; }
+html.dark-theme .hx-head p, html.dark-theme .hx-copy p, html.dark-theme .hx-lead,
+html.dark-theme .hx-note, html.dark-theme .hx-a, html.dark-theme .hx-a p { color: var(--ink-soft) !important; }
+html.dark-theme .hx-head h2::after, html.dark-theme .hx-copy h2::after {  /* filet Art déco sous les titres */
+  content: ""; display: block; width: 4.2rem; height: 5px; margin-top: .85rem;
+  border-top: 1px solid var(--amber); border-bottom: 1px solid var(--amber-deep); opacity: .85;
+}
+/* Angles « gradins » : petits équerres ambre sur les grandes surfaces */
+html.dark-theme .hx-builder-card, html.dark-theme .hx-feature, html.dark-theme .hx-final, html.dark-theme .search-panel-sheet,
+html.dark-theme .takeaway, html.dark-theme .deep-card { position: relative; border-radius: 6px !important; }
+html.dark-theme .hx-builder-card::before, html.dark-theme .hx-feature::before, html.dark-theme .hx-final::before,
+html.dark-theme .takeaway::before, html.dark-theme .deep-card::before {
+  content: ""; position: absolute; inset: 7px; pointer-events: none; border-radius: 3px;
+  --t: rgba(217,162,79,.55);
+  background:
+    linear-gradient(var(--t),var(--t)) top left / 16px 1px no-repeat, linear-gradient(var(--t),var(--t)) top left / 1px 16px no-repeat,
+    linear-gradient(var(--t),var(--t)) top right / 16px 1px no-repeat, linear-gradient(var(--t),var(--t)) top right / 1px 16px no-repeat,
+    linear-gradient(var(--t),var(--t)) bottom left / 16px 1px no-repeat, linear-gradient(var(--t),var(--t)) bottom left / 1px 16px no-repeat,
+    linear-gradient(var(--t),var(--t)) bottom right / 16px 1px no-repeat, linear-gradient(var(--t),var(--t)) bottom right / 1px 16px no-repeat;
+}
+html.dark-theme .hx-feature { margin-bottom: 1rem; }
+html.dark-theme .hx-final p { font-family: var(--font-display); font-size: clamp(1.3rem, 2.6vw, 1.9rem); color: var(--ink) !important; }
+
+/* ============ 7. Boutons, onglets, barres, FAQ ============ */
+html.dark-theme .btn, html.dark-theme a.btn, html.dark-theme .hx-btn {
+  background: linear-gradient(180deg, #e3b062, #c78f3b) !important; color: #0b0c10 !important;
+  border: 1px solid #f0c982 !important; border-radius: 4px; box-shadow: 0 8px 22px rgba(0,0,0,.4) !important;
+  font-family: var(--font-display); font-weight: 700; letter-spacing: .1em; text-transform: uppercase; font-size: .8rem;
+}
+html.dark-theme .btn:hover, html.dark-theme .hx-btn:hover { background: linear-gradient(180deg, #edc075, #d49c48) !important; transform: translateY(-1px); }
+html.dark-theme .btn-ghost, html.dark-theme .btn.secondary, html.dark-theme .btn-secondary {
+  background: transparent !important; color: var(--amber) !important; border: 1px solid var(--amber-deep) !important;
+}
+html.dark-theme .hx-link { color: var(--steel) !important; font-family: var(--font-display); letter-spacing: .06em; }
+html.dark-theme .hx-tab {
+  background: rgba(14,18,27,.85) !important; color: var(--ink-soft) !important; border: 1px solid var(--line-strong) !important; border-radius: 3px;
+  font-family: var(--font-display); letter-spacing: .12em; text-transform: uppercase; font-size: .74rem;
+}
+html.dark-theme .hx-tab[aria-selected="true"], html.dark-theme .hx-tab.is-active {
+  background: linear-gradient(180deg, #e3b062, #c78f3b) !important; color: #0b0c10 !important; border-color: #f0c982 !important;
+}
+html.dark-theme .hx-bar > span:first-child { color: var(--ink-soft); font-family: var(--font-display); letter-spacing: .06em; }
+html.dark-theme .hx-bar strong { color: var(--ink); white-space: nowrap; min-width: 3.6ch; text-align: right; }
+html.dark-theme .hx-bar-track { background: rgba(125,156,198,.13) !important; border-radius: 1px !important; }
+html.dark-theme .hx-bar-fill { background: linear-gradient(90deg, var(--steel-deep), var(--amber)) !important; border-radius: 1px !important; }
+html.dark-theme .hx-step i { background: transparent !important; color: var(--amber) !important; border: 1px solid var(--amber) !important; font-family: var(--font-display); }
+html.dark-theme .hx-step { border-color: var(--line-strong) !important; background: rgba(12,15,23,.7) !important; color: var(--ink) !important; }
+html.dark-theme .hx-qa { border-bottom: 1px solid var(--line) !important; background: transparent !important; }
+html.dark-theme .hx-q { color: var(--ink) !important; font-family: var(--font-display); letter-spacing: .02em; }
+html.dark-theme .hx-q i { color: var(--amber) !important; }
+
+/* Mots de notion (accueil) */
+html.dark-theme .hx-notions > *, html.dark-theme .hx-notion {
+  background: rgba(14,18,28,.85) !important; border: 1px solid var(--line-strong) !important; color: var(--ink) !important; border-radius: 4px !important;
+}
+html.dark-theme .hx-notion svg, html.dark-theme .hx-notions svg { color: var(--steel); stroke: var(--steel); }
+html.dark-theme .hx-notion svg .a, html.dark-theme .hx-notions svg .a { fill: var(--amber); }
+
+/* ============ 8. Pied de page ============ */
+html.dark-theme .site-footer {
+  background: linear-gradient(180deg, rgba(7,9,14,.9), #040508) !important; border-top: 1px solid var(--line-strong) !important;
+  color: var(--ink-soft) !important; position: relative;
+}
+html.dark-theme .site-footer::before {
+  content: ""; position: absolute; left: 50%; top: -1px; width: 12rem; height: 3px; transform: translateX(-50%);
+  background: linear-gradient(90deg, transparent, var(--amber), transparent);
+}
+html.dark-theme .site-footer a { color: var(--steel) !important; }
+html.dark-theme .site-footer p, html.dark-theme .footer-copy, html.dark-theme .footer-copy p { color: var(--muted) !important; }
+html.dark-theme .footer-brand, html.dark-theme .footer-brand * { color: var(--ink); }
+
+/* ============ 9. Pages intérieures (surfaces et composants courants) ============ */
+html.dark-theme main, html.dark-theme .section, html.dark-theme .deep-group, html.dark-theme .hx-page main { background: transparent !important; }
+html.dark-theme .takeaway, html.dark-theme .deep-card, html.dark-theme .stack-card, html.dark-theme .signal-row,
+html.dark-theme .check-item, html.dark-theme .recap-card, html.dark-theme .profile-card-demo, html.dark-theme .choice-card,
+html.dark-theme .path-card, html.dark-theme .audit-card, html.dark-theme .audit-pill, html.dark-theme .card, html.dark-theme details {
+  background: linear-gradient(180deg, rgba(16,20,31,.86), rgba(10,12,19,.86)) !important;
+  border: 1px solid var(--line) !important; color: var(--ink) !important;
+}
+html.dark-theme .stack-card .stack-num, html.dark-theme .num, html.dark-theme .profile-icon, html.dark-theme .checklist-num, html.dark-theme .hero-step b {
+  background: transparent !important; color: var(--amber) !important; border: 1px solid var(--amber) !important; font-family: var(--font-display);
+}
+html.dark-theme .recap-section { background: rgba(14,18,28,.85) !important; color: var(--ink) !important; border: 1px solid var(--line-strong) !important; }
+html.dark-theme .audit-pill.is-selected, html.dark-theme .profile-picker-tab.is-current {
+  background: linear-gradient(180deg, #e3b062, #c78f3b) !important; color: #0b0c10 !important; border-color: #f0c982 !important;
+}
+html.dark-theme .audit-pill.is-selected * { color: #0b0c10 !important; }
+html.dark-theme .takeaway strong, html.dark-theme .audit-next-step a, html.dark-theme .why-script { color: var(--amber) !important; }
+html.dark-theme .tech-term { border-bottom-color: var(--amber) !important; }
+html.dark-theme .pill, html.dark-theme .tag, html.dark-theme .chip, html.dark-theme .badge {
+  background: rgba(14,18,28,.85); color: var(--ink-soft); border: 1px solid var(--line-strong);
+}
+html.dark-theme input, html.dark-theme textarea, html.dark-theme select {
+  background: rgba(10,13,20,.9) !important; color: var(--ink) !important; border: 1px solid var(--line-strong) !important; border-radius: 4px;
+}
+html.dark-theme input::placeholder, html.dark-theme textarea::placeholder { color: var(--muted) !important; }
+html.dark-theme input:focus, html.dark-theme textarea:focus, html.dark-theme select:focus { border-color: var(--amber) !important; outline: 0; box-shadow: 0 0 0 3px rgba(217,162,79,.18); }
+html.dark-theme :focus-visible { outline: 2px solid var(--amber) !important; outline-offset: 2px; }
+html.dark-theme table { border-color: var(--line); }
+html.dark-theme th { color: var(--amber); font-family: var(--font-display); letter-spacing: .1em; text-transform: uppercase; font-size: .76rem; }
+html.dark-theme td, html.dark-theme th { border-color: var(--line) !important; }
+html.dark-theme hr { border-color: var(--line); }
+html.dark-theme ::selection { background: rgba(217,162,79,.35); color: #fff; }
+html.dark-theme { scrollbar-color: #2a3550 #07090f; }
+
+/* ============ 10. FIGÉ : cartes de catégories (blooms, projecteur) ============ */
+html.dark-theme .ct-grid {
+  --paper: #080a22; --paper-2: #0d1033;
+  --ink: #eef0ff; --ink-deep: #eef0ff; --ink-soft: #c3c8ee; --muted: #929acb;
+  --line: rgba(140,156,255,.17); --line-strong: rgba(160,174,255,.32);
+  --surface: #10143b; --surface-2: #171b4b; --glass: rgba(14,17,54,.62);
+  --lime: #ffb287; --lime-tint: #ffe7d8; --teal: #62b3e6; --teal-tint: #dcecfb;
+  --orchid: #9a86f0; --orchid-tint: #e9e4fd; --coral: #ff8f7a; --blue: #5b7cff; --amber: #ffc06a;
+  --accent: #ffb287; --accent-2: #62b3e6; --accent-3: #9a86f0;
+  --font-display: "Space Grotesk", "DM Sans", system-ui, sans-serif;
+  font-family: "DM Sans", system-ui, sans-serif;
+}
+
+/* ============ 11. Mobile + mouvement réduit ============ */
+@media (max-width: 640px) {
+  html.dark-theme h1, html.dark-theme .hx-title { letter-spacing: .03em; }
+  .dd-bg i { filter: blur(56px); }
+  .dd-grain { background-size: 240px 240px; animation: dd-grain .9s steps(1) infinite, dd-flick-m 3.1s steps(1) infinite; }
+}
+@keyframes dd-flick-m { 0%,100% { opacity: .2; } 23% { opacity: .14; } 47% { opacity: .25; } 71% { opacity: .17; } }
+@media (prefers-reduced-motion: reduce) {
+  .dd-bg i { animation: none !important; }
+  .dd-grain { animation: none !important; opacity: .18; }
+}
+
+/* ---- Rattrapages pages intérieures ---- */
+html.dark-theme .deep-group { width: min(var(--wide, 82rem), calc(100% - 2.4rem)); margin-inline: auto; }
+html.dark-theme .deep-dive { border-radius: 6px !important; }
+html.dark-theme .deep-num { color: var(--amber) !important; font-family: var(--font-display); letter-spacing: .2em; text-transform: uppercase; }
+html.dark-theme .deep-cta, html.dark-theme .deep-dive summary .deep-cta {
+  background: transparent !important; color: var(--amber) !important; border: 1px solid var(--amber-deep) !important; border-radius: 3px !important;
+  font-family: var(--font-display); letter-spacing: .1em; text-transform: uppercase;
+}
+html.dark-theme .deep-dive[open] .deep-cta { background: rgba(217,162,79,.12) !important; }
+
+/* Pages sans conteneur (À propos, Analyseur) : même gouttière que le reste du site */
+html.dark-theme main > section.section { width: min(52rem, calc(100% - 2.4rem)); max-width: none; margin-inline: auto; padding-block: 2.2rem 3rem; }
+html.dark-theme main > section.analyseur-page { width: min(64rem, calc(100% - 2.4rem)); }
+html.dark-theme main > section.section > h1 { font-size: clamp(1.7rem, 3.6vw, 2.6rem); max-width: 22ch; margin: .4rem 0 1.4rem; }
+html.dark-theme main > section.section > h1::after { content: ""; display: block; width: 4.2rem; height: 5px; margin-top: .9rem; border-top: 1px solid var(--amber); border-bottom: 1px solid var(--amber-deep); }
+
+/* Titres de pages intérieures : casse normale (seul le titre d'accueil reste en capitales) */
+html.dark-theme .hx-hero--page .hx-title, html.dark-theme main > section.section > h1 { text-transform: none; letter-spacing: .01em; max-width: 22ch; font-size: clamp(1.8rem, 3.8vw, 2.9rem) !important; }
+
+
+/* Mode clair optionnel : le mode sombre reste le choix initial. */
+html:not(.dark-theme) { color-scheme: light; }
+html:not(.dark-theme) .dd-bg,
+html:not(.dark-theme) .dd-grain,
+html:not(.dark-theme) .dd-vig { display: none !important; }
+html:not(.dark-theme) .header-tool-theme { display: inline-flex !important; }
+html:not(.dark-theme) .audit-result-live { background: rgba(255,255,255,.94); }
+html:not(.dark-theme) .model-analyzer-card,
+html:not(.dark-theme) .criteria-recommendation-card { background: #fff !important; color: #202633 !important; border-color: #d8dce4 !important; }
+html:not(.dark-theme) .model-analyzer-card p,
+html:not(.dark-theme) .criteria-recommendation-card p,
+html:not(.dark-theme) .model-analyzer-card dd { color: #596273 !important; }
+html:not(.dark-theme) .criteria-recommendation-card h4,
+html:not(.dark-theme) .model-analyzer-card h3 { color: #202633 !important; }
+html:not(.dark-theme) .audit-live-chip { background: #fff; color: #29344a; border-color: #d8dce4; }
+
+html.dark-theme .audit-no, html.dark-theme .audit-status,
+html.dark-theme .model-analyzer-score, html.dark-theme .criteria-recommendation-score,
+html.dark-theme .analysis-index strong, html.dark-theme .decision-confidence strong {
+  font-family: var(--font-mono); font-variant-numeric: tabular-nums;
+}

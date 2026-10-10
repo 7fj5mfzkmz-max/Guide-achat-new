@@ -1,0 +1,5293 @@
+{
+  "categorie": "smartphones",
+  "produits": [
+    {
+      "id": "galaxy-a56",
+      "nom": "Samsung Galaxy A56",
+      "marque": "Samsung",
+      "prix_indicatif": 300,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "ecran": "6,7\" Super AMOLED, FHD+, 120 Hz",
+        "processeur": "Exynos 1580 (4 nm)",
+        "ram": "8 Go",
+        "stockage": "128 ou 256 Go",
+        "batterie": "5 000 mAh, charge 45 W",
+        "photo": "50 Mpx principal + 12 Mpx ultra grand-angle + 5 Mpx macro",
+        "etancheite": "IP67",
+        "os": "Android, One UI"
+      },
+      "points_forts": [
+        "Autonomie confortable",
+        "Écran AMOLED fluide (120 Hz)",
+        "Bonne résistance (IP67)"
+      ],
+      "points_faibles": [
+        "Pas de téléobjectif dédié",
+        "Photos en basse lumière perfectibles"
+      ],
+      "profil_adapte": [
+        "polyvalent",
+        "rapport qualité-prix",
+        "budget"
+      ],
+      "scores": {
+        "performance": 6,
+        "autonomie": 8,
+        "photo": 6,
+        "prix": 9,
+        "gaming": 5,
+        "taille": 6
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Samsung+Galaxy+A56",
+      "kimovil_url": "https://www.kimovil.com/fr/ou-acheter-samsung-galaxy-a56",
+      "fabricant_url": "https://www.samsung.com/fr/smartphones/galaxy-a/galaxy-a56-5g/",
+      "date_verification": "2026-09",
+      "profil_scores": {
+        "professionnel": 8,
+        "gamer": 6,
+        "photographe": 7,
+        "etudiant": 8
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Exynos 1580 (4 nm)",
+          "niveau": 5,
+          "ram_go_max": 8
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 5000,
+          "recharge_watts": 45,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP67",
+          "android_version_sortie": null
+        }
+      },
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "xiaomi-15t",
+      "nom": "Xiaomi 15T",
+      "marque": "Xiaomi",
+      "prix_indicatif": 430,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "ecran": "6,83\" AMOLED, 120 Hz, jusqu'à 3 200 nits",
+        "processeur": "MediaTek Dimensity 8400-Ultra (4 nm)",
+        "ram": "12 Go LPDDR5X",
+        "stockage": "256 ou 512 Go",
+        "batterie": "5 500 mAh, charge 67 W",
+        "photo": "Triple capteur Leica : 50 Mpx principal + 50 Mpx téléobjectif + 12 Mpx ultra grand-angle",
+        "etancheite": "IP68",
+        "os": "Android, HyperOS"
+      },
+      "points_forts": [
+        "Excellent rapport qualité-prix",
+        "Téléobjectif dédié (rare à ce prix)",
+        "Grosse batterie, charge rapide"
+      ],
+      "points_faibles": [
+        "Pas de charge sans fil",
+        "Surcouche HyperOS chargée en apps préinstallées"
+      ],
+      "profil_adapte": [
+        "rapport qualité-prix",
+        "photo",
+        "polyvalent"
+      ],
+      "scores": {
+        "performance": 8,
+        "autonomie": 8,
+        "photo": 8,
+        "prix": 8,
+        "gaming": 7,
+        "taille": 5
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Xiaomi+15T",
+      "kimovil_url": "https://www.kimovil.com/fr/ou-acheter-xiaomi-15t",
+      "fabricant_url": "https://www.mi.com/fr/product/xiaomi-15t/",
+      "date_verification": "2026-09",
+      "profil_scores": {
+        "professionnel": 8,
+        "gamer": 7,
+        "photographe": 8,
+        "etudiant": 8
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": 3200
+        },
+        "performance": {
+          "soc": "MediaTek Dimensity 8400-Ultra (4 nm)",
+          "niveau": 5,
+          "ram_go_max": 12
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 5500,
+          "recharge_watts": 67,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": null
+        }
+      },
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "iphone-17-pro",
+      "nom": "Apple iPhone 17 Pro",
+      "marque": "Apple",
+      "prix_indicatif": 1329,
+      "prix_note": "Prix neuf constaté, modèle 256 Go.",
+      "caracteristiques": {
+        "ecran": "6,3\" Super Retina XDR OLED, ProMotion 120 Hz",
+        "processeur": "Puce A19 Pro",
+        "ram": "12 Go",
+        "stockage": "256 Go à 1 To",
+        "batterie": "≈ 4 250 mAh, charge 40 W filaire / 25 W MagSafe",
+        "photo": "Triple capteur 48 Mpx (principal, ultra grand-angle, téléobjectif), zoom optique jusqu'à 8x",
+        "etancheite": "IP68",
+        "os": "iOS 26"
+      },
+      "points_forts": [
+        "Suivi logiciel très long (6-7 ans)",
+        "Vidéo et photo de référence",
+        "Écosystème Apple intégré"
+      ],
+      "points_faibles": [
+        "Prix élevé",
+        "Chargeur non fourni",
+        "Recharge moins rapide que la concurrence Android"
+      ],
+      "profil_adapte": [
+        "photo",
+        "performance",
+        "durée de vie"
+      ],
+      "scores": {
+        "performance": 9,
+        "autonomie": 7,
+        "photo": 9,
+        "prix": 4,
+        "gaming": 8,
+        "taille": 6
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Apple+iPhone+17+Pro",
+      "kimovil_url": "https://www.kimovil.com/fr/ou-acheter-apple-iphone-17-pro",
+      "fabricant_url": "https://www.apple.com/fr/iphone-17-pro/",
+      "date_verification": "2026-09",
+      "profil_scores": {
+        "professionnel": 9,
+        "gamer": 8,
+        "photographe": 9,
+        "etudiant": 8
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Puce A19 Pro",
+          "niveau": 7,
+          "ram_go_max": 12
+        },
+        "photo": {
+          "mp_principal": 48,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 4250,
+          "recharge_watts": 40,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": null
+        }
+      },
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "oneplus-15",
+      "nom": "OnePlus 15",
+      "marque": "OnePlus",
+      "prix_indicatif": 899,
+      "prix_note": "À vérifier avant publication.",
+      "caracteristiques": {
+        "écran": "6,86\" AMOLED, 120 Hz, 2600 x 1184, 10000 nits",
+        "processeur": "Snapdragon 8 Gen 4 (3 nm)",
+        "RAM": "12 Go ou 16 Go LPDDR5X",
+        "stockage": "256 ou 512 Go UFS4.0",
+        "batterie": "6500 mAh, charge 100 W",
+        "photo": "50 Mpx principal (Samsung ISOCELL HP2, f/1.6) + 50 Mpx ultra grand-angle + 12 Mpx téléobjectif (3×)",
+        "vidéo": "8K @ 30/60 fps, stabilisation électronique",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4, NFC",
+        "étanchéité": "IP69",
+        "OS": "Android 15, OxygenOS 15",
+        "dimensions": "246,2 × 73,1 × 8,5 mm",
+        "poids": "212 g"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "batterie / autonomie"
+      ],
+      "critere_principal": "Batterie / autonomie",
+      "scores": {},
+      "ready_for_recommendation": true,
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=OnePlus+15",
+      "kimovil_url": "https://www.kimovil.com/fr/",
+      "fabricant_url": "",
+      "pour_qui": "Fiche à documenter : prix, caractéristiques et analyse à vérifier avant publication.",
+      "date_verification": null,
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": 10000
+        },
+        "performance": {
+          "soc": "Snapdragon 8 Gen 4 (3 nm)",
+          "niveau": 6,
+          "ram_go_max": 16
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 6500,
+          "recharge_watts": 100,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP69",
+          "android_version_sortie": 15
+        }
+      },
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "rog-phone-9",
+      "nom": "ROG Phone 9",
+      "marque": "ASUS",
+      "prix_indicatif": 999,
+      "prix_note": "À vérifier avant publication.",
+      "caracteristiques": {
+        "écran": "6,78\" AMOLED, 120 Hz, 2880 x 1260, 10000 nits",
+        "processeur": "Snapdragon 8 Gen 4 Leading Version",
+        "RAM": "16 Go LPDDR5X",
+        "stockage": "512 Go UFS4.0",
+        "batterie": "5500 mAh, charge 65 W, batterie 2.0 externe 10000 mAh",
+        "photo": "50 Mpx principal (f/1.6) + 13 Mpx ultra grand-angle + 32 Mpx téléobjectif (2×)",
+        "vidéo": "8K @ 30 fps",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4, dual SIM",
+        "étanchéité": "IP68",
+        "OS": "Android 15, ROG UI",
+        "notes": "Ports latéraux AirTrigger, écran plus fluide (144 Hz en jeu via GPU overclock)",
+        "dimensions": "264,8 × 77,2 × 8,9 mm",
+        "poids": "221 g"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "batterie / autonomie"
+      ],
+      "critere_principal": "Batterie / autonomie",
+      "scores": {},
+      "ready_for_recommendation": true,
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=ASUS+ROG+Phone+9",
+      "kimovil_url": "https://www.kimovil.com/fr/",
+      "fabricant_url": "",
+      "pour_qui": "Fiche à documenter : prix, caractéristiques et analyse à vérifier avant publication.",
+      "date_verification": null,
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": 10000
+        },
+        "performance": {
+          "soc": "Snapdragon 8 Gen 4 Leading Version",
+          "niveau": 6,
+          "ram_go_max": 16
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 5500,
+          "recharge_watts": 65,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 15
+        }
+      },
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "galaxy-z-fold8",
+      "nom": "Galaxy Z Fold8",
+      "marque": "Samsung",
+      "prix_indicatif": 2099,
+      "prix_note": "À vérifier avant publication.",
+      "caracteristiques": {
+        "écran": "Écran principal 7,6\" AMOLED (pliable), écran extérieur 6,3\" AMOLED, jusqu'à 120 Hz",
+        "processeur": "Snapdragon 8 Gen 4 pour chaque marché",
+        "RAM": "12 Go ou 16 Go LPDDR5X",
+        "stockage": "256, 512 Go ou 1 To UFS4.0",
+        "batterie": "4400 mAh (pliable), charge 25 W",
+        "photo": "50 Mpx principal + 10 Mpx ultra grand-angle + 12 Mpx téléobjectif (3×)",
+        "vidéo": "8K @ 30 fps",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4, NFC, eSIM",
+        "étanchéité": "IPX8 (pas de protection poudre)",
+        "OS": "Android 15, One UI Fold",
+        "dimensions": "Plié: 154,9 × 68,1 × 12,1 mm | Déplié: 154,9 × 134,1 × 5,6 mm",
+        "poids": "253 g"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "écran / immersion"
+      ],
+      "critere_principal": "Écran / immersion",
+      "scores": {},
+      "ready_for_recommendation": true,
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Samsung+Galaxy+Z+Fold8",
+      "kimovil_url": "https://www.kimovil.com/fr/",
+      "fabricant_url": "",
+      "pour_qui": "Fiche à documenter : prix, caractéristiques et analyse à vérifier avant publication.",
+      "date_verification": null,
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 8 Gen 4 pour chaque marché",
+          "niveau": 6,
+          "ram_go_max": 16
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 4400,
+          "recharge_watts": 25,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 15
+        }
+      },
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "pixel-10-pro-xl",
+      "nom": "Pixel 10 Pro XL",
+      "marque": "Google",
+      "prix_indicatif": 1299,
+      "prix_note": "À vérifier avant publication.",
+      "caracteristiques": {
+        "écran": "6,9\" OLED, 120 Hz, 2992 x 1344",
+        "processeur": "Google Tensor 4",
+        "RAM": "16 Go LPDDR5X",
+        "stockage": "256 ou 512 Go UFS4.0",
+        "batterie": "6000 mAh, charge 37 W, sans fil 23 W",
+        "photo": "50 Mpx principal (f/1.68, capteur 1/1.3\") + 48 Mpx téléobjectif (5×) + 48 Mpx ultra grand-angle",
+        "vidéo": "8K @ 30 fps, mode vidéo IA (Clear Calling, Magic Zoom)",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.3, NFC, eSIM",
+        "étanchéité": "IP68",
+        "OS": "Android 16, suite Google Photos/Assistant optimisée",
+        "dimensions": "166,0 × 79,9 × 8,5 mm",
+        "poids": "240 g"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "écran / immersion"
+      ],
+      "critere_principal": "Écran / immersion",
+      "scores": {},
+      "ready_for_recommendation": true,
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Google+Pixel+10+Pro+XL",
+      "kimovil_url": "https://www.kimovil.com/fr/",
+      "fabricant_url": "",
+      "pour_qui": "Fiche à documenter : prix, caractéristiques et analyse à vérifier avant publication.",
+      "date_verification": null,
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Google Tensor 4",
+          "niveau": 6,
+          "ram_go_max": 16
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 6000,
+          "recharge_watts": 37,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 16
+        }
+      },
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "pixel-10",
+      "nom": "Pixel 10",
+      "marque": "Google",
+      "prix_indicatif": 899,
+      "prix_note": "À vérifier avant publication.",
+      "caracteristiques": {
+        "écran": "6,3\" OLED, 120 Hz, 2350 x 1080",
+        "processeur": "Google Tensor 4",
+        "RAM": "12 Go LPDDR5X",
+        "stockage": "128, 256 ou 512 Go UFS4.0",
+        "batterie": "5000 mAh, charge 30 W, sans fil 20 W",
+        "photo": "50 Mpx principal (f/1.68) + 48 Mpx ultra grand-angle + capteur thermique",
+        "vidéo": "4K @ 60 fps",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.3, NFC, eSIM",
+        "étanchéité": "IP68",
+        "OS": "Android 16",
+        "dimensions": "152,8 × 72,0 × 8,5 mm",
+        "poids": "195 g"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "photo"
+      ],
+      "critere_principal": "Photo",
+      "scores": {},
+      "ready_for_recommendation": true,
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Google+Pixel+10",
+      "kimovil_url": "https://www.kimovil.com/fr/",
+      "fabricant_url": "",
+      "pour_qui": "Fiche à documenter : prix, caractéristiques et analyse à vérifier avant publication.",
+      "date_verification": null,
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Google Tensor 4",
+          "niveau": 6,
+          "ram_go_max": 12
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 5000,
+          "recharge_watts": 30,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 16
+        }
+      },
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "galaxy-s26-ultra",
+      "nom": "Galaxy S26 Ultra",
+      "marque": "Samsung",
+      "prix_indicatif": 1499,
+      "prix_note": "À vérifier avant publication.",
+      "caracteristiques": {
+        "écran": "6,9\" Dynamic AMOLED 2X, 120 Hz, 1440 x 3120, 3000 nits",
+        "processeur": "Snapdragon 8 Gen 4 Leading Version",
+        "RAM": "16 Go LPDDR5X",
+        "stockage": "256, 512 Go ou 1 To UFS4.0",
+        "batterie": "5000 mAh, charge 45 W, sans fil 15 W",
+        "photo": "Triple caméra Isocell : 200 Mpx principal (f/1.7, 10-bit) + 50 Mpx ultra grand-angle + 10 Mpx périscopique (10×, OIS)",
+        "vidéo": "8K @ 60 fps, IA de stabilisation",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4, NFC, eSIM",
+        "étanchéité": "IP68",
+        "OS": "Android 15, One UI 7",
+        "dimensions": "162,8 × 77,8 × 8,9 mm",
+        "poids": "233 g"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "photo"
+      ],
+      "critere_principal": "Photo",
+      "scores": {},
+      "ready_for_recommendation": true,
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Samsung+Galaxy+S26+Ultra",
+      "kimovil_url": "https://www.kimovil.com/fr/",
+      "fabricant_url": "",
+      "pour_qui": "Fiche à documenter : prix, caractéristiques et analyse à vérifier avant publication.",
+      "date_verification": null,
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": 3000
+        },
+        "performance": {
+          "soc": "Snapdragon 8 Gen 4 Leading Version",
+          "niveau": 6,
+          "ram_go_max": 16
+        },
+        "photo": {
+          "mp_principal": 200,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 5000,
+          "recharge_watts": 45,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 15
+        }
+      },
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "iphone-18-pro-max",
+      "nom": "iPhone 18 Pro Max",
+      "marque": "Apple",
+      "prix_indicatif": 1399,
+      "prix_note": "À vérifier avant publication.",
+      "caracteristiques": {
+        "écran": "6,9\" Super Retina XDR OLED, 120 Hz, 2796 x 1290, 3000 nits",
+        "processeur": "Apple A19 Pro",
+        "RAM": "8 Go",
+        "stockage": "256, 512 Go ou 1 To",
+        "batterie": "Li-Ion, charge 45 W, sans fil 25 W",
+        "photo": "Caméra principale 12 Mpx (f/1.3, stabilisation optique) + ultra grand-angle + téléobjectif 12 Mpx (5×, OIS)",
+        "vidéo": "4K @ 120 fps, ProRes avancé",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4, eSIM",
+        "étanchéité": "IP68",
+        "OS": "iOS 18",
+        "dimensions": "221,5 × 77,6 × 8,8 mm",
+        "poids": "246 g"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "vidéo / réalisation"
+      ],
+      "critere_principal": "Vidéo / réalisation",
+      "scores": {},
+      "ready_for_recommendation": true,
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Apple+iPhone+18+Pro+Max",
+      "kimovil_url": "https://www.kimovil.com/fr/",
+      "fabricant_url": "",
+      "pour_qui": "Fiche à documenter : prix, caractéristiques et analyse à vérifier avant publication.",
+      "date_verification": null,
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": 3000
+        },
+        "performance": {
+          "soc": "Apple A19 Pro",
+          "niveau": 7,
+          "ram_go_max": 8
+        },
+        "photo": {
+          "mp_principal": 12,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": null,
+          "recharge_watts": 45,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": null
+        }
+      },
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "xperia-1-vii",
+      "nom": "Xperia 1 VII",
+      "marque": "Sony",
+      "prix_indicatif": 1299,
+      "prix_note": "À vérifier avant publication.",
+      "caracteristiques": {
+        "écran": "6,5\" 4K OLED (3840 x 1644), 120 Hz",
+        "processeur": "Snapdragon 8 Gen 4",
+        "RAM": "12 Go LPDDR5X",
+        "stockage": "256 Go UFS4.0",
+        "batterie": "5500 mAh, charge 30 W, sans fil 15 W",
+        "photo": "Triple Zeiss : 48 Mpx principal (f/2.1, OIS) + 12 Mpx ultra grand-angle + 12 Mpx périscopique (3,6×, OIS)",
+        "vidéo": "8K @ 30 fps, mode cinématographique",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4, NFC, eSIM",
+        "étanchéité": "IP65/68",
+        "OS": "Android 15",
+        "dimensions": "165 × 71,3 × 8,2 mm",
+        "poids": "192 g"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "vidéo / réalisation"
+      ],
+      "critere_principal": "Vidéo / réalisation",
+      "scores": {},
+      "ready_for_recommendation": true,
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Sony+Xperia+1+VII",
+      "kimovil_url": "https://www.kimovil.com/fr/",
+      "fabricant_url": "",
+      "pour_qui": "Fiche à documenter : prix, caractéristiques et analyse à vérifier avant publication.",
+      "date_verification": null,
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 8 Gen 4",
+          "niveau": 6,
+          "ram_go_max": 12
+        },
+        "photo": {
+          "mp_principal": 48,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 5500,
+          "recharge_watts": 30,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP65",
+          "android_version_sortie": 15
+        }
+      },
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "iphone-18-pro",
+      "nom": "iPhone 18 Pro",
+      "marque": "Apple",
+      "prix_indicatif": 1099,
+      "prix_note": "À vérifier avant publication.",
+      "caracteristiques": {
+        "écran": "6,3\" Super Retina XDR OLED, 120 Hz, 2560 x 1179",
+        "processeur": "Apple A19 Pro",
+        "RAM": "8 Go",
+        "stockage": "256, 512 Go ou 1 To",
+        "batterie": "Li-Ion, charge 45 W, sans fil 25 W",
+        "photo": "Caméra principale 12 Mpx (f/1.3, OIS) + ultra grand-angle + téléobjectif 12 Mpx (3×, OIS)",
+        "vidéo": "4K @ 120 fps",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4, eSIM",
+        "étanchéité": "IP68",
+        "OS": "iOS 18",
+        "dimensions": "215,2 × 71,7 × 8,8 mm",
+        "poids": "220 g"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "stockage / performances"
+      ],
+      "critere_principal": "Stockage / performances",
+      "scores": {},
+      "ready_for_recommendation": true,
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Apple+iPhone+18+Pro",
+      "kimovil_url": "https://www.kimovil.com/fr/",
+      "fabricant_url": "",
+      "pour_qui": "Fiche à documenter : prix, caractéristiques et analyse à vérifier avant publication.",
+      "date_verification": null,
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Apple A19 Pro",
+          "niveau": 7,
+          "ram_go_max": 8
+        },
+        "photo": {
+          "mp_principal": 12,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": null,
+          "recharge_watts": 45,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": null
+        }
+      },
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "galaxy-s26-plus",
+      "nom": "Galaxy S26+",
+      "marque": "Samsung",
+      "prix_indicatif": 999,
+      "prix_note": "À vérifier avant publication.",
+      "caracteristiques": {
+        "écran": "6,7\" Dynamic AMOLED 2X, 120 Hz, 1440 x 3200, 2000 nits",
+        "processeur": "Snapdragon 8 Gen 4",
+        "RAM": "12 Go LPDDR5X",
+        "stockage": "256 ou 512 Go UFS4.0",
+        "batterie": "4900 mAh, charge 45 W, sans fil 15 W",
+        "photo": "50 Mpx principal (f/1.8, OIS) + 12 Mpx ultra grand-angle + 10 Mpx téléobjectif (3×, OIS)",
+        "vidéo": "8K @ 30 fps",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4, NFC, eSIM",
+        "étanchéité": "IP68",
+        "OS": "Android 15, One UI 7",
+        "dimensions": "154,9 × 72,8 × 8,4 mm",
+        "poids": "218 g"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "stockage / performances"
+      ],
+      "critere_principal": "Stockage / performances",
+      "scores": {},
+      "ready_for_recommendation": true,
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Samsung+Galaxy+S26%2B",
+      "kimovil_url": "https://www.kimovil.com/fr/",
+      "fabricant_url": "",
+      "pour_qui": "Fiche à documenter : prix, caractéristiques et analyse à vérifier avant publication.",
+      "date_verification": null,
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": 2000
+        },
+        "performance": {
+          "soc": "Snapdragon 8 Gen 4",
+          "niveau": 6,
+          "ram_go_max": 12
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 4900,
+          "recharge_watts": 45,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 15
+        }
+      },
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "pixel-10a",
+      "nom": "Pixel 10a",
+      "marque": "Google",
+      "prix_indicatif": 599,
+      "prix_note": "À vérifier avant publication.",
+      "caracteristiques": {
+        "écran": "6,0\" OLED, 60 Hz, 2100 x 1080",
+        "processeur": "Google Tensor 4",
+        "RAM": "8 Go LPDDR5X",
+        "stockage": "128 ou 256 Go UFS4.0",
+        "batterie": "4900 mAh, charge 30 W, sans fil 20 W",
+        "photo": "50 Mpx principal (f/1.95) + 12 Mpx ultra grand-angle",
+        "vidéo": "4K @ 30/60 fps",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.3, NFC, eSIM",
+        "étanchéité": "IP67",
+        "OS": "Android 16",
+        "dimensions": "151,6 × 72,0 × 8,8 mm",
+        "poids": "188 g"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "rapport qualité-prix"
+      ],
+      "critere_principal": "Rapport qualité-prix",
+      "scores": {},
+      "ready_for_recommendation": true,
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Google+Pixel+10a",
+      "kimovil_url": "https://www.kimovil.com/fr/",
+      "fabricant_url": "",
+      "pour_qui": "Fiche à documenter : prix, caractéristiques et analyse à vérifier avant publication.",
+      "date_verification": null,
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 60,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Google Tensor 4",
+          "niveau": 6,
+          "ram_go_max": 8
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 4900,
+          "recharge_watts": 30,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP67",
+          "android_version_sortie": 16
+        }
+      },
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "oneplus-nord-5",
+      "nom": "OnePlus Nord 5",
+      "marque": "OnePlus",
+      "prix_indicatif": 449,
+      "prix_note": "À vérifier avant publication.",
+      "caracteristiques": {
+        "écran": "6,43\" AMOLED, 120 Hz, 2400 x 1080",
+        "processeur": "MediaTek Dimensity 8400 (4 nm)",
+        "RAM": "8 ou 12 Go LPDDR5X",
+        "stockage": "256 Go UFS4.0",
+        "batterie": "5500 mAh, charge 80 W",
+        "photo": "50 Mpx principal (f/1.8, OIS) + 12 Mpx ultra grand-angle + 2 Mpx macro",
+        "vidéo": "4K @ 30/60 fps",
+        "connectivité": "5G, WiFi 6E, Bluetooth 5.3, NFC",
+        "étanchéité": "IP65",
+        "OS": "Android 15, OxygenOS 15",
+        "dimensions": "161,3 × 73,9 × 8,0 mm",
+        "poids": "184 g"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "rapport qualité-prix"
+      ],
+      "critere_principal": "Rapport qualité-prix",
+      "scores": {},
+      "ready_for_recommendation": true,
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=OnePlus+Nord+5",
+      "kimovil_url": "https://www.kimovil.com/fr/",
+      "fabricant_url": "",
+      "pour_qui": "Fiche à documenter : prix, caractéristiques et analyse à vérifier avant publication.",
+      "date_verification": null,
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "MediaTek Dimensity 8400 (4 nm)",
+          "niveau": 5,
+          "ram_go_max": 12
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 5500,
+          "recharge_watts": 80,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP65",
+          "android_version_sortie": 15
+        }
+      },
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "iphone-duo",
+      "nom": "iPhone Duo",
+      "marque": "Apple",
+      "prix_indicatif": 1899,
+      "prix_note": "À vérifier avant publication.",
+      "caracteristiques": {
+        "écran": "6,6\" écrans modulables OLED x2 (3840 x 2160 chacun, side-by-side)",
+        "processeur": "Apple A19 Bionic",
+        "RAM": "8 Go",
+        "stockage": "256, 512 Go ou 1 To",
+        "batterie": "Dual 2400 mAh (total 4800 mAh), charge 45 W",
+        "photo": "Caméra principale 12 Mpx (f/1.3, OIS) + ultra grand-angle 12 Mpx",
+        "vidéo": "4K @ 60 fps",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4, eSIM",
+        "étanchéité": "IP67",
+        "OS": "iOS 18 (mode split-screen natif)",
+        "dimensions": "193 × 144 × 10 mm (plié)",
+        "poids": "298 g"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "originalité / design unique"
+      ],
+      "critere_principal": "Originalité / design unique",
+      "scores": {},
+      "ready_for_recommendation": false,
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Apple+iPhone+Duo",
+      "kimovil_url": "https://www.kimovil.com/fr/",
+      "fabricant_url": "",
+      "pour_qui": "Fiche à documenter : prix, caractéristiques et analyse à vérifier avant publication.",
+      "date_verification": null,
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": null,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Apple A19 Bionic",
+          "niveau": 6,
+          "ram_go_max": 8
+        },
+        "photo": {
+          "mp_principal": 12,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 2400,
+          "recharge_watts": 45,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP67",
+          "android_version_sortie": null
+        }
+      },
+      "exclu_reco": "modèle probablement inexistant tel que décrit",
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "nothing-phone-4",
+      "nom": "Nothing Phone (4)",
+      "marque": "Nothing",
+      "prix_indicatif": 649,
+      "prix_note": "À vérifier avant publication.",
+      "caracteristiques": {
+        "écran": "6,7\" OLED, 120 Hz, 2412 x 1084",
+        "processeur": "Snapdragon 8 Gen 3 Leading Version",
+        "RAM": "12 Go LPDDR5X",
+        "stockage": "256 ou 512 Go UFS4.0",
+        "batterie": "5900 mAh, charge 45 W, sans fil 15 W",
+        "photo": "50 Mpx principal (f/1.6) + 48 Mpx ultra grand-angle + 12 Mpx téléobjectif (2×)",
+        "vidéo": "4K @ 60 fps",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4, NFC, eSIM",
+        "étanchéité": "IP54",
+        "OS": "Android 15, Nothing OS 4",
+        "dimensions": "162,7 × 75,4 × 8,2 mm",
+        "poids": "208 g"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "originalité / design unique"
+      ],
+      "critere_principal": "Originalité / design unique",
+      "scores": {},
+      "ready_for_recommendation": true,
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Nothing+Phone+%284%29",
+      "kimovil_url": "https://www.kimovil.com/fr/",
+      "fabricant_url": "",
+      "pour_qui": "Fiche à documenter : prix, caractéristiques et analyse à vérifier avant publication.",
+      "date_verification": null,
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 8 Gen 3 Leading Version",
+          "niveau": 6,
+          "ram_go_max": 12
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 5900,
+          "recharge_watts": 45,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP54",
+          "android_version_sortie": 15
+        }
+      },
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "xiaomi-16-pro",
+      "nom": "Xiaomi 16 Pro",
+      "marque": "Xiaomi",
+      "prix_indicatif": 749,
+      "prix_note": "À vérifier avant publication.",
+      "caracteristiques": {
+        "écran": "6,7\" AMOLED, 120 Hz, 2712 x 1220, 3000 nits",
+        "processeur": "Snapdragon 8 Gen 4",
+        "RAM": "12 ou 16 Go LPDDR5X",
+        "stockage": "512 Go UFS4.0",
+        "batterie": "5900 mAh, charge 90 W",
+        "photo": "Triple caméra : 50 Mpx principal (f/1.4, OIS) + 50 Mpx ultra grand-angle + 50 Mpx périscopique (3.2×, OIS)",
+        "vidéo": "8K @ 30 fps",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4, NFC",
+        "étanchéité": "IP68",
+        "OS": "Android 15, HyperOS 2.0",
+        "dimensions": "159,4 × 75,2 × 8,6 mm",
+        "poids": "210 g"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "polyvalence / multimédia"
+      ],
+      "critere_principal": "Polyvalence / multimédia",
+      "scores": {},
+      "ready_for_recommendation": true,
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Xiaomi+16+Pro",
+      "kimovil_url": "https://www.kimovil.com/fr/",
+      "fabricant_url": "",
+      "pour_qui": "Fiche à documenter : prix, caractéristiques et analyse à vérifier avant publication.",
+      "date_verification": null,
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": 3000
+        },
+        "performance": {
+          "soc": "Snapdragon 8 Gen 4",
+          "niveau": 6,
+          "ram_go_max": 16
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 5900,
+          "recharge_watts": 90,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 15
+        }
+      },
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "honor-magic-8-pro",
+      "nom": "Honor Magic 8 Pro",
+      "marque": "Honor",
+      "prix_indicatif": 889,
+      "prix_note": "À vérifier avant publication.",
+      "caracteristiques": {
+        "écran": "6,9\" OLED, 120 Hz, 2664 x 1200",
+        "processeur": "Snapdragon 8 Gen 4",
+        "RAM": "12 ou 16 Go LPDDR5X",
+        "stockage": "256, 512 Go ou 1 To UFS4.0",
+        "batterie": "5900 mAh, charge 80 W, sans fil 80 W (!)",
+        "photo": "Triple : 50 Mpx principal (f/1.6, OIS) + 12 Mpx ultra grand-angle + 40 Mpx téléobjectif (3.5×, OIS)",
+        "vidéo": "8K @ 30 fps",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4, NFC, eSIM",
+        "étanchéité": "IP68/IP69",
+        "OS": "Android 15, Magic UI 9.0",
+        "dimensions": "162,3 × 77,3 × 8,8 mm",
+        "poids": "225 g"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "polyvalence / multimédia"
+      ],
+      "critere_principal": "Polyvalence / multimédia",
+      "scores": {},
+      "ready_for_recommendation": true,
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Honor+Magic+8+Pro",
+      "kimovil_url": "https://www.kimovil.com/fr/",
+      "fabricant_url": "",
+      "pour_qui": "Fiche à documenter : prix, caractéristiques et analyse à vérifier avant publication.",
+      "date_verification": null,
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 8 Gen 4",
+          "niveau": 6,
+          "ram_go_max": 16
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 5900,
+          "recharge_watts": 80,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 15
+        }
+      },
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "galaxy-s26",
+      "nom": "Galaxy S26",
+      "marque": "Samsung",
+      "prix_indicatif": 849,
+      "prix_note": "À vérifier avant publication.",
+      "caracteristiques": {
+        "écran": "6,3\" Dynamic AMOLED 2X, 120 Hz, 1440 x 3120, 2000 nits",
+        "processeur": "Snapdragon 8 Gen 4",
+        "RAM": "10 Go LPDDR5X",
+        "stockage": "256 ou 512 Go UFS4.0",
+        "batterie": "4500 mAh, charge 45 W, sans fil 15 W",
+        "photo": "50 Mpx principal (f/1.8, OIS) + 12 Mpx ultra grand-angle + 10 Mpx téléobjectif (3×, OIS)",
+        "vidéo": "8K @ 30 fps",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4, NFC, eSIM",
+        "étanchéité": "IP68",
+        "OS": "Android 15, One UI 7",
+        "dimensions": "146,3 × 70,5 × 7,8 mm",
+        "poids": "198 g"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "compact / ergonomie"
+      ],
+      "critere_principal": "Compact / ergonomie",
+      "scores": {},
+      "ready_for_recommendation": true,
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Samsung+Galaxy+S26",
+      "kimovil_url": "https://www.kimovil.com/fr/",
+      "fabricant_url": "",
+      "pour_qui": "Fiche à documenter : prix, caractéristiques et analyse à vérifier avant publication.",
+      "date_verification": null,
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": 2000
+        },
+        "performance": {
+          "soc": "Snapdragon 8 Gen 4",
+          "niveau": 6,
+          "ram_go_max": 10
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 4500,
+          "recharge_watts": 45,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 15
+        }
+      },
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "pixel-10-pro",
+      "nom": "Pixel 10 Pro",
+      "marque": "Google",
+      "prix_indicatif": 1099,
+      "prix_note": "À vérifier avant publication.",
+      "caracteristiques": {
+        "écran": "6,7\" OLED, 120 Hz, 2992 x 1344",
+        "processeur": "Google Tensor 4",
+        "RAM": "16 Go LPDDR5X",
+        "stockage": "256 ou 512 Go UFS4.0",
+        "batterie": "5500 mAh, charge 37 W, sans fil 23 W",
+        "photo": "50 Mpx principal (f/1.68, 1/1.3\") + 48 Mpx téléobjectif (5×) + 48 Mpx ultra grand-angle",
+        "vidéo": "8K @ 30 fps",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.3, NFC, eSIM",
+        "étanchéité": "IP68",
+        "OS": "Android 16",
+        "dimensions": "161,0 × 77,2 × 8,5 mm",
+        "poids": "230 g"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "compact / ergonomie"
+      ],
+      "critere_principal": "Compact / ergonomie",
+      "scores": {},
+      "ready_for_recommendation": true,
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Google+Pixel+10+Pro",
+      "kimovil_url": "https://www.kimovil.com/fr/",
+      "fabricant_url": "",
+      "pour_qui": "Fiche à documenter : prix, caractéristiques et analyse à vérifier avant publication.",
+      "date_verification": null,
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Google Tensor 4",
+          "niveau": 6,
+          "ram_go_max": 16
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 5500,
+          "recharge_watts": 37,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 16
+        }
+      },
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "motorola-edge-70-pro",
+      "nom": "Motorola Edge 70 Pro",
+      "marque": "Motorola",
+      "prix_indicatif": 599,
+      "prix_note": "À vérifier avant publication.",
+      "caracteristiques": {
+        "écran": "6,5\" AMOLED, 144 Hz, 2688 x 1224",
+        "processeur": "MediaTek Dimensity 9400",
+        "RAM": "12 Go LPDDR5X",
+        "stockage": "512 Go UFS4.0",
+        "batterie": "5100 mAh, charge 68 W",
+        "photo": "50 Mpx principal (f/1.6, OIS) + 12 Mpx ultra grand-angle + 12 Mpx téléobjectif (2×)",
+        "vidéo": "4K @ 60 fps",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.3, NFC, eSIM",
+        "étanchéité": "IP68",
+        "OS": "Android 15, My UI",
+        "dimensions": "160,0 × 71,5 × 8,2 mm",
+        "poids": "196 g"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "robustesse / durabilité"
+      ],
+      "critere_principal": "Robustesse / durabilité",
+      "scores": {},
+      "ready_for_recommendation": true,
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Motorola+Edge+70+Pro",
+      "kimovil_url": "https://www.kimovil.com/fr/",
+      "fabricant_url": "",
+      "pour_qui": "Fiche à documenter : prix, caractéristiques et analyse à vérifier avant publication.",
+      "date_verification": null,
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 144,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "MediaTek Dimensity 9400",
+          "niveau": 6,
+          "ram_go_max": 12
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 5100,
+          "recharge_watts": 68,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 15
+        }
+      },
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "xiaomi-16-ultra",
+      "nom": "Xiaomi 16 Ultra",
+      "marque": "Xiaomi",
+      "prix_indicatif": 1199,
+      "prix_note": "À vérifier avant publication.",
+      "caracteristiques": {
+        "écran": "6,82\" AMOLED, 120 Hz, 3200 x 1440",
+        "processeur": "Snapdragon 8 Gen 4 Leading",
+        "RAM": "16 Go LPDDR5X",
+        "stockage": "512 Go ou 1 To UFS4.0",
+        "batterie": "6100 mAh, charge 120 W, sans fil 80 W",
+        "photo": "Quad caméra Leica: 50 Mpx principal (f/1.3, capteur 1/1.2\", OIS) + 50 Mpx ultra grand-angle + 50 Mpx périscopique (3.2×, OIS) + 50 Mpx périscopique (5×, OIS)",
+        "vidéo": "8K @ 60 fps, codecs avancés",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4, NFC, eSIM",
+        "étanchéité": "IP68",
+        "OS": "Android 15, HyperOS 2.0",
+        "dimensions": "162,3 × 75,8 × 9,0 mm",
+        "poids": "230 g"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "robustesse / durabilité"
+      ],
+      "critere_principal": "Robustesse / durabilité",
+      "scores": {},
+      "ready_for_recommendation": true,
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Xiaomi+16+Ultra",
+      "kimovil_url": "https://www.kimovil.com/fr/",
+      "fabricant_url": "",
+      "pour_qui": "Fiche à documenter : prix, caractéristiques et analyse à vérifier avant publication.",
+      "date_verification": null,
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 8 Gen 4 Leading",
+          "niveau": 6,
+          "ram_go_max": 16
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 6100,
+          "recharge_watts": 120,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 15
+        }
+      },
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "galaxy-a17-5g",
+      "nom": "Samsung Galaxy A17 5G",
+      "marque": "Samsung",
+      "prix_indicatif": 199,
+      "prix_note": "Prix généralement constaté (4 Go/128 Go), hors promotions.",
+      "tranche_prix": "100-200",
+      "ready_for_recommendation": true,
+      "caracteristiques": {
+        "ecran": "6,7\" Super AMOLED, FHD+, 90 Hz, jusqu'à 1100 nits",
+        "processeur": "Exynos 1330 (5 nm)",
+        "ram": "4 ou 8 Go",
+        "stockage": "128 ou 256 Go, extensible microSD",
+        "batterie": "5 000 mAh",
+        "photo": "50 Mpx principal (f/1.8) + capteurs secondaires",
+        "etancheite": "IP54",
+        "os": "Android 16, One UI"
+      },
+      "points_forts": [
+        "Écran Super AMOLED lumineux (1100 nits)",
+        "Grosse batterie 5000 mAh",
+        "Stockage extensible par microSD"
+      ],
+      "points_faibles": [
+        "Fréquence limitée à 90 Hz",
+        "IP54 : résiste aux éclaboussures, pas à l'immersion"
+      ],
+      "profil_adapte": [
+        "budget",
+        "rapport qualité-prix",
+        "polyvalent"
+      ],
+      "scores": {
+        "performance": 5,
+        "autonomie": 7,
+        "photo": 5,
+        "prix": 8,
+        "gaming": 4,
+        "taille": 6
+      },
+      "image_url": "",
+      "image_alt": "Illustration du Samsung Galaxy A17 5G",
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Samsung+Galaxy+A17+5G",
+      "kimovil_url": "",
+      "date_verification": "2026-09",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 90,
+          "luminosite_nits": 1100
+        },
+        "performance": {
+          "soc": "Exynos 1330 (5 nm)",
+          "niveau": 3,
+          "ram_go_max": 8
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 5000,
+          "recharge_watts": null,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP54",
+          "android_version_sortie": 16
+        }
+      },
+      "annee_sortie": 2025,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "redmi-note-15-4g",
+      "nom": "Xiaomi Redmi Note 15 4G",
+      "marque": "Xiaomi",
+      "prix_indicatif": 199,
+      "prix_note": "Prix indicatif observé en septembre 2026 ; variable selon version, vendeur et marché.",
+      "tranche_prix": "100-200",
+      "ready_for_recommendation": true,
+      "caracteristiques": {
+        "ecran": "À documenter",
+        "processeur": "À documenter",
+        "ram": "À documenter",
+        "stockage": "À documenter",
+        "batterie": "À documenter",
+        "photo": "À documenter",
+        "etancheite": "À documenter",
+        "os": "À documenter"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "budget"
+      ],
+      "scores": {},
+      "image_url": "",
+      "image_alt": "Illustration du Xiaomi Redmi Note 15 4G",
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Xiaomi+Redmi+Note+15+4G",
+      "kimovil_url": "",
+      "compatibilite": {
+        "ecran": {
+          "technologie": null,
+          "frequence_max_hz": null,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "À documenter",
+          "niveau": null,
+          "ram_go_max": null
+        },
+        "photo": {
+          "mp_principal": null,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": null,
+          "recharge_watts": null,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "À documenter",
+          "android_version_sortie": null
+        }
+      },
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "redmi-note-15-5g",
+      "nom": "Xiaomi Redmi Note 15 5G",
+      "marque": "Xiaomi",
+      "prix_indicatif": 250,
+      "prix_note": "Prix indicatif à vérifier selon la configuration.",
+      "tranche_prix": "100-200",
+      "ready_for_recommendation": true,
+      "caracteristiques": {
+        "ecran": "6,77\" Flow AMOLED FHD+, 120 Hz, jusqu’à 3 200 nits",
+        "technologie_ecran": "AMOLED",
+        "frequence": "120 Hz",
+        "processeur": "Snapdragon 6 Gen 3",
+        "ram": "6, 8 ou 12 Go",
+        "stockage": "128, 256 ou 512 Go, microSD jusqu’à 1 To",
+        "batterie": "5 520 mAh, charge 45 W",
+        "chimie_batterie": "Lithium",
+        "photo": "108 Mpx principal avec OIS",
+        "etancheite": "À vérifier selon version/région",
+        "os": "Android, HyperOS"
+      },
+      "points_forts": [
+        "AMOLED 120 Hz très lumineux",
+        "OIS sur le capteur principal",
+        "Batterie 5 520 mAh"
+      ],
+      "points_faibles": [
+        "Puce milieu de gamme",
+        "UFS 2.2",
+        "Protection IP à vérifier selon marché"
+      ],
+      "profil_adapte": [
+        "polyvalent",
+        "photo",
+        "budget"
+      ],
+      "scores": {
+        "performance": 6,
+        "autonomie": 8,
+        "photo": 7,
+        "prix": 9,
+        "gaming": 5,
+        "taille": 5
+      },
+      "image_url": "",
+      "image_alt": "Illustration du Xiaomi Redmi Note 15 5G",
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Xiaomi+Redmi+Note+15+5G",
+      "kimovil_url": "",
+      "date_verification": "2026-09",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": 3200
+        },
+        "performance": {
+          "soc": "Snapdragon 6 Gen 3",
+          "niveau": 6,
+          "ram_go_max": 12
+        },
+        "photo": {
+          "mp_principal": 108,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 5520,
+          "recharge_watts": 45,
+          "chimie": "Lithium"
+        },
+        "durete": {
+          "protection_ip": "À vérifier selon version/région",
+          "android_version_sortie": null
+        }
+      },
+      "annee_sortie": 2025,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "realme-p3-5g",
+      "nom": "realme P3 5G",
+      "marque": "realme",
+      "prix_indicatif": 230,
+      "prix_note": "Prix indicatif à vérifier selon le marché et la configuration.",
+      "tranche_prix": "100-200",
+      "ready_for_recommendation": true,
+      "caracteristiques": {
+        "ecran": "6,67\" AMOLED FHD+, 120 Hz, jusqu’à 2 000 nits",
+        "technologie_ecran": "AMOLED",
+        "frequence": "120 Hz",
+        "processeur": "Snapdragon 6 Gen 4 5G",
+        "ram": "8 ou 12 Go",
+        "stockage": "256 Go",
+        "batterie": "5 260 mAh (typ.), charge 45 W",
+        "chimie_batterie": "Titan / lithium",
+        "photo": "50 Mpx principal + 2 Mpx profondeur, selfie 16 Mpx",
+        "etancheite": "Non précisée dans la fiche officielle consultée",
+        "os": "Android 15, realme UI 6.0"
+      },
+      "points_forts": [
+        "Écran AMOLED 120 Hz",
+        "Snapdragon 6 Gen 4 5G",
+        "Batterie 5 260 mAh et charge 45 W"
+      ],
+      "points_faibles": [
+        "Photo secondaire limitée",
+        "Pas de LTPO",
+        "Protection IP non précisée"
+      ],
+      "profil_adapte": [
+        "polyvalent",
+        "budget",
+        "jeux légers"
+      ],
+      "scores": {
+        "performance": 7,
+        "autonomie": 8,
+        "photo": 5,
+        "prix": 9,
+        "gaming": 6,
+        "taille": 6
+      },
+      "image_url": "",
+      "image_alt": "Illustration du realme P3 5G",
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=realme+P3+5G",
+      "kimovil_url": "",
+      "date_verification": "2026-09",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": 2000
+        },
+        "performance": {
+          "soc": "Snapdragon 6 Gen 4 5G",
+          "niveau": 6,
+          "ram_go_max": 12
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 5260,
+          "recharge_watts": 45,
+          "chimie": "Titan / lithium"
+        },
+        "durete": {
+          "protection_ip": "Non précisée dans la fiche officielle consultée",
+          "android_version_sortie": 15
+        }
+      },
+      "annee_sortie": 2025,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "realme-c67",
+      "nom": "realme C67",
+      "marque": "realme",
+      "prix_indicatif": 150,
+      "prix_note": "Prix indicatif à vérifier selon le marché et la configuration.",
+      "tranche_prix": "100-200",
+      "ready_for_recommendation": true,
+      "caracteristiques": {
+        "ecran": "6,72\" LCD FHD+, 90 Hz, jusqu’à 950 nits HBM",
+        "technologie_ecran": "LCD",
+        "frequence": "90 Hz",
+        "processeur": "Snapdragon 685",
+        "ram": "8 Go",
+        "stockage": "128 ou 256 Go, microSD jusqu’à 2 To",
+        "batterie": "5 000 mAh, charge 33 W",
+        "chimie_batterie": "Lithium",
+        "photo": "108 Mpx principal + 2 Mpx, selfie 8 Mpx",
+        "etancheite": "Non précisée",
+        "os": "Android 14, realme UI"
+      },
+      "points_forts": [
+        "108 Mpx avec zoom capteur 3x",
+        "Écran FHD+ 90 Hz",
+        "Chargeur 33 W inclus"
+      ],
+      "points_faibles": [
+        "Performances modestes",
+        "LCD et seulement 90 Hz",
+        "Pas de protection IP annoncée"
+      ],
+      "profil_adapte": [
+        "budget",
+        "photo",
+        "quotidien"
+      ],
+      "scores": {
+        "performance": 4,
+        "autonomie": 7,
+        "photo": 6,
+        "prix": 9,
+        "gaming": 3,
+        "taille": 6
+      },
+      "image_url": "",
+      "image_alt": "Illustration du realme C67",
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=realme+C67",
+      "kimovil_url": "",
+      "date_verification": "2026-09",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "LCD",
+          "frequence_max_hz": 90,
+          "luminosite_nits": 950
+        },
+        "performance": {
+          "soc": "Snapdragon 685",
+          "niveau": 4,
+          "ram_go_max": 8
+        },
+        "photo": {
+          "mp_principal": 108,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 5000,
+          "recharge_watts": 33,
+          "chimie": "Lithium"
+        },
+        "durete": {
+          "protection_ip": "Non précisée",
+          "android_version_sortie": 14
+        }
+      },
+      "annee_sortie": 2023,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "redmi-15c",
+      "nom": "Xiaomi Redmi 15C",
+      "marque": "Xiaomi",
+      "prix_indicatif": 153,
+      "prix_note": "Prix indicatif observé en septembre 2026 ; variable selon version, vendeur et marché.",
+      "tranche_prix": "100-200",
+      "ready_for_recommendation": true,
+      "caracteristiques": {
+        "ecran": "À documenter",
+        "processeur": "À documenter",
+        "ram": "À documenter",
+        "stockage": "À documenter",
+        "batterie": "À documenter",
+        "photo": "À documenter",
+        "etancheite": "À documenter",
+        "os": "À documenter"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "budget"
+      ],
+      "scores": {},
+      "image_url": "",
+      "image_alt": "Illustration du Xiaomi Redmi 15C",
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Xiaomi+Redmi+15C",
+      "kimovil_url": "",
+      "compatibilite": {
+        "ecran": {
+          "technologie": null,
+          "frequence_max_hz": null,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "MediaTek Helio G81 Ultra",
+          "niveau": 2,
+          "ram_go_max": null
+        },
+        "photo": {
+          "mp_principal": null,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": null,
+          "recharge_watts": null,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "À documenter",
+          "android_version_sortie": null
+        }
+      },
+      "fiche_statut": "specs_a_verifier",
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "realme-c75",
+      "nom": "realme C75",
+      "marque": "realme",
+      "prix_indicatif": 169,
+      "prix_note": "Prix généralement constaté (8 Go/128-256 Go), hors promotions.",
+      "tranche_prix": "100-200",
+      "ready_for_recommendation": true,
+      "caracteristiques": {
+        "ecran": "6,72\" LCD IPS, FHD+, 90 Hz, jusqu'à 580 nits",
+        "processeur": "MediaTek Helio G92 MAX (12 nm)",
+        "ram": "8 Go (+ RAM dynamique)",
+        "stockage": "128 ou 256 Go, extensible microSD",
+        "batterie": "6 000 mAh, charge 45 W",
+        "photo": "50 Mpx principal (f/1.8)",
+        "etancheite": "IP69 (résistance remarquable à ce prix)",
+        "os": "Android 14, realme UI 5.0"
+      },
+      "points_forts": [
+        "Très bonne résistance à l'eau et à la poussière (IP69), rare à ce prix",
+        "Grosse batterie 6000 mAh",
+        "Prix d'entrée accessible"
+      ],
+      "points_faibles": [
+        "Écran LCD (pas d'AMOLED)",
+        "Processeur d'entrée de gamme, peu adapté au jeu"
+      ],
+      "profil_adapte": [
+        "budget",
+        "rapport qualité-prix",
+        "autonomie"
+      ],
+      "scores": {
+        "performance": 4,
+        "autonomie": 8,
+        "photo": 5,
+        "prix": 9,
+        "gaming": 3,
+        "taille": 5
+      },
+      "image_url": "",
+      "image_alt": "Illustration du realme C75",
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=realme+C75",
+      "kimovil_url": "",
+      "date_verification": "2026-09",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "LCD",
+          "frequence_max_hz": 90,
+          "luminosite_nits": 580
+        },
+        "performance": {
+          "soc": "MediaTek Helio G92 MAX (12 nm)",
+          "niveau": 4,
+          "ram_go_max": 8
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 6000,
+          "recharge_watts": 45,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP69",
+          "android_version_sortie": 14
+        }
+      },
+      "annee_sortie": 2024,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "redmi-note-14-5g",
+      "nom": "Xiaomi Redmi Note 14 5G",
+      "marque": "Xiaomi",
+      "prix_indicatif": 250,
+      "prix_note": "Prix indicatif à vérifier selon le marché.",
+      "tranche_prix": "100-200",
+      "ready_for_recommendation": true,
+      "caracteristiques": {
+        "ecran": "6,67\" AMOLED FHD+, 120 Hz, jusqu’à 2 100 nits",
+        "technologie_ecran": "AMOLED",
+        "frequence": "120 Hz",
+        "processeur": "Dimensity 7025-Ultra",
+        "ram": "8 ou 12 Go",
+        "stockage": "256 ou 512 Go, microSD jusqu’à 1 To",
+        "batterie": "5 110 mAh, charge rapide à vérifier selon version",
+        "chimie_batterie": "Lithium",
+        "photo": "108 Mpx principal + capteurs secondaires",
+        "etancheite": "À vérifier selon version",
+        "os": "Android, HyperOS"
+      },
+      "points_forts": [
+        "AMOLED 120 Hz",
+        "Écran très lumineux",
+        "108 Mpx"
+      ],
+      "points_faibles": [
+        "Puce milieu de gamme",
+        "UFS 2.2",
+        "Protection et charge à vérifier selon marché"
+      ],
+      "profil_adapte": [
+        "quotidien",
+        "photo",
+        "budget"
+      ],
+      "scores": {
+        "performance": 6,
+        "autonomie": 7,
+        "photo": 7,
+        "prix": 8,
+        "gaming": 5,
+        "taille": 6
+      },
+      "image_url": "",
+      "image_alt": "Illustration du Xiaomi Redmi Note 14 5G",
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Xiaomi+Redmi+Note+14+5G",
+      "kimovil_url": "",
+      "date_verification": "2026-09",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": 2100
+        },
+        "performance": {
+          "soc": "Dimensity 7025-Ultra",
+          "niveau": 6,
+          "ram_go_max": 12
+        },
+        "photo": {
+          "mp_principal": 108,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 5110,
+          "recharge_watts": null,
+          "chimie": "Lithium"
+        },
+        "durete": {
+          "protection_ip": "À vérifier selon version",
+          "android_version_sortie": null
+        }
+      },
+      "annee_sortie": 2024,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "moto-g55-5g",
+      "nom": "Motorola Moto G55 5G",
+      "marque": "Motorola",
+      "prix_indicatif": 200,
+      "prix_note": "Prix indicatif à vérifier selon le marché et la configuration.",
+      "tranche_prix": "100-200",
+      "ready_for_recommendation": true,
+      "caracteristiques": {
+        "ecran": "6,49\" LCD FHD+, 120 Hz",
+        "technologie_ecran": "LCD",
+        "frequence": "120 Hz",
+        "processeur": "Dimensity 7025",
+        "ram": "8 Go",
+        "stockage": "256 Go + microSD jusqu’à 1 To",
+        "batterie": "5 000 mAh, charge 30 W",
+        "chimie_batterie": "Lithium",
+        "photo": "50 Mpx principal OIS + 8 Mpx ultra grand-angle, selfie 16 Mpx",
+        "etancheite": "IP54",
+        "os": "Android 14"
+      },
+      "points_forts": [
+        "OIS sur le capteur principal",
+        "120 Hz FHD+",
+        "microSD et prise jack"
+      ],
+      "points_faibles": [
+        "LCD",
+        "Puce orientée milieu de gamme",
+        "IP54 seulement"
+      ],
+      "profil_adapte": [
+        "quotidien",
+        "photo",
+        "budget"
+      ],
+      "scores": {
+        "performance": 5,
+        "autonomie": 7,
+        "photo": 6,
+        "prix": 8,
+        "gaming": 5,
+        "taille": 8
+      },
+      "image_url": "",
+      "image_alt": "Illustration du Motorola Moto G55 5G",
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Motorola+Moto+G55+5G",
+      "kimovil_url": "",
+      "date_verification": "2026-09",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "LCD",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Dimensity 7025",
+          "niveau": 6,
+          "ram_go_max": 8
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 5000,
+          "recharge_watts": 30,
+          "chimie": "Lithium"
+        },
+        "durete": {
+          "protection_ip": "IP54",
+          "android_version_sortie": 14
+        }
+      },
+      "annee_sortie": 2024,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "honor-400-lite",
+      "nom": "HONOR 400 Lite",
+      "marque": "HONOR",
+      "prix_indicatif": 250,
+      "prix_note": "Prix indicatif à vérifier selon le marché et la configuration.",
+      "tranche_prix": "100-200",
+      "ready_for_recommendation": true,
+      "caracteristiques": {
+        "ecran": "6,7\" AMOLED FHD+, 120 Hz, jusqu’à 3 500 nits",
+        "technologie_ecran": "AMOLED",
+        "frequence": "120 Hz",
+        "processeur": "Dimensity 7025-Ultra",
+        "ram": "8 Go",
+        "stockage": "256 Go",
+        "batterie": "5 230 mAh typ., charge 35 W",
+        "chimie_batterie": "Li-ion polymère",
+        "photo": "108 Mpx principal + 5 Mpx grand-angle/profondeur, selfie 16 Mpx",
+        "etancheite": "IP64",
+        "os": "Android 15, MagicOS 9.0"
+      },
+      "points_forts": [
+        "AMOLED 120 Hz très lumineux",
+        "171 g seulement",
+        "108 Mpx"
+      ],
+      "points_faibles": [
+        "Puce moyenne",
+        "Pas de téléobjectif",
+        "Charge 35 W"
+      ],
+      "profil_adapte": [
+        "quotidien",
+        "photo",
+        "léger"
+      ],
+      "scores": {
+        "performance": 5,
+        "autonomie": 8,
+        "photo": 6,
+        "prix": 8,
+        "gaming": 4,
+        "taille": 8
+      },
+      "image_url": "",
+      "image_alt": "Illustration du HONOR 400 Lite",
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=HONOR+400+Lite",
+      "kimovil_url": "",
+      "date_verification": "2026-09",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": 3500
+        },
+        "performance": {
+          "soc": "Dimensity 7025-Ultra",
+          "niveau": 6,
+          "ram_go_max": 8
+        },
+        "photo": {
+          "mp_principal": 108,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 5230,
+          "recharge_watts": 35,
+          "chimie": "Li-ion polymère"
+        },
+        "durete": {
+          "protection_ip": "IP64",
+          "android_version_sortie": 15
+        }
+      },
+      "annee_sortie": 2025,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "poco-c85",
+      "nom": "POCO C85",
+      "marque": "POCO",
+      "prix_indicatif": 150,
+      "prix_note": "Prix indicatif à vérifier selon le marché et la configuration.",
+      "tranche_prix": "moins-100",
+      "ready_for_recommendation": true,
+      "caracteristiques": {
+        "ecran": "6,9\" LCD, jusqu’à 120 Hz",
+        "technologie_ecran": "LCD",
+        "frequence": "120 Hz",
+        "processeur": "Octa-core, modèle exact à vérifier selon version",
+        "ram": "4 ou 8 Go + extension mémoire",
+        "stockage": "Selon configuration, microSD",
+        "batterie": "6 000 mAh, charge 33 W",
+        "chimie_batterie": "Lithium",
+        "photo": "50 Mpx principal + caméra secondaire",
+        "etancheite": "IP64",
+        "os": "HyperOS 2"
+      },
+      "points_forts": [
+        "6 000 mAh",
+        "120 Hz",
+        "33 W"
+      ],
+      "points_faibles": [
+        "Écran LCD",
+        "Performances modestes",
+        "Pas de système de refroidissement dédié"
+      ],
+      "profil_adapte": [
+        "budget",
+        "autonomie",
+        "quotidien"
+      ],
+      "scores": {
+        "performance": 4,
+        "autonomie": 9,
+        "photo": 5,
+        "prix": 9,
+        "gaming": 3,
+        "taille": 4
+      },
+      "image_url": "",
+      "image_alt": "Illustration du POCO C85",
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=POCO+C85",
+      "kimovil_url": "",
+      "date_verification": "2026-09",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "LCD",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Octa-core, modèle exact à vérifier selon version",
+          "niveau": 3,
+          "ram_go_max": 8
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 6000,
+          "recharge_watts": 33,
+          "chimie": "Lithium"
+        },
+        "durete": {
+          "protection_ip": "IP64",
+          "android_version_sortie": null
+        }
+      },
+      "annee_sortie": 2025,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "redmi-note-11s",
+      "nom": "Xiaomi Redmi Note 11S",
+      "marque": "Xiaomi",
+      "prix_indicatif": null,
+      "prix_note": "Prix à vérifier au moment de l'achat ; disponibilité et prix variables selon version, vendeur et marché.",
+      "tranche_prix": "moins-100",
+      "ready_for_recommendation": true,
+      "caracteristiques": {
+        "ecran": "À documenter",
+        "processeur": "À documenter",
+        "ram": "À documenter",
+        "stockage": "À documenter",
+        "batterie": "À documenter",
+        "photo": "À documenter",
+        "etancheite": "À documenter",
+        "os": "À documenter"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "budget"
+      ],
+      "scores": {},
+      "image_url": "",
+      "image_alt": "Illustration du Xiaomi Redmi Note 11S",
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Xiaomi+Redmi+Note+11S",
+      "kimovil_url": "",
+      "profil_scores": {
+        "professionnel": 5,
+        "gamer": 4,
+        "photographe": 6,
+        "etudiant": 6
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": null,
+          "frequence_max_hz": null,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "MediaTek Helio G96",
+          "niveau": 3,
+          "ram_go_max": null
+        },
+        "photo": {
+          "mp_principal": null,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": null,
+          "recharge_watts": null,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "À documenter",
+          "android_version_sortie": null
+        }
+      },
+      "fiche_statut": "specs_a_verifier",
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "galaxy-a23-5g",
+      "nom": "Samsung Galaxy A23 5G",
+      "marque": "Samsung",
+      "prix_indicatif": null,
+      "prix_note": "Prix à vérifier au moment de l'achat ; disponibilité et prix variables selon version, vendeur et marché.",
+      "tranche_prix": "moins-100",
+      "ready_for_recommendation": true,
+      "caracteristiques": {
+        "ecran": "À documenter",
+        "processeur": "À documenter",
+        "ram": "À documenter",
+        "stockage": "À documenter",
+        "batterie": "À documenter",
+        "photo": "À documenter",
+        "etancheite": "À documenter",
+        "os": "À documenter"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "budget"
+      ],
+      "scores": {},
+      "image_url": "",
+      "image_alt": "Illustration du Samsung Galaxy A23 5G",
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Samsung+Galaxy+A23+5G",
+      "kimovil_url": "",
+      "compatibilite": {
+        "ecran": {
+          "technologie": null,
+          "frequence_max_hz": null,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 695",
+          "niveau": 3,
+          "ram_go_max": null
+        },
+        "photo": {
+          "mp_principal": null,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": null,
+          "recharge_watts": null,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "À documenter",
+          "android_version_sortie": null
+        }
+      },
+      "fiche_statut": "specs_a_verifier",
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "moto-g06-power",
+      "nom": "Motorola Moto G06 Power",
+      "marque": "Motorola",
+      "prix_indicatif": 130,
+      "prix_note": "Prix indicatif à vérifier selon le marché et la configuration.",
+      "tranche_prix": "moins-100",
+      "ready_for_recommendation": true,
+      "caracteristiques": {
+        "ecran": "6,88\" LCD HD+, 120 Hz, jusqu’à 600 nits",
+        "technologie_ecran": "LCD",
+        "frequence": "120 Hz",
+        "processeur": "Helio G81 Extreme",
+        "ram": "4 ou 8 Go + RAM Boost",
+        "stockage": "64/128/256 Go + microSD jusqu’à 1 To",
+        "batterie": "7 000 mAh, charge 18 W",
+        "chimie_batterie": "Lithium",
+        "photo": "50 Mpx principal, selfie 8 Mpx",
+        "etancheite": "IP64",
+        "os": "Android 15"
+      },
+      "points_forts": [
+        "Énorme batterie 7 000 mAh",
+        "120 Hz",
+        "microSD"
+      ],
+      "points_faibles": [
+        "HD+",
+        "Charge lente",
+        "Performances modestes"
+      ],
+      "profil_adapte": [
+        "autonomie",
+        "budget",
+        "quotidien"
+      ],
+      "scores": {
+        "performance": 3,
+        "autonomie": 9,
+        "photo": 4,
+        "prix": 9,
+        "gaming": 2,
+        "taille": 4
+      },
+      "image_url": "",
+      "image_alt": "Illustration du Motorola Moto G06 Power",
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Motorola+Moto+G06+Power",
+      "kimovil_url": "",
+      "date_verification": "2026-09",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "LCD",
+          "frequence_max_hz": 120,
+          "luminosite_nits": 600
+        },
+        "performance": {
+          "soc": "Helio G81 Extreme",
+          "niveau": 3,
+          "ram_go_max": 8
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 7000,
+          "recharge_watts": 18,
+          "chimie": "Lithium"
+        },
+        "durete": {
+          "protection_ip": "IP64",
+          "android_version_sortie": 15
+        }
+      },
+      "annee_sortie": 2025,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "moto-g06",
+      "nom": "Motorola Moto G06",
+      "marque": "Motorola",
+      "prix_indicatif": 110,
+      "prix_note": "Prix indicatif à vérifier selon le marché et la configuration.",
+      "tranche_prix": "moins-100",
+      "ready_for_recommendation": true,
+      "caracteristiques": {
+        "ecran": "6,88\" LCD HD+, 120 Hz, jusqu’à 600 nits",
+        "technologie_ecran": "LCD",
+        "frequence": "120 Hz",
+        "processeur": "Helio G81 Extreme",
+        "ram": "4 ou 8 Go + RAM Boost",
+        "stockage": "64/128/256 Go + microSD jusqu’à 1 To",
+        "batterie": "5 200 mAh, charge 10 W",
+        "chimie_batterie": "Lithium",
+        "photo": "50 Mpx principal, selfie 8 Mpx",
+        "etancheite": "IP64",
+        "os": "Android 15"
+      },
+      "points_forts": [
+        "120 Hz",
+        "microSD",
+        "prise jack et haut-parleurs stéréo"
+      ],
+      "points_faibles": [
+        "Écran HD+",
+        "Charge très lente",
+        "Puce entrée de gamme"
+      ],
+      "profil_adapte": [
+        "budget",
+        "quotidien"
+      ],
+      "scores": {
+        "performance": 3,
+        "autonomie": 7,
+        "photo": 4,
+        "prix": 9,
+        "gaming": 2,
+        "taille": 4
+      },
+      "image_url": "",
+      "image_alt": "Illustration du Motorola Moto G06",
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Motorola+Moto+G06",
+      "kimovil_url": "",
+      "date_verification": "2026-09",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "LCD",
+          "frequence_max_hz": 120,
+          "luminosite_nits": 600
+        },
+        "performance": {
+          "soc": "Helio G81 Extreme",
+          "niveau": 3,
+          "ram_go_max": 8
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 5200,
+          "recharge_watts": 10,
+          "chimie": "Lithium"
+        },
+        "durete": {
+          "protection_ip": "IP64",
+          "android_version_sortie": 15
+        }
+      },
+      "annee_sortie": 2025,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "blackview-shark-8",
+      "nom": "Blackview Shark 8",
+      "marque": "Blackview",
+      "prix_indicatif": 140,
+      "prix_note": "Prix indicatif historique/indicatif ; vérifier le prix actuel.",
+      "tranche_prix": "moins-100",
+      "ready_for_recommendation": true,
+      "caracteristiques": {
+        "ecran": "6,8\" LCD FHD+, 120 Hz",
+        "technologie_ecran": "LCD",
+        "frequence": "120 Hz",
+        "processeur": "Helio G99",
+        "ram": "8 Go",
+        "stockage": "256 Go + microSD jusqu’à 1 To",
+        "batterie": "5 000 mAh, charge 33 W",
+        "chimie_batterie": "Lithium",
+        "photo": "64 Mpx principal, selfie 13 Mpx",
+        "etancheite": "Non précisée",
+        "os": "Android 13"
+      },
+      "points_forts": [
+        "FHD+ 120 Hz",
+        "8/256 Go",
+        "33 W"
+      ],
+      "points_faibles": [
+        "Modèle ancien",
+        "Pas d’IP annoncée",
+        "Support logiciel moins pérenne"
+      ],
+      "profil_adapte": [
+        "budget",
+        "quotidien"
+      ],
+      "scores": {
+        "performance": 5,
+        "autonomie": 6,
+        "photo": 5,
+        "prix": 8,
+        "gaming": 4,
+        "taille": 5
+      },
+      "image_url": "",
+      "image_alt": "Illustration du Blackview Shark 8",
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Blackview+Shark+8",
+      "kimovil_url": "",
+      "date_verification": "2026-09",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "LCD",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Helio G99",
+          "niveau": 4,
+          "ram_go_max": 8
+        },
+        "photo": {
+          "mp_principal": 64,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 5000,
+          "recharge_watts": 33,
+          "chimie": "Lithium"
+        },
+        "durete": {
+          "protection_ip": "Non précisée",
+          "android_version_sortie": 13
+        }
+      },
+      "annee_sortie": 2023,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "zte-blade-v70-vita",
+      "nom": "ZTE Blade V70 Vita",
+      "marque": "ZTE",
+      "prix_indicatif": 92,
+      "prix_note": "Prix indicatif observé en septembre 2026 ; variable selon version, vendeur et marché.",
+      "tranche_prix": "moins-100",
+      "ready_for_recommendation": true,
+      "caracteristiques": {
+        "ecran": "À documenter",
+        "processeur": "À documenter",
+        "ram": "À documenter",
+        "stockage": "À documenter",
+        "batterie": "À documenter",
+        "photo": "À documenter",
+        "etancheite": "À documenter",
+        "os": "À documenter"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "budget"
+      ],
+      "scores": {},
+      "image_url": "",
+      "image_alt": "Illustration du ZTE Blade V70 Vita",
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=ZTE+Blade+V70+Vita",
+      "kimovil_url": "",
+      "compatibilite": {
+        "ecran": {
+          "technologie": null,
+          "frequence_max_hz": null,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "À documenter",
+          "niveau": null,
+          "ram_go_max": null
+        },
+        "photo": {
+          "mp_principal": null,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": null,
+          "recharge_watts": null,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "À documenter",
+          "android_version_sortie": null
+        }
+      },
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "redmi-a5",
+      "nom": "Xiaomi Redmi A5",
+      "marque": "Xiaomi",
+      "prix_indicatif": 98,
+      "prix_note": "Prix à vérifier au moment de l'achat ; disponibilité et prix variables selon version, vendeur et marché.",
+      "tranche_prix": "moins-100",
+      "ready_for_recommendation": true,
+      "caracteristiques": {
+        "ecran": "À documenter",
+        "processeur": "À documenter",
+        "ram": "À documenter",
+        "stockage": "À documenter",
+        "batterie": "À documenter",
+        "photo": "À documenter",
+        "etancheite": "À documenter",
+        "os": "À documenter"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "budget"
+      ],
+      "scores": {},
+      "image_url": "",
+      "image_alt": "Illustration du Xiaomi Redmi A5",
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Xiaomi+Redmi+A5",
+      "kimovil_url": "",
+      "compatibilite": {
+        "ecran": {
+          "technologie": null,
+          "frequence_max_hz": null,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Unisoc T7250",
+          "niveau": 1,
+          "ram_go_max": null
+        },
+        "photo": {
+          "mp_principal": null,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": null,
+          "recharge_watts": null,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "À documenter",
+          "android_version_sortie": null
+        }
+      },
+      "fiche_statut": "specs_a_verifier",
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "poco-c71",
+      "nom": "POCO C71",
+      "marque": "POCO",
+      "prix_indicatif": 81,
+      "prix_note": "Prix indicatif observé en septembre 2026 ; variable selon version, vendeur et marché.",
+      "tranche_prix": "moins-100",
+      "ready_for_recommendation": true,
+      "caracteristiques": {
+        "ecran": "À documenter",
+        "processeur": "À documenter",
+        "ram": "À documenter",
+        "stockage": "À documenter",
+        "batterie": "À documenter",
+        "photo": "À documenter",
+        "etancheite": "À documenter",
+        "os": "À documenter"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "budget"
+      ],
+      "scores": {},
+      "image_url": "",
+      "image_alt": "Illustration du POCO C71",
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=POCO+C71",
+      "kimovil_url": "",
+      "compatibilite": {
+        "ecran": {
+          "technologie": null,
+          "frequence_max_hz": null,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Unisoc T7250",
+          "niveau": 1,
+          "ram_go_max": null
+        },
+        "photo": {
+          "mp_principal": null,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": null,
+          "recharge_watts": null,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "À documenter",
+          "android_version_sortie": null
+        }
+      },
+      "fiche_statut": "specs_a_verifier",
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "redmi-a3",
+      "nom": "Xiaomi Redmi A3",
+      "marque": "Xiaomi",
+      "prix_indicatif": 99,
+      "prix_note": "Prix indicatif observé en septembre 2026 ; variable selon version, vendeur et marché.",
+      "tranche_prix": "moins-100",
+      "ready_for_recommendation": true,
+      "caracteristiques": {
+        "ecran": "À documenter",
+        "processeur": "À documenter",
+        "ram": "À documenter",
+        "stockage": "À documenter",
+        "batterie": "À documenter",
+        "photo": "À documenter",
+        "etancheite": "À documenter",
+        "os": "À documenter"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "budget"
+      ],
+      "scores": {},
+      "image_url": "",
+      "image_alt": "Illustration du Xiaomi Redmi A3",
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Xiaomi+Redmi+A3",
+      "kimovil_url": "",
+      "compatibilite": {
+        "ecran": {
+          "technologie": null,
+          "frequence_max_hz": null,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "MediaTek Helio G36",
+          "niveau": 1,
+          "ram_go_max": null
+        },
+        "photo": {
+          "mp_principal": null,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": null,
+          "recharge_watts": null,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "À documenter",
+          "android_version_sortie": null
+        }
+      },
+      "fiche_statut": "specs_a_verifier",
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "vivo-x200-ultra",
+      "nom": "Vivo X200 Ultra",
+      "marque": "Vivo",
+      "prix_indicatif": 1099,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,82\" AMOLED, 120 Hz, 3200 x 1440, 3000 nits",
+        "processeur": "MediaTek Dimensity 9400 Ultra",
+        "RAM": "12 ou 16 Go LPDDR5X",
+        "stockage": "512 Go UFS4.0",
+        "batterie": "6100 mAh, charge 120 W",
+        "photo": "Triple caméra : 50 Mpx principal (f/1.63, OIS) + 50 Mpx ultra grand-angle + 50 Mpx périscopique (3.7×, OIS)",
+        "vidéo": "8K @ 30 fps",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4, NFC",
+        "étanchéité": "IP68",
+        "OS": "Android 15, OriginOS Ultra",
+        "poids": "218 g"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Vivo+X200+Ultra",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": 3000
+        },
+        "performance": {
+          "soc": "MediaTek Dimensity 9400 Ultra",
+          "niveau": 6,
+          "ram_go_max": 16
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 6100,
+          "recharge_watts": 120,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 15
+        }
+      },
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "oppo-find-x9",
+      "nom": "OPPO Find X9",
+      "marque": "OPPO",
+      "prix_indicatif": 999,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,7\" AMOLED, 120 Hz, 2800 x 1264",
+        "processeur": "Snapdragon 8 Gen 4",
+        "RAM": "12 Go LPDDR5X",
+        "stockage": "512 Go UFS4.0",
+        "batterie": "5910 mAh, charge 80 W, sans fil 50 W",
+        "photo": "Triple caméra : 50 Mpx principal (f/1.6, OIS) + 50 Mpx ultra grand-angle + 50 Mpx téléobjectif (3×, OIS)",
+        "vidéo": "8K @ 30 fps",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4",
+        "étanchéité": "IP68/IP69",
+        "OS": "Android 15, ColorOS 15"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=OPPO+Find+X9",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 8 Gen 4",
+          "niveau": 6,
+          "ram_go_max": 12
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 5910,
+          "recharge_watts": 80,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 15
+        }
+      },
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "realme-gt-7-pro",
+      "nom": "Realme GT 7 Pro",
+      "marque": "Realme",
+      "prix_indicatif": 749,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,78\" AMOLED, 120 Hz, 2780 x 1264",
+        "processeur": "Snapdragon 8 Gen 4",
+        "RAM": "12 ou 16 Go LPDDR5X",
+        "stockage": "256 ou 512 Go UFS4.0",
+        "batterie": "6500 mAh, charge 120 W",
+        "photo": "50 Mpx principal (f/1.6, OIS) + 50 Mpx ultra grand-angle + 12 Mpx téléobjectif (2×)",
+        "vidéo": "8K @ 30 fps",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4, NFC",
+        "étanchéité": "IP68",
+        "OS": "Android 15, Realme UI 6"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Realme+GT+7+Pro",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 8 Gen 4",
+          "niveau": 6,
+          "ram_go_max": 16
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 6500,
+          "recharge_watts": 120,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 15
+        }
+      },
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "zte-nubia-z60s",
+      "nom": "ZTE Nubia Z60S",
+      "marque": "ZTE",
+      "prix_indicatif": 849,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,7\" AMOLED, 144 Hz, 2800 x 1264",
+        "processeur": "Snapdragon 8 Gen 4",
+        "RAM": "12 ou 16 Go LPDDR5X",
+        "stockage": "512 Go UFS4.0",
+        "batterie": "5500 mAh, charge 100 W",
+        "photo": "50 Mpx principal (f/1.6) + 48 Mpx ultra grand-angle + 48 Mpx périscopique (2.6×)",
+        "vidéo": "8K @ 30 fps",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4, NFC",
+        "étanchéité": "IP68",
+        "OS": "Android 15, MyOS"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=ZTE+Nubia+Z60S",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 144,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 8 Gen 4",
+          "niveau": 6,
+          "ram_go_max": 16
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 5500,
+          "recharge_watts": 100,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 15
+        }
+      },
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "tecno-camon-40-pro",
+      "nom": "Tecno Camon 40 Pro",
+      "marque": "Tecno",
+      "prix_indicatif": 399,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,8\" AMOLED, 120 Hz, 2800 x 1280",
+        "processeur": "MediaTek Dimensity 9300",
+        "RAM": "12 Go LPDDR5X",
+        "stockage": "512 Go UFS4.0",
+        "batterie": "5800 mAh, charge 70 W",
+        "photo": "50 Mpx principal (f/1.6, OIS) + 50 Mpx ultra grand-angle + 12 Mpx macro",
+        "vidéo": "4K @ 60 fps",
+        "connectivité": "5G, WiFi 6E, Bluetooth 5.3",
+        "étanchéité": "IP54",
+        "OS": "Android 15, HiOS"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Tecno+Camon+40+Pro",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "MediaTek Dimensity 9300",
+          "niveau": 6,
+          "ram_go_max": 12
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 5800,
+          "recharge_watts": 70,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP54",
+          "android_version_sortie": 15
+        }
+      },
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "nokia-g70-5g",
+      "nom": "Nokia G70 5G",
+      "marque": "Nokia",
+      "prix_indicatif": 349,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,7\" IPS LCD, 90 Hz, 2400 x 1080",
+        "processeur": "MediaTek Dimensity 930",
+        "RAM": "6 ou 8 Go LPDDR4X",
+        "stockage": "128 Go eMMC",
+        "batterie": "5000 mAh, charge 20 W",
+        "photo": "50 Mpx principal (f/1.8) + 8 Mpx ultra grand-angle + 2 Mpx macro",
+        "vidéo": "1080p @ 30 fps",
+        "connectivité": "5G, WiFi 5, Bluetooth 5.1, NFC",
+        "étanchéité": "IP53",
+        "OS": "Android 14, Pure Android"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Nokia+G70+5G",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "LCD",
+          "frequence_max_hz": 90,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "MediaTek Dimensity 930",
+          "niveau": 3,
+          "ram_go_max": 8
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 5000,
+          "recharge_watts": 20,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP53",
+          "android_version_sortie": 14
+        }
+      },
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "htc-u24-pro",
+      "nom": "HTC U24 Pro",
+      "marque": "HTC",
+      "prix_indicatif": 899,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,8\" OLED, 120 Hz, 2680 x 1236",
+        "processeur": "Snapdragon 8 Gen 3 Leading",
+        "RAM": "12 Go LPDDR5X",
+        "stockage": "512 Go UFS4.0",
+        "batterie": "5050 mAh, charge 30 W, sans fil 25 W",
+        "photo": "50 Mpx principal (f/1.6, OIS) + 12 Mpx ultra grand-angle + 12 Mpx téléobjectif (2×)",
+        "vidéo": "4K @ 60 fps",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4, NFC",
+        "étanchéité": "IP68",
+        "OS": "Android 14"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=HTC+U24+Pro",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 8 Gen 3 Leading",
+          "niveau": 6,
+          "ram_go_max": 12
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 5050,
+          "recharge_watts": 30,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 14
+        }
+      },
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "asus-zenfone-12-ultra",
+      "nom": "ASUS Zenfone 12 Ultra",
+      "marque": "ASUS",
+      "prix_indicatif": 799,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,8\" AMOLED, 120 Hz, 2880 x 1300",
+        "processeur": "Snapdragon 8 Gen 4",
+        "RAM": "12 ou 16 Go LPDDR5X",
+        "stockage": "512 Go UFS4.0",
+        "batterie": "5900 mAh, charge 80 W",
+        "photo": "50 Mpx principal (f/1.6, OIS) + 12 Mpx ultra grand-angle + 12 Mpx téléobjectif (3.2×, OIS)",
+        "vidéo": "8K @ 30 fps",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4, NFC",
+        "étanchéité": "IP68",
+        "OS": "Android 15, ZenUI 12"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=ASUS+Zenfone+12+Ultra",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 8 Gen 4",
+          "niveau": 6,
+          "ram_go_max": 16
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 5900,
+          "recharge_watts": 80,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 15
+        }
+      },
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "samsung-galaxy-xcover-8-pro",
+      "nom": "Samsung Galaxy XCover 8 Pro",
+      "marque": "Samsung",
+      "prix_indicatif": 649,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,6\" Dynamic AMOLED, 90 Hz, 2340 x 1080",
+        "processeur": "Snapdragon 7 Gen 3 Leading",
+        "RAM": "8 Go LPDDR5X",
+        "stockage": "256 Go UFS4.0",
+        "batterie": "5700 mAh, charge 45 W",
+        "photo": "50 Mpx principal (f/1.8) + 8 Mpx ultra grand-angle",
+        "vidéo": "4K @ 30 fps",
+        "connectivité": "5G, WiFi 6E, Bluetooth 5.3, NFC",
+        "étanchéité": "IP69K (protection renforcée)",
+        "OS": "Android 14, One UI"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Samsung+Galaxy+XCover+8+Pro",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 90,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 7 Gen 3 Leading",
+          "niveau": 5,
+          "ram_go_max": 8
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 5700,
+          "recharge_watts": 45,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP69",
+          "android_version_sortie": 14
+        }
+      },
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "motorola-razr-60-ultra",
+      "nom": "Motorola Razr 60 Ultra",
+      "marque": "Motorola",
+      "prix_indicatif": 1299,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "Écran pliable : 6,9\" intérieur + 3,6\" extérieur AMOLED, 120 Hz",
+        "processeur": "Snapdragon 8 Gen 4",
+        "RAM": "16 Go LPDDR5X",
+        "stockage": "512 Go ou 1 To UFS4.0",
+        "batterie": "4400 mAh (pliable), charge 45 W",
+        "photo": "50 Mpx principal (f/1.6, OIS) + 50 Mpx ultra grand-angle",
+        "vidéo": "8K @ 30 fps",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4, eSIM",
+        "étanchéité": "IPX8 (pas de protection poudre)",
+        "OS": "Android 15, Near Stock"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Motorola+Razr+60+Ultra",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 8 Gen 4",
+          "niveau": 6,
+          "ram_go_max": 16
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 4400,
+          "recharge_watts": 45,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 15
+        }
+      },
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "samsung-galaxy-a15",
+      "nom": "Samsung Galaxy A15",
+      "marque": "Samsung",
+      "prix_indicatif": 169,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,5\" IPS LCD, 90 Hz, 1600 x 720",
+        "processeur": "MediaTek Dimensity 6100",
+        "RAM": "4 ou 6 Go LPDDR4X",
+        "stockage": "128 Go eMMC",
+        "batterie": "5000 mAh, charge 25 W",
+        "photo": "50 Mpx principal (f/1.8) + 5 Mpx ultra grand-angle + 2 Mpx macro",
+        "vidéo": "1080p @ 30 fps",
+        "connectivité": "4G LTE, WiFi 5, Bluetooth 5.0",
+        "étanchéité": "IP65",
+        "OS": "Android 14, One UI Core"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "budget",
+        "étudiant"
+      ],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Samsung+Galaxy+A15",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "LCD",
+          "frequence_max_hz": 90,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "MediaTek Dimensity 6100",
+          "niveau": 3,
+          "ram_go_max": 6
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 5000,
+          "recharge_watts": 25,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP65",
+          "android_version_sortie": 14
+        }
+      },
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "xiaomi-redmi-note-13",
+      "nom": "Xiaomi Redmi Note 13",
+      "marque": "Xiaomi",
+      "prix_indicatif": 199,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,67\" AMOLED, 120 Hz, 2412 x 1080",
+        "processeur": "Snapdragon 685",
+        "RAM": "6 ou 8 Go LPDDR4X",
+        "stockage": "128 Go UFS2.2",
+        "batterie": "5000 mAh, charge 33 W",
+        "photo": "50 Mpx principal (f/1.8) + 8 Mpx ultra grand-angle + 2 Mpx macro",
+        "vidéo": "1080p @ 30 fps",
+        "connectivité": "4G LTE, WiFi 5, Bluetooth 5.0",
+        "étanchéité": "IP54",
+        "OS": "Android 13, MIUI 14"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "budget",
+        "étudiant"
+      ],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Xiaomi+Redmi+Note+13",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 685",
+          "niveau": 3,
+          "ram_go_max": 8
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 5000,
+          "recharge_watts": 33,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP54",
+          "android_version_sortie": 13
+        }
+      },
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "motorola-moto-g85",
+      "nom": "Motorola Moto G85",
+      "marque": "Motorola",
+      "prix_indicatif": 189,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,5\" AMOLED, 120 Hz, 2400 x 1080",
+        "processeur": "MediaTek Dimensity 7025",
+        "RAM": "6 ou 8 Go LPDDR5",
+        "stockage": "128 Go UFS3.1",
+        "batterie": "5000 mAh, charge 30 W",
+        "photo": "50 Mpx principal (f/1.8) + 8 Mpx ultra grand-angle + 2 Mpx macro",
+        "vidéo": "1080p @ 60 fps",
+        "connectivité": "4G LTE, WiFi 6, Bluetooth 5.1",
+        "étanchéité": "IP54",
+        "OS": "Android 14, stock"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "budget",
+        "étudiant"
+      ],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Motorola+Moto+G85",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "MediaTek Dimensity 7025",
+          "niveau": 4,
+          "ram_go_max": 8
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 5000,
+          "recharge_watts": 30,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP54",
+          "android_version_sortie": 14
+        }
+      },
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "realme-12-pro",
+      "nom": "Realme 12 Pro",
+      "marque": "Realme",
+      "prix_indicatif": 179,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,7\" AMOLED, 120 Hz, 2412 x 1080",
+        "processeur": "Snapdragon 7s Gen 2",
+        "RAM": "8 Go LPDDR4X",
+        "stockage": "256 Go UFS3.1",
+        "batterie": "5000 mAh, charge 67 W",
+        "photo": "50 Mpx principal (f/1.8, OIS) + 8 Mpx ultra grand-angle + 2 Mpx macro",
+        "vidéo": "1080p @ 60 fps",
+        "connectivité": "5G, WiFi 6, Bluetooth 5.3",
+        "étanchéité": "IP54",
+        "OS": "Android 14, Realme UI 5"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "budget",
+        "étudiant"
+      ],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Realme+12+Pro",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 7s Gen 2",
+          "niveau": 4,
+          "ram_go_max": 8
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 5000,
+          "recharge_watts": 67,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP54",
+          "android_version_sortie": 14
+        }
+      },
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "poco-x6",
+      "nom": "POCO X6",
+      "marque": "POCO",
+      "prix_indicatif": 199,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,67\" AMOLED, 120 Hz, 2712 x 1220",
+        "processeur": "Snapdragon 7 Gen 3",
+        "RAM": "8 ou 12 Go LPDDR5",
+        "stockage": "256 ou 512 Go UFS3.1",
+        "batterie": "5110 mAh, charge 67 W",
+        "photo": "50 Mpx principal (f/1.7, OIS) + 12 Mpx ultra grand-angle + 2 Mpx macro",
+        "vidéo": "1080p @ 60 fps",
+        "connectivité": "4G LTE, WiFi 6, Bluetooth 5.3",
+        "étanchéité": "IP54",
+        "OS": "Android 14, MIUI 15"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "budget",
+        "étudiant"
+      ],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=POCO+X6",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 7 Gen 3",
+          "niveau": 5,
+          "ram_go_max": 12
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 5110,
+          "recharge_watts": 67,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP54",
+          "android_version_sortie": 14
+        }
+      },
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "tecno-spark-20",
+      "nom": "Tecno Spark 20",
+      "marque": "Tecno",
+      "prix_indicatif": 119,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,56\" IPS LCD, 90 Hz, 1612 x 720",
+        "processeur": "MediaTek Helio G85",
+        "RAM": "4 ou 6 Go LPDDR4X",
+        "stockage": "64 ou 128 Go eMMC",
+        "batterie": "5000 mAh, charge 18 W",
+        "photo": "50 Mpx principal (f/1.8) + 2 Mpx ultra grand-angle + 2 Mpx macro",
+        "vidéo": "1080p @ 30 fps",
+        "connectivité": "4G LTE, WiFi 5, Bluetooth 5.0",
+        "étanchéité": "non",
+        "OS": "Android 13, HiOS 13"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "budget",
+        "étudiant"
+      ],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Tecno+Spark+20",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "LCD",
+          "frequence_max_hz": 90,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "MediaTek Helio G85",
+          "niveau": 2,
+          "ram_go_max": 6
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 5000,
+          "recharge_watts": 18,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": null,
+          "android_version_sortie": 13
+        }
+      },
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "infinix-hot-40",
+      "nom": "Infinix Hot 40",
+      "marque": "Infinix",
+      "prix_indicatif": 129,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,78\" IPS LCD, 90 Hz, 1640 x 720",
+        "processeur": "MediaTek Helio G99",
+        "RAM": "4 ou 8 Go LPDDR4X",
+        "stockage": "64 ou 128 Go eMMC",
+        "batterie": "5000 mAh, charge 33 W",
+        "photo": "50 Mpx principal (f/1.6) + 2 Mpx ultra grand-angle",
+        "vidéo": "1080p @ 30 fps",
+        "connectivité": "4G LTE, WiFi 5, Bluetooth 5.0",
+        "étanchéité": "non",
+        "OS": "Android 13, XOS 13"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "budget",
+        "étudiant"
+      ],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Infinix+Hot+40",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "LCD",
+          "frequence_max_hz": 90,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "MediaTek Helio G99",
+          "niveau": 3,
+          "ram_go_max": 8
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 5000,
+          "recharge_watts": 33,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": null,
+          "android_version_sortie": 13
+        }
+      },
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "honor-9-lite",
+      "nom": "Honor 9 Lite",
+      "marque": "Honor",
+      "prix_indicatif": 149,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,5\" IPS LCD, 90 Hz, 1600 x 720",
+        "processeur": "Snapdragon 680",
+        "RAM": "4 ou 6 Go LPDDR4X",
+        "stockage": "128 Go eMMC",
+        "batterie": "5000 mAh, charge 22 W",
+        "photo": "50 Mpx principal (f/1.8) + 5 Mpx ultra grand-angle + 2 Mpx macro",
+        "vidéo": "1080p @ 30 fps",
+        "connectivité": "4G LTE, WiFi 5, Bluetooth 5.0",
+        "étanchéité": "IP54",
+        "OS": "Android 14, Magic UI 8"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "budget",
+        "étudiant"
+      ],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Honor+9+Lite",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "LCD",
+          "frequence_max_hz": 90,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 680",
+          "niveau": 3,
+          "ram_go_max": 6
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 5000,
+          "recharge_watts": 22,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP54",
+          "android_version_sortie": 14
+        }
+      },
+      "ready_for_recommendation": false,
+      "exclu_reco": "modèle probablement inexistant tel que décrit",
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "samsung-galaxy-a05",
+      "nom": "Samsung Galaxy A05",
+      "marque": "Samsung",
+      "prix_indicatif": 139,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,5\" IPS LCD, 60 Hz, 1600 x 720",
+        "processeur": "MediaTek Dimensity 6020",
+        "RAM": "4 ou 6 Go LPDDR4X",
+        "stockage": "64 ou 128 Go eMMC",
+        "batterie": "5000 mAh, charge 25 W",
+        "photo": "50 Mpx principal (f/1.8) + 2 Mpx ultra grand-angle",
+        "vidéo": "1080p @ 30 fps",
+        "connectivité": "4G LTE, WiFi 5, Bluetooth 5.0",
+        "étanchéité": "non",
+        "OS": "Android 14, One UI Core"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "budget",
+        "étudiant"
+      ],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Samsung+Galaxy+A05",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "LCD",
+          "frequence_max_hz": 60,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "MediaTek Dimensity 6020",
+          "niveau": 3,
+          "ram_go_max": 6
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 5000,
+          "recharge_watts": 25,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": null,
+          "android_version_sortie": 14
+        }
+      },
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "nokia-c31",
+      "nom": "Nokia C31",
+      "marque": "Nokia",
+      "prix_indicatif": 99,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,5\" IPS LCD, 60 Hz, 1600 x 720",
+        "processeur": "MediaTek Helio G25",
+        "RAM": "3 ou 4 Go LPDDR4X",
+        "stockage": "32 ou 64 Go eMMC",
+        "batterie": "4800 mAh, charge 10 W",
+        "photo": "13 Mpx principal (f/2.2) + 2 Mpx ultra grand-angle",
+        "vidéo": "720p @ 30 fps",
+        "connectivité": "4G LTE, WiFi 5, Bluetooth 5.0",
+        "étanchéité": "non",
+        "OS": "Android 13, stock"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "budget",
+        "étudiant"
+      ],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Nokia+C31",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "LCD",
+          "frequence_max_hz": 60,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "MediaTek Helio G25",
+          "niveau": 1,
+          "ram_go_max": 4
+        },
+        "photo": {
+          "mp_principal": 13,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 4800,
+          "recharge_watts": 10,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": null,
+          "android_version_sortie": 13
+        }
+      },
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "oneplus-12-ultra",
+      "nom": "OnePlus 12 Ultra",
+      "marque": "OnePlus",
+      "prix_indicatif": 1099,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,82\" AMOLED, 144 Hz, 2800 x 1264",
+        "processeur": "Snapdragon 8 Gen 3 Leading",
+        "RAM": "16 Go LPDDR5X",
+        "stockage": "512 Go ou 1 To UFS4.0",
+        "batterie": "6100 mAh, charge 100 W",
+        "photo": "50 Mpx principal (f/1.6, OIS) + 50 Mpx ultra grand-angle + 48 Mpx périscopique (3.2×)",
+        "vidéo": "8K @ 30 fps",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4, NFC",
+        "étanchéité": "IP68",
+        "OS": "Android 15, OxygenOS 15",
+        "notes": "Ventilation liquid cooling, 5000 mAh sustain, triggers latéraux"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "gamer"
+      ],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=OnePlus+12+Ultra",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 144,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 8 Gen 3 Leading",
+          "niveau": 6,
+          "ram_go_max": 16
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 6100,
+          "recharge_watts": 100,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 15
+        }
+      },
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "xiaomi-black-shark-7-pro",
+      "nom": "Xiaomi Black Shark 7 Pro",
+      "marque": "Xiaomi",
+      "prix_indicatif": 799,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,76\" AMOLED, 144 Hz, 2680 x 1236, 10000 nits",
+        "processeur": "Snapdragon 8 Gen 3",
+        "RAM": "16 Go LPDDR5X",
+        "stockage": "512 Go UFS4.0",
+        "batterie": "6100 mAh, charge 120 W",
+        "photo": "50 Mpx principal (f/1.6, OIS) + 50 Mpx ultra grand-angle + 12 Mpx téléobjectif (2×)",
+        "vidéo": "8K @ 30 fps",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4",
+        "étanchéité": "IP68",
+        "OS": "Android 14, JOYUI 15",
+        "notes": "Dual liquid cooling, triggers capacitifs, écran 1ms touch latency"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "gamer"
+      ],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Xiaomi+Black+Shark+7+Pro",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 144,
+          "luminosite_nits": 10000
+        },
+        "performance": {
+          "soc": "Snapdragon 8 Gen 3",
+          "niveau": 6,
+          "ram_go_max": 16
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 6100,
+          "recharge_watts": 120,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 14
+        }
+      },
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "nubia-red-magic-10-pro",
+      "nom": "Nubia Red Magic 10 Pro",
+      "marque": "ZTE Nubia",
+      "prix_indicatif": 749,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,87\" OLED, 144 Hz, 2688 x 1216, 10000 nits, 1ms latency",
+        "processeur": "Snapdragon 8 Gen 4 Leading",
+        "RAM": "16 ou 20 Go LPDDR5X",
+        "stockage": "512 Go ou 1 To UFS4.0",
+        "batterie": "7100 mAh, charge 120 W, batterie active 5800 mAh",
+        "photo": "50 Mpx principal (f/1.6) + 50 Mpx ultra grand-angle + 12 Mpx téléobjectif",
+        "vidéo": "8K @ 60 fps",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4",
+        "étanchéité": "IP68",
+        "OS": "Android 15, RedMagic OS 9"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "gamer"
+      ],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=ZTE+Nubia+Nubia+Red+Magic+10+Pro",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 144,
+          "luminosite_nits": 10000
+        },
+        "performance": {
+          "soc": "Snapdragon 8 Gen 4 Leading",
+          "niveau": 6,
+          "ram_go_max": 20
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 7100,
+          "recharge_watts": 120,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 15
+        }
+      },
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "moto-edge-50-pro",
+      "nom": "Motorola Moto Edge 50 Pro",
+      "marque": "Motorola",
+      "prix_indicatif": 649,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,7\" AMOLED, 144 Hz, 2712 x 1220",
+        "processeur": "Snapdragon 8 Gen 3 Leading",
+        "RAM": "12 Go LPDDR5X",
+        "stockage": "512 Go UFS4.0",
+        "batterie": "5100 mAh, charge 68 W",
+        "photo": "50 Mpx principal (f/1.6, OIS) + 12 Mpx ultra grand-angle + 12 Mpx téléobjectif (2×)",
+        "vidéo": "4K @ 60 fps",
+        "connectivité": "5G, WiFi 6E, Bluetooth 5.3, NFC",
+        "étanchéité": "IP68",
+        "OS": "Android 14, near stock"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "gamer"
+      ],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Motorola+Moto+Edge+50+Pro",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 144,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 8 Gen 3 Leading",
+          "niveau": 6,
+          "ram_go_max": 12
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 5100,
+          "recharge_watts": 68,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 14
+        }
+      },
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "realme-gt-neo-7",
+      "nom": "Realme GT Neo 7",
+      "marque": "Realme",
+      "prix_indicatif": 449,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,78\" AMOLED, 120 Hz, 2780 x 1264",
+        "processeur": "Snapdragon 7 Gen 3 Leading",
+        "RAM": "12 Go LPDDR5X",
+        "stockage": "512 Go UFS4.0",
+        "batterie": "5800 mAh, charge 100 W",
+        "photo": "50 Mpx principal (f/1.6) + 50 Mpx ultra grand-angle + 2 Mpx macro",
+        "vidéo": "4K @ 60 fps",
+        "connectivité": "5G, WiFi 6E, Bluetooth 5.3",
+        "étanchéité": "IP65",
+        "OS": "Android 14, Realme UI 5"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "gamer"
+      ],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Realme+GT+Neo+7",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 7 Gen 3 Leading",
+          "niveau": 5,
+          "ram_go_max": 12
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 5800,
+          "recharge_watts": 100,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP65",
+          "android_version_sortie": 14
+        }
+      },
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "honor-magic-v3",
+      "nom": "Honor Magic V3",
+      "marque": "Honor",
+      "prix_indicatif": 1499,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "Pliable : 7,92\" intérieur OLED (2344 x 2240) + 6,1\" extérieur, 120 Hz",
+        "processeur": "Snapdragon 8 Gen 3 Leading",
+        "RAM": "12 ou 16 Go LPDDR5X",
+        "stockage": "512 Go ou 1 To UFS4.0",
+        "batterie": "5150 mAh, charge 66 W",
+        "photo": "50 Mpx principal (f/1.6, OIS) + 40 Mpx ultra grand-angle + 12 Mpx téléobjectif (3.5×)",
+        "vidéo": "8K @ 30 fps",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4, NFC",
+        "étanchéité": "IPX8",
+        "OS": "Android 14, Magic UI 8"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "gamer"
+      ],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Honor+Magic+V3",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 8 Gen 3 Leading",
+          "niveau": 6,
+          "ram_go_max": 16
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 5150,
+          "recharge_watts": 66,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 14
+        }
+      },
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "poco-f6-pro",
+      "nom": "POCO F6 Pro",
+      "marque": "POCO",
+      "prix_indicatif": 499,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,67\" AMOLED, 120 Hz, 2712 x 1220",
+        "processeur": "Snapdragon 8s Gen 3 Leading",
+        "RAM": "12 ou 16 Go LPDDR5X",
+        "stockage": "512 Go UFS4.0",
+        "batterie": "5830 mAh, charge 120 W",
+        "photo": "50 Mpx principal (f/1.6, OIS) + 50 Mpx ultra grand-angle + 12 Mpx téléobjectif (2×)",
+        "vidéo": "8K @ 30 fps",
+        "connectivité": "5G, WiFi 6E, Bluetooth 5.3, NFC",
+        "étanchéité": "IP54",
+        "OS": "Android 14, MIUI 15"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "gamer"
+      ],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=POCO+F6+Pro",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 8s Gen 3 Leading",
+          "niveau": 6,
+          "ram_go_max": 16
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 5830,
+          "recharge_watts": 120,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP54",
+          "android_version_sortie": 14
+        }
+      },
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "samsung-galaxy-s26-gaming",
+      "nom": "Samsung Galaxy S26 Gaming",
+      "marque": "Samsung",
+      "prix_indicatif": 949,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,8\" Dynamic AMOLED 2X, 144 Hz, 2880 x 1440",
+        "processeur": "Snapdragon 8 Gen 4 + gaming GPU boost",
+        "RAM": "12 Go LPDDR5X",
+        "stockage": "512 Go UFS4.0",
+        "batterie": "4800 mAh, charge 65 W (optimization thermique)",
+        "photo": "50 Mpx principal (f/1.8) + 12 Mpx ultra grand-angle + 10 Mpx téléobjectif",
+        "vidéo": "8K @ 30 fps",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4",
+        "étanchéité": "IP68",
+        "OS": "Android 15, One UI Gaming",
+        "notes": "Triple cooling system, game optimizer, 1ms touch latency"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "gamer"
+      ],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Samsung+Galaxy+S26+Gaming",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 144,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 8 Gen 4 + gaming GPU boost",
+          "niveau": 6,
+          "ram_go_max": 12
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 4800,
+          "recharge_watts": 65,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 15
+        }
+      },
+      "ready_for_recommendation": false,
+      "exclu_reco": "modèle probablement inexistant tel que décrit",
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "vivo-iqoo-z9-turbo",
+      "nom": "Vivo iQOO Z9 Turbo",
+      "marque": "Vivo",
+      "prix_indicatif": 399,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,72\" AMOLED, 120 Hz, 2400 x 1080",
+        "processeur": "Snapdragon 7+ Gen 3",
+        "RAM": "12 Go LPDDR5X",
+        "stockage": "256 ou 512 Go UFS3.1",
+        "batterie": "6000 mAh, charge 100 W",
+        "photo": "50 Mpx principal (f/1.6) + 8 Mpx ultra grand-angle + 2 Mpx macro",
+        "vidéo": "4K @ 60 fps",
+        "connectivité": "5G, WiFi 6E, Bluetooth 5.3",
+        "étanchéité": "IP64",
+        "OS": "Android 14, FuntouchOS 14"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "gamer"
+      ],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Vivo+iQOO+Z9+Turbo",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 7+ Gen 3",
+          "niveau": 5,
+          "ram_go_max": 12
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 6000,
+          "recharge_watts": 100,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP64",
+          "android_version_sortie": 14
+        }
+      },
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "nubia-focus-6-air",
+      "nom": "Nubia Focus 6 Air",
+      "marque": "ZTE Nubia",
+      "prix_indicatif": 429,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,72\" AMOLED, 120 Hz, 2400 x 1080",
+        "processeur": "Snapdragon 7 Gen 3",
+        "RAM": "12 ou 16 Go LPDDR5X",
+        "stockage": "256 ou 512 Go UFS3.1",
+        "batterie": "5800 mAh, charge 80 W",
+        "photo": "50 Mpx principal (f/1.6, OIS) + 50 Mpx ultra grand-angle + 2 Mpx macro",
+        "vidéo": "4K @ 60 fps",
+        "connectivité": "5G, WiFi 6E, Bluetooth 5.3",
+        "étanchéité": "IP54",
+        "OS": "Android 14, MyOS"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "gamer"
+      ],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=ZTE+Nubia+Nubia+Focus+6+Air",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 7 Gen 3",
+          "niveau": 5,
+          "ram_go_max": 16
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 5800,
+          "recharge_watts": 80,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP54",
+          "android_version_sortie": 14
+        }
+      },
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "hasselblad-mobile",
+      "nom": "OnePlus 12 Hasselblad Edition",
+      "marque": "OnePlus",
+      "prix_indicatif": 1299,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,82\" AMOLED, 120 Hz, 2800 x 1264",
+        "processeur": "Snapdragon 8 Gen 3 Leading",
+        "RAM": "16 Go LPDDR5X",
+        "stockage": "512 Go ou 1 To UFS4.0",
+        "batterie": "6100 mAh, charge 100 W",
+        "photo": "Triple Hasselblad : 48 Mpx principal (capteur 1/1.3\", f/1.6, OIS) + 48 Mpx ultra grand-angle + 48 Mpx périscopique (3.5×, OIS)",
+        "vidéo": "8K @ 60 fps, Hasselblad color science",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4, NFC",
+        "étanchéité": "IP68",
+        "OS": "Android 15, OxygenOS 15"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "photographe"
+      ],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=OnePlus+12+Hasselblad+Edition",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 8 Gen 3 Leading",
+          "niveau": 6,
+          "ram_go_max": 16
+        },
+        "photo": {
+          "mp_principal": 48,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 6100,
+          "recharge_watts": 100,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 15
+        }
+      },
+      "ready_for_recommendation": false,
+      "exclu_reco": "modèle probablement inexistant tel que décrit",
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "samsung-galaxy-s26-photo",
+      "nom": "Samsung Galaxy S26 Photography Pro",
+      "marque": "Samsung",
+      "prix_indicatif": 1299,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,7\" Dynamic AMOLED 2X, 120 Hz, 2800 x 1280",
+        "processeur": "Snapdragon 8 Gen 4 + NPU photo",
+        "RAM": "12 Go LPDDR5X",
+        "stockage": "512 Go UFS4.0",
+        "batterie": "4900 mAh, charge 45 W",
+        "photo": "Quad caméra : 200 Mpx principal (capteur 10-bit) + 50 Mpx ultra grand-angle + 10 Mpx périscopique (3×) + 50 Mpx périscopique (5×)",
+        "vidéo": "8K @ 60 fps, mode professionnel RAW",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4, NFC",
+        "étanchéité": "IP68",
+        "OS": "Android 15, One UI Pro Photo"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "photographe"
+      ],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Samsung+Galaxy+S26+Photography+Pro",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 8 Gen 4 + NPU photo",
+          "niveau": 6,
+          "ram_go_max": 12
+        },
+        "photo": {
+          "mp_principal": 200,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 4900,
+          "recharge_watts": 45,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 15
+        }
+      },
+      "ready_for_recommendation": false,
+      "exclu_reco": "modèle probablement inexistant tel que décrit",
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "fujifilm-x-s20-mobile",
+      "nom": "Fujifilm X-S20 Mobile",
+      "marque": "Fujifilm",
+      "prix_indicatif": 1399,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,7\" OLED, 120 Hz, 2560 x 1440",
+        "processeur": "Snapdragon 8 Gen 3 Leading",
+        "RAM": "12 Go LPDDR5X",
+        "stockage": "512 Go UFS4.0",
+        "batterie": "5000 mAh, charge 45 W",
+        "photo": "Appareil photo intégré Fujifilm : 48 Mpx capteur 1\" (f/1.8, OIS) + 12 Mpx ultra grand-angle + 12 Mpx macro optique",
+        "vidéo": "8K @ 30 fps, film simulations Fujifilm, RAW video",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4",
+        "étanchéité": "IP68",
+        "OS": "Android 15, Fujifilm Camera OS"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "photographe"
+      ],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Fujifilm+X-S20+Mobile",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 8 Gen 3 Leading",
+          "niveau": 6,
+          "ram_go_max": 12
+        },
+        "photo": {
+          "mp_principal": 48,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 5000,
+          "recharge_watts": 45,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 15
+        }
+      },
+      "ready_for_recommendation": false,
+      "exclu_reco": "modèle probablement inexistant tel que décrit",
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "sony-xperia-pro-camera",
+      "nom": "Sony Xperia Pro Camera Edition",
+      "marque": "Sony",
+      "prix_indicatif": 1599,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,5\" 4K OLED (3840 x 1644), 144 Hz",
+        "processeur": "Snapdragon 8 Gen 4 + Alpha processing",
+        "RAM": "12 Go LPDDR5X",
+        "stockage": "512 Go ou 1 To UFS4.0",
+        "batterie": "5500 mAh, charge 30 W",
+        "photo": "Triple Zeiss Alpha : 48 Mpx principal (capteur 1/1.3\", f/1.9, OIS) + 12 Mpx ultra grand-angle (f/2.2) + 12 Mpx périscopique (3.5×, OIS)",
+        "vidéo": "8K @ 60 fps, FX30 codec, RAW output",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4, NFC",
+        "étanchéité": "IP65/68",
+        "OS": "Android 15, Xperia Pro Photo"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "photographe"
+      ],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Sony+Xperia+Pro+Camera+Edition",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 144,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 8 Gen 4 + Alpha processing",
+          "niveau": 6,
+          "ram_go_max": 12
+        },
+        "photo": {
+          "mp_principal": 48,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 5500,
+          "recharge_watts": 30,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP65",
+          "android_version_sortie": 15
+        }
+      },
+      "ready_for_recommendation": false,
+      "exclu_reco": "modèle probablement inexistant tel que décrit",
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "xiaomi-mix-fold-3-photo",
+      "nom": "Xiaomi Mix Fold 3 Photography",
+      "marque": "Xiaomi",
+      "prix_indicatif": 1899,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "Pliable : 8,02\" intérieur AMOLED (2160 x 2480, 120 Hz)",
+        "processeur": "Snapdragon 8 Gen 3 Leading",
+        "RAM": "16 Go LPDDR5X",
+        "stockage": "512 Go ou 1 To UFS4.0",
+        "batterie": "5110 mAh, charge 120 W",
+        "photo": "Quad Leica Ultra : 50 Mpx principal (capteur 1/1.2\", f/1.4, OIS) + 50 Mpx ultra grand-angle + 50 Mpx périscopique (3.2×, OIS) + 50 Mpx macro (4cm)",
+        "vidéo": "8K @ 60 fps, cinéma 24fps professionnel",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4, NFC",
+        "étanchéité": "IPX8",
+        "OS": "Android 14, HyperOS Photo Suite"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "photographe"
+      ],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Xiaomi+Mix+Fold+3+Photography",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 8 Gen 3 Leading",
+          "niveau": 6,
+          "ram_go_max": 16
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 5110,
+          "recharge_watts": 120,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 14
+        }
+      },
+      "ready_for_recommendation": false,
+      "exclu_reco": "modèle probablement inexistant tel que décrit",
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "vivo-x200-ultra-photo",
+      "nom": "Vivo X200 Ultra Studio",
+      "marque": "Vivo",
+      "prix_indicatif": 1299,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,82\" AMOLED, 120 Hz, 3200 x 1440",
+        "processeur": "MediaTek Dimensity 9400 Ultra + Vivo Imaging Processor",
+        "RAM": "16 Go LPDDR5X",
+        "stockage": "512 Go ou 1 To UFS4.0",
+        "batterie": "6100 mAh, charge 120 W",
+        "photo": "Triple Zeiss Ultra : 50 Mpx principal (f/1.63, OIS, Zeiss lens) + 50 Mpx ultra grand-angle + 50 Mpx périscopique (3.7×, OIS)",
+        "vidéo": "8K @ 30 fps, Zeiss color science",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4, NFC",
+        "étanchéité": "IP68",
+        "OS": "Android 15, OriginOS Ultra Photo"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "photographe"
+      ],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Vivo+X200+Ultra+Studio",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "MediaTek Dimensity 9400 Ultra + Vivo Imaging Processor",
+          "niveau": 6,
+          "ram_go_max": 16
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 6100,
+          "recharge_watts": 120,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 15
+        }
+      },
+      "ready_for_recommendation": false,
+      "exclu_reco": "modèle probablement inexistant tel que décrit",
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "honor-magic-pro-photo",
+      "nom": "Honor Magic 9 Pro Photo",
+      "marque": "Honor",
+      "prix_indicatif": 1199,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,9\" OLED, 120 Hz, 2664 x 1200",
+        "processeur": "Snapdragon 8 Gen 4",
+        "RAM": "16 Go LPDDR5X",
+        "stockage": "512 Go ou 1 To UFS4.0",
+        "batterie": "5900 mAh, charge 80 W",
+        "photo": "Triple premium : 50 Mpx principal (f/1.5, capteur 1/1.3\", OIS) + 40 Mpx ultra grand-angle + 50 Mpx périscopique (3.5×, OIS)",
+        "vidéo": "8K @ 60 fps, triple stabilisation",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4, NFC",
+        "étanchéité": "IP68/IP69",
+        "OS": "Android 15, Magic UI 9 Pro Photo"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "photographe"
+      ],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Honor+Magic+9+Pro+Photo",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 8 Gen 4",
+          "niveau": 6,
+          "ram_go_max": 16
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 5900,
+          "recharge_watts": 80,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 15
+        }
+      },
+      "ready_for_recommendation": false,
+      "exclu_reco": "modèle probablement inexistant tel que décrit",
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "oppo-find-x9-photographer",
+      "nom": "OPPO Find X9 Photographer's Edition",
+      "marque": "OPPO",
+      "prix_indicatif": 1299,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,7\" AMOLED, 120 Hz, 2800 x 1264",
+        "processeur": "Snapdragon 8 Gen 4",
+        "RAM": "12 Go LPDDR5X",
+        "stockage": "512 Go UFS4.0",
+        "batterie": "5910 mAh, charge 80 W",
+        "photo": "Triple Hasselblad Edition : 50 Mpx principal (f/1.6, OIS) + 50 Mpx ultra grand-angle + 50 Mpx périscopique (3×, OIS, Hasselblad color)",
+        "vidéo": "8K @ 30 fps, Hasselblad video mode",
+        "connectivité": "5G, WiFi 7, Bluetooth 5.4, NFC",
+        "étanchéité": "IP68/IP69",
+        "OS": "Android 15, ColorOS 15 Photo Suite"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "photographe"
+      ],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=OPPO+Find+X9+Photographer%27s+Edition",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 8 Gen 4",
+          "niveau": 6,
+          "ram_go_max": 12
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 5910,
+          "recharge_watts": 80,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 15
+        }
+      },
+      "ready_for_recommendation": false,
+      "exclu_reco": "modèle probablement inexistant tel que décrit",
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "realme-gt-photo-pro",
+      "nom": "Realme GT Photo Pro",
+      "marque": "Realme",
+      "prix_indicatif": 699,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,78\" AMOLED, 120 Hz, 2780 x 1264",
+        "processeur": "Snapdragon 8 Gen 3",
+        "RAM": "12 Go LPDDR5X",
+        "stockage": "512 Go UFS4.0",
+        "batterie": "5800 mAh, charge 120 W",
+        "photo": "Triple Hasselblad : 50 Mpx principal (f/1.6, OIS) + 50 Mpx ultra grand-angle + 12 Mpx téléobjectif (2×, OIS)",
+        "vidéo": "8K @ 30 fps, Hasselblad processing",
+        "connectivité": "5G, WiFi 6E, Bluetooth 5.3, NFC",
+        "étanchéité": "IP65",
+        "OS": "Android 14, Realme UI 5 Photo"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "photographe"
+      ],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Realme+GT+Photo+Pro",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "Snapdragon 8 Gen 3",
+          "niveau": 6,
+          "ram_go_max": 12
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 5800,
+          "recharge_watts": 120,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP65",
+          "android_version_sortie": 14
+        }
+      },
+      "ready_for_recommendation": false,
+      "exclu_reco": "modèle probablement inexistant tel que décrit",
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "tecno-phantom-x3-pro",
+      "nom": "Tecno Phantom X3 Pro",
+      "marque": "Tecno",
+      "prix_indicatif": 649,
+      "prix_note": "Prix généralement constaté, hors promotions ponctuelles.",
+      "caracteristiques": {
+        "écran": "6,8\" AMOLED, 120 Hz, 2800 x 1264",
+        "processeur": "MediaTek Dimensity 9400",
+        "RAM": "12 Go LPDDR5X",
+        "stockage": "512 Go UFS4.0",
+        "batterie": "5900 mAh, charge 70 W",
+        "photo": "Triple : 50 Mpx principal (f/1.6, OIS, Sony IMX) + 50 Mpx ultra grand-angle + 12 Mpx téléobjectif (3×, OIS)",
+        "vidéo": "4K @ 60 fps, photo prioritaire",
+        "connectivité": "5G, WiFi 6E, Bluetooth 5.3",
+        "étanchéité": "IP68",
+        "OS": "Android 14, HiOS 14 Photo"
+      },
+      "points_forts": [],
+      "points_faibles": [],
+      "profil_adapte": [
+        "photographe"
+      ],
+      "scores": {},
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Tecno+Phantom+X3+Pro",
+      "date_verification": "2026-10",
+      "fiche_statut": "specs_a_verifier",
+      "compatibilite": {
+        "ecran": {
+          "technologie": "AMOLED",
+          "frequence_max_hz": 120,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "MediaTek Dimensity 9400",
+          "niveau": 6,
+          "ram_go_max": 12
+        },
+        "photo": {
+          "mp_principal": 50,
+          "ois": true
+        },
+        "batterie": {
+          "capacite_mah": 5900,
+          "recharge_watts": 70,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "IP68",
+          "android_version_sortie": 14
+        }
+      },
+      "ready_for_recommendation": false,
+      "exclu_reco": "modèle probablement inexistant tel que décrit",
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    },
+    {
+      "id": "nokia-g10",
+      "nom": "Nokia G10",
+      "marque": "Nokia",
+      "prix_indicatif": null,
+      "prix_note": "Prix non renseigné.",
+      "caracteristiques": {
+        "ecran": "6,52 pouces LCD, HD+, 60 Hz",
+        "processeur": "MediaTek Helio G25",
+        "ram": "3 Go",
+        "stockage": "32 Go",
+        "batterie": "5 050 mAh",
+        "charge": "10 W",
+        "photo": "13 Mpx principal + 2 Mpx macro + 2 Mpx profondeur",
+        "etancheite": "Non documentée",
+        "os": "Android 11"
+      },
+      "points_forts": [
+        "Grande batterie 5 050 mAh",
+        "Autonomie adaptée à un usage simple"
+      ],
+      "points_faibles": [
+        "Performances modestes",
+        "Écran 60 Hz HD+",
+        "Photo et jeu limités"
+      ],
+      "profil_adapte": [
+        "usage simple",
+        "appels",
+        "messagerie",
+        "autonomie"
+      ],
+      "scores": {
+        "performance": 2,
+        "autonomie": 7,
+        "photo": 2,
+        "prix": null,
+        "gaming": 1,
+        "taille": 5
+      },
+      "kimovil_url": "https://www.kimovil.com/fr/ou-acheter-nokia-g10",
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "professionnel": 4,
+        "gamer": 2,
+        "photographe": 2,
+        "etudiant": 5
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "LCD",
+          "frequence_max_hz": 60,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "soc": "MediaTek Helio G25",
+          "niveau": 1,
+          "ram_go_max": 3
+        },
+        "photo": {
+          "mp_principal": 13,
+          "ois": false
+        },
+        "batterie": {
+          "capacite_mah": 5050,
+          "recharge_watts": null,
+          "chimie": null
+        },
+        "durete": {
+          "protection_ip": "Non documentée",
+          "android_version_sortie": 11
+        }
+      },
+      "ready_for_recommendation": true,
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Nokia+G10",
+      "spec_provenance": {
+        "compatibilite_derivee": "caracteristiques_catalogue"
+      }
+    }
+  ],
+  "catalogue_meta": {
+    "derniere_verification": "2026-09-17",
+    "note": "Les scores servent à classer la compatibilité avec un profil, pas à mesurer une qualité absolue. Un score de compatibilité est plafonné à 9/10.",
+    "sources": [
+      "Frandroid",
+      "Les Numériques",
+      "JVTECH",
+      "Kimovil"
+    ],
+    "scoring": {
+      "max": 9,
+      "min": 0,
+      "principe": "Score de compatibilité avec les critères choisis par l’utilisateur. 9/10 correspond à une adéquation très forte; 10/10 n’est jamais attribué. Les scores ne sont pas des notes de qualité absolue."
+    },
+    "count": 84,
+    "note_fiabilite": "Les fiches marquées « specs_a_verifier » ont été complétées sans source vérifiée ; elles servent à l'audit mais doivent être contrôlées avant publication. Les fiches « exclu_reco » sont écartées des recommandations."
+  },
+  "meta": {
+    "prix_verifies_le": "2026-10-06"
+  }
+}

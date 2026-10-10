@@ -1,0 +1,61 @@
+
+/* v84 — accueil éditorial + navigation catégories
+   Objectif : moins d'effets décoratifs, plus de hiérarchie et de contraste réel. */
+
+.category-menu[hidden]{display:none}
+.category-menu{position:fixed;inset:0;z-index:1200}
+.category-menu-backdrop{position:absolute;inset:0;border:0;background:rgba(25,24,28,.34);cursor:pointer}
+.category-menu-panel{
+  position:absolute;top:calc(var(--header-h,72px) + .65rem);left:max(1rem,calc((100vw - var(--wide))/2));
+  width:min(440px,calc(100vw - 2rem));max-height:min(78vh,720px);overflow:auto;
+  background:var(--surface);color:var(--ink);border:1px solid var(--line-strong);
+  border-radius:18px;box-shadow:0 20px 55px rgba(25,24,28,.18);padding:1.15rem;
+}
+.category-menu-head{display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;padding-bottom:.9rem;border-bottom:1px solid var(--line)}
+.category-menu-head h2{font-size:1.55rem;margin:.45rem 0 0;letter-spacing:-.02em}
+.category-menu-intro{margin:.9rem 0;color:var(--ink-soft);font-size:.9rem;max-width:38rem}
+.category-menu-list{display:grid;gap:.35rem}
+.category-menu-item{
+  display:grid;grid-template-columns:2.2rem 1fr auto;align-items:center;gap:.8rem;
+  padding:.8rem .65rem;border:1px solid transparent;border-radius:12px;color:var(--ink);text-decoration:none;
+  transition:background .15s,border-color .15s,transform .15s;
+}
+.category-menu-item:hover,.category-menu-item:focus-visible{background:var(--surface-2);border-color:var(--line);transform:translateX(2px)}
+.category-menu-icon{font:700 .7rem var(--font-display);color:var(--ink-soft)}
+.category-menu-item strong,.category-menu-item small{display:block}
+.category-menu-item strong{font-size:.94rem}
+.category-menu-item small{margin-top:.12rem;color:var(--ink-soft);font-size:.75rem}
+.category-menu-item:not(.is-live){opacity:.62}
+.category-menu-item b{font-size:1.05rem;font-weight:500}
+.category-menu-home{display:block;margin-top:.75rem;padding-top:.75rem;border-top:1px solid var(--line);font-weight:700;color:var(--ink);text-decoration:underline;text-underline-offset:.2em}
+.brand-menu-toggle{
+  display:inline-flex;align-items:center;gap:.45rem;border:0;background:transparent;color:var(--ink-soft);
+  padding:.45rem .6rem;border-radius:9px;font:600 .78rem var(--font-display);cursor:pointer;
+}
+.brand-menu-toggle:hover,.brand-menu-toggle:focus-visible{background:var(--surface);color:var(--ink)}
+.brand-menu-toggle>span:first-child{display:grid;gap:3px;width:15px}
+.brand-menu-toggle i{display:block;width:15px;height:1.5px;background:currentColor}
+.brand-menu-label{white-space:nowrap}
+
+@media(max-width:620px){
+  .brand-menu-toggle{padding:.35rem .3rem}
+  .brand-menu-label{display:none}
+  .category-menu-panel{left:.65rem;top:calc(var(--header-h,72px) + .45rem);width:calc(100vw - 1.3rem);border-radius:16px}
+  /* Sur mobile, le logo ouvre le menu : le bouton reste immédiatement adjacent. */
+  .brand-logo{cursor:pointer}
+}
+
+/* Réduction des signaux visuels répétitifs de type template */
+.hx-hero .hx-blob{display:none}
+.hx-points li:hover{transform:none}
+.hx-btn:hover{transform:none;box-shadow:none}
+.hx-card::before{display:none}
+.hx-card-live,.hx-card[data-tone]{background:var(--surface);border-color:var(--line-strong)}
+.hx-card-live:hover,.hx-card[data-tone]:hover{background:var(--surface-2)}
+.hx-feature[data-tone],.hx-builder-card{background:var(--surface);border:1px solid var(--line)}
+.hx-final[data-tone]{background:var(--ink);color:var(--surface)}
+.hx-final .hx-btn{background:var(--surface);color:var(--ink)}
+.hx-marquee{-webkit-mask-image:none;mask-image:none}
+.hx-word-chip{border-radius:8px}
+.lava{display:none}
+body::before{display:none}
