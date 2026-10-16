@@ -1,0 +1,20 @@
+{
+  "name": "guide-achat",
+  "private": true,
+  "version": "5.6.0-v117",
+  "scripts": {
+    "start": "node server/index.js",
+    "kit:check": "node scripts/kit-check.js",
+    "analyzer:test": "node scripts/analyzer-selftest.js",
+    "analyzer:routing-test": "node scripts/analyzer-routing-test.js",
+    "analyzer:extract-test": "node scripts/merchant-extraction-test.js",
+    "network:test": "node scripts/network-policy-test.js",
+    "analyzer:identification-test": "node scripts/identification-regression.js",
+    "fixtures:test": "node scripts/fixtures-test.js",
+    "analyzer:v113-test": "node scripts/v113-regression.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "description": "Identification et analyse comparative de smartphones"
+}

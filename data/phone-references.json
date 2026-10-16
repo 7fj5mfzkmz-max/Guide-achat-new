@@ -1,0 +1,522 @@
+{
+  "version": 1,
+  "updated_at": null,
+  "phones": [
+    {
+      "id": "galaxy-a56",
+      "model": "Samsung Galaxy A56",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "xiaomi-15t",
+      "model": "Xiaomi 15T",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "iphone-17-pro",
+      "model": "Apple iPhone 17 Pro",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "oneplus-15",
+      "model": "OnePlus 15",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "rog-phone-9",
+      "model": "ROG Phone 9",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "galaxy-z-fold8",
+      "model": "Galaxy Z Fold8",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "pixel-10-pro-xl",
+      "model": "Pixel 10 Pro XL",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "pixel-10",
+      "model": "Pixel 10",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "galaxy-s26-ultra",
+      "model": "Galaxy S26 Ultra",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "iphone-18-pro-max",
+      "model": "iPhone 18 Pro Max",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "xperia-1-vii",
+      "model": "Xperia 1 VII",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "iphone-18-pro",
+      "model": "iPhone 18 Pro",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "galaxy-s26-plus",
+      "model": "Galaxy S26+",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "pixel-10a",
+      "model": "Pixel 10a",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "oneplus-nord-5",
+      "model": "OnePlus Nord 5",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "iphone-duo",
+      "model": "iPhone Duo",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "nothing-phone-4",
+      "model": "Nothing Phone (4)",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "xiaomi-16-pro",
+      "model": "Xiaomi 16 Pro",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "honor-magic-8-pro",
+      "model": "Honor Magic 8 Pro",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "galaxy-s26",
+      "model": "Galaxy S26",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "pixel-10-pro",
+      "model": "Pixel 10 Pro",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "motorola-edge-70-pro",
+      "model": "Motorola Edge 70 Pro",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "xiaomi-16-ultra",
+      "model": "Xiaomi 16 Ultra",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "galaxy-a17-5g",
+      "model": "Samsung Galaxy A17 5G",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "redmi-note-15-4g",
+      "model": "Xiaomi Redmi Note 15 4G",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "redmi-note-15-5g",
+      "model": "Xiaomi Redmi Note 15 5G",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "realme-p3-5g",
+      "model": "realme P3 5G",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "realme-c67",
+      "model": "realme C67",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "redmi-15c",
+      "model": "Xiaomi Redmi 15C",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "realme-c75",
+      "model": "realme C75",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "redmi-note-14-5g",
+      "model": "Xiaomi Redmi Note 14 5G",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "moto-g55-5g",
+      "model": "Motorola Moto G55 5G",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "honor-400-lite",
+      "model": "HONOR 400 Lite",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "poco-c85",
+      "model": "POCO C85",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "redmi-note-11s",
+      "model": "Xiaomi Redmi Note 11S",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "galaxy-a23-5g",
+      "model": "Samsung Galaxy A23 5G",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "moto-g06-power",
+      "model": "Motorola Moto G06 Power",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "moto-g06",
+      "model": "Motorola Moto G06",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "blackview-shark-8",
+      "model": "Blackview Shark 8",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "zte-blade-v70-vita",
+      "model": "ZTE Blade V70 Vita",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "redmi-a5",
+      "model": "Xiaomi Redmi A5",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "poco-c71",
+      "model": "POCO C71",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "redmi-a3",
+      "model": "Xiaomi Redmi A3",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "vivo-x200-ultra",
+      "model": "Vivo X200 Ultra",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "oppo-find-x9",
+      "model": "OPPO Find X9",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "realme-gt-7-pro",
+      "model": "Realme GT 7 Pro",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "zte-nubia-z60s",
+      "model": "ZTE Nubia Z60S",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "tecno-camon-40-pro",
+      "model": "Tecno Camon 40 Pro",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "nokia-g70-5g",
+      "model": "Nokia G70 5G",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "htc-u24-pro",
+      "model": "HTC U24 Pro",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "asus-zenfone-12-ultra",
+      "model": "ASUS Zenfone 12 Ultra",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "samsung-galaxy-xcover-8-pro",
+      "model": "Samsung Galaxy XCover 8 Pro",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "motorola-razr-60-ultra",
+      "model": "Motorola Razr 60 Ultra",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "samsung-galaxy-a15",
+      "model": "Samsung Galaxy A15",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "xiaomi-redmi-note-13",
+      "model": "Xiaomi Redmi Note 13",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "motorola-moto-g85",
+      "model": "Motorola Moto G85",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "realme-12-pro",
+      "model": "Realme 12 Pro",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "poco-x6",
+      "model": "POCO X6",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "tecno-spark-20",
+      "model": "Tecno Spark 20",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "infinix-hot-40",
+      "model": "Infinix Hot 40",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "honor-9-lite",
+      "model": "Honor 9 Lite",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "samsung-galaxy-a05",
+      "model": "Samsung Galaxy A05",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "nokia-c31",
+      "model": "Nokia C31",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "oneplus-12-ultra",
+      "model": "OnePlus 12 Ultra",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "xiaomi-black-shark-7-pro",
+      "model": "Xiaomi Black Shark 7 Pro",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "nubia-red-magic-10-pro",
+      "model": "Nubia Red Magic 10 Pro",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "moto-edge-50-pro",
+      "model": "Motorola Moto Edge 50 Pro",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "realme-gt-neo-7",
+      "model": "Realme GT Neo 7",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "honor-magic-v3",
+      "model": "Honor Magic V3",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "poco-f6-pro",
+      "model": "POCO F6 Pro",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "samsung-galaxy-s26-gaming",
+      "model": "Samsung Galaxy S26 Gaming",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "vivo-iqoo-z9-turbo",
+      "model": "Vivo iQOO Z9 Turbo",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "nubia-focus-6-air",
+      "model": "Nubia Focus 6 Air",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "hasselblad-mobile",
+      "model": "OnePlus 12 Hasselblad Edition",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "samsung-galaxy-s26-photo",
+      "model": "Samsung Galaxy S26 Photography Pro",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "fujifilm-x-s20-mobile",
+      "model": "Fujifilm X-S20 Mobile",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "sony-xperia-pro-camera",
+      "model": "Sony Xperia Pro Camera Edition",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "xiaomi-mix-fold-3-photo",
+      "model": "Xiaomi Mix Fold 3 Photography",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "vivo-x200-ultra-photo",
+      "model": "Vivo X200 Ultra Studio",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "honor-magic-pro-photo",
+      "model": "Honor Magic 9 Pro Photo",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "oppo-find-x9-photographer",
+      "model": "OPPO Find X9 Photographer's Edition",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "realme-gt-photo-pro",
+      "model": "Realme GT Photo Pro",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "tecno-phantom-x3-pro",
+      "model": "Tecno Phantom X3 Pro",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "nokia-g10",
+      "model": "Nokia G10",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "iphone-17-pro-max",
+      "model": "Apple iPhone 17 Pro Max",
+      "aliases": [],
+      "evidence": []
+    },
+    {
+      "id": "poco-x8-pro",
+      "model": "POCO X8 Pro",
+      "aliases": [],
+      "evidence": []
+    }
+  ]
+}

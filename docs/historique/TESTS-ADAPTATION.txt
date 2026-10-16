@@ -1,0 +1,7 @@
+Tests exécutés :
+- Vérification syntaxique de tous les fichiers JavaScript : succès.
+- scripts/references-test.js : succès (fixtures synthétiques uniquement).
+- scripts/analyzer-selftest.js : succès.
+- scripts/v113-regression.js : échec dans la partie asynchrone de résolution ; les assertions synchrones précédentes passent. Les appels réseau ne sont pas validables sans accès Internet.
+- PC : catalogue, budget, système, tri, cartes et autonomie corrigés.
+- Aucun test navigateur de bout en bout effectué.

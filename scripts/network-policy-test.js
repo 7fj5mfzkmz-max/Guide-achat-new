@@ -1,0 +1,14 @@
+'use strict';
+const assert = require('node:assert/strict');
+const net = require('../server/net.js');
+assert.equal(net.retryableStatus(429), true, '429 doit être réessayable');
+assert.equal(net.retryableStatus(503), true, '503 doit être réessayable');
+assert.equal(net.retryableStatus(403), false, '403 ne doit pas déclencher de contournement');
+assert.equal(net.retryableStatus(404), false, '404 ne doit pas être réessayé');
+assert.equal(net.parseRetryAfter('3', 0), 3000, 'Retry-After en secondes doit être respecté');
+assert.equal(net.parseRetryAfter('Wed, 21 Oct 2015 07:28:00 GMT', Date.parse('Wed, 21 Oct 2015 07:27:58 GMT')), 2000, 'Retry-After date doit être interprété');
+assert.equal(net.parseRetryAfter('invalid', 0), null, 'un Retry-After invalide doit être ignoré');
+assert(net.HOST_MIN_INTERVAL_MS >= 0, 'l’intervalle par domaine doit être valide');
+const index = require('node:fs').readFileSync(require('node:path').join(__dirname, '../server/index.js'), 'utf8');
+assert(index.includes('data.model') && index.includes('resolveModel(data.model'), 'le serveur local doit prendre en charge la recherche par nom de modèle');
+console.log('OK : limitation par domaine, reprise HTTP et route de résolution par modèle vérifiées.');

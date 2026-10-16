@@ -1,0 +1,6 @@
+{
+  "url": "https://boutique.example/apple-iphone-17-pro-max-256-go-orange-cosmique/p-123.html",
+  "html_file": "synthetique-iphone-17-pro-max.html",
+  "expected_name": "Apple iPhone 17 Pro Max",
+  "unexpected_name": "Apple iPhone 17 Pro"
+}

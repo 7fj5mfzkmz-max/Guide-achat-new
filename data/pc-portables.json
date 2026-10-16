@@ -1,0 +1,3529 @@
+{
+  "categorie": "pc-portables",
+  "produits": [
+    {
+      "id": "macbook-air-13-m5",
+      "nom": "Apple MacBook Air 13 (M5)",
+      "marque": "Apple",
+      "prix_indicatif": 1284,
+      "prix_note": "Config 16 Go / 512 Go relevée à 1 284 € (Cdiscount, 9 oct. 2026). Les Numériques indique un départ vers 1 199–1 299 €.",
+      "caracteristiques": {
+        "processeur": "Apple M5",
+        "ram": "16 Go",
+        "stockage": "512 Go SSD",
+        "ecran": "13,6\", IPS, Liquid Retina, 500 nits",
+        "gpu": "GPU intégré Apple M5",
+        "poids": "1,24 kg",
+        "autonomie": "jusqu’à 18 h annoncées (vidéo ou constructeur)",
+        "os": "macOS"
+      },
+      "points_forts": [
+        "Silencieux, sans ventilateur",
+        "Autonomie annoncée longue",
+        "16 Go et 512 Go dès cette config"
+      ],
+      "points_faibles": [
+        "Pas de carte graphique dédiée",
+        "Ports limités à l’USB-C"
+      ],
+      "profil_adapte": [
+        "etudiant",
+        "professionnel"
+      ],
+      "scores": {
+        "performance": 8,
+        "autonomie": 8,
+        "ecran": 6,
+        "prix": 5,
+        "gaming": 6,
+        "mobilite": 9,
+        "memoire": 6
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Apple+MacBook+Air+13+%28M5%29",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 7,
+        "professionnel": 7,
+        "gamer": 6,
+        "createur": 7
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "IPS",
+          "diagonale_pouces": 13.6,
+          "frequence_max_hz": null,
+          "definition": "Liquid Retina",
+          "luminosite_nits": 500
+        },
+        "performance": {
+          "cpu": "Apple M5",
+          "niveau": 6,
+          "ram_go": 16,
+          "stockage_go": 512
+        },
+        "graphique": {
+          "gpu": "GPU intégré Apple M5",
+          "niveau": 2,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": 18,
+          "autonomie_source": "annoncee"
+        },
+        "mobilite": {
+          "poids_kg": 1.24
+        }
+      },
+      "os": "macos",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "FranceMetrics 2026-10-09",
+          "Les Numériques oct. 2026"
+        ],
+        "autonomie": "annoncee",
+        "prix": "indicatif_octobre_2026"
+      }
+    },
+    {
+      "id": "macbook-air-15-m5",
+      "nom": "Apple MacBook Air 15 (M5)",
+      "marque": "Apple",
+      "prix_indicatif": 1699,
+      "prix_note": "Prix Boulanger relevé le 9 oct. 2026. RAM et SSD : configuration la plus citée, à confirmer sur la fiche marchand.",
+      "caracteristiques": {
+        "processeur": "Apple M5",
+        "ram": "16 Go",
+        "stockage": "512 Go SSD",
+        "ecran": "15,3\", IPS",
+        "gpu": "GPU intégré Apple M5",
+        "poids": "1,51 kg",
+        "autonomie": "non chiffrée dans le relevé",
+        "os": "macOS"
+      },
+      "points_forts": [
+        "Grand écran dans un châssis sans ventilateur",
+        "Même puce M5 que le 13 pouces"
+      ],
+      "points_faibles": [
+        "Plus lourd et plus cher que le 13 pouces",
+        "Autonomie réelle non citée dans le relevé"
+      ],
+      "profil_adapte": [
+        "professionnel",
+        "etudiant"
+      ],
+      "scores": {
+        "performance": 8,
+        "autonomie": 8,
+        "ecran": 5,
+        "prix": 4,
+        "gaming": 6,
+        "mobilite": 7,
+        "memoire": 6
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Apple+MacBook+Air+15+%28M5%29",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 6,
+        "professionnel": 7,
+        "gamer": 6,
+        "createur": 6
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "IPS",
+          "diagonale_pouces": 15.3,
+          "frequence_max_hz": null,
+          "definition": null,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "Apple M5",
+          "niveau": 6,
+          "ram_go": 16,
+          "stockage_go": 512
+        },
+        "graphique": {
+          "gpu": "GPU intégré Apple M5",
+          "niveau": 2,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": null,
+          "autonomie_source": null
+        },
+        "mobilite": {
+          "poids_kg": 1.51
+        }
+      },
+      "os": "macos",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "FranceMetrics 2026-10-09"
+        ],
+        "autonomie": "estimation_de_categorie",
+        "prix": "indicatif_octobre_2026",
+        "autonomie_detail": "Pas d’heure sourcée : le score d’autonomie suit la catégorie (Arm, ultraportable, polyvalent, gamer), à remplacer par une mesure."
+      }
+    },
+    {
+      "id": "macbook-air-13-m4",
+      "nom": "Apple MacBook Air 13 (M4)",
+      "marque": "Apple",
+      "prix_indicatif": 1352,
+      "prix_note": "Prix de départ Les Numériques, oct. 2026. Fiche JVTECH : 16 Go, SSD 256 Go, jusqu’à 18 h.",
+      "caracteristiques": {
+        "processeur": "Apple M4 (10 cœurs CPU, 8 cœurs GPU)",
+        "ram": "16 Go",
+        "stockage": "256 Go SSD",
+        "ecran": "13,6\", IPS, 2560 × 1664",
+        "gpu": "GPU intégré Apple M4",
+        "poids": "1,24 kg",
+        "autonomie": "jusqu’à 18 h annoncées (vidéo ou constructeur)",
+        "os": "macOS"
+      },
+      "points_forts": [
+        "Encore très endurant et silencieux",
+        "Assez de puissance pour un montage léger"
+      ],
+      "points_faibles": [
+        "Souvent 256 Go en entrée : juste pour les photos et les projets",
+        "M5 déjà en rayon à un prix proche"
+      ],
+      "profil_adapte": [
+        "etudiant",
+        "professionnel"
+      ],
+      "scores": {
+        "performance": 7,
+        "autonomie": 8,
+        "ecran": 6,
+        "prix": 5,
+        "gaming": 5,
+        "mobilite": 9,
+        "memoire": 5
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Apple+MacBook+Air+13+%28M4%29",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 7,
+        "professionnel": 7,
+        "gamer": 6,
+        "createur": 6
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "IPS",
+          "diagonale_pouces": 13.6,
+          "frequence_max_hz": null,
+          "definition": "2560 × 1664",
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "Apple M4 (10 cœurs CPU, 8 cœurs GPU)",
+          "niveau": 5,
+          "ram_go": 16,
+          "stockage_go": 256
+        },
+        "graphique": {
+          "gpu": "GPU intégré Apple M4",
+          "niveau": 2,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": 18,
+          "autonomie_source": "annoncee"
+        },
+        "mobilite": {
+          "poids_kg": 1.24
+        }
+      },
+      "os": "macos",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "Les Numériques oct. 2026",
+          "JVTECH oct. 2026"
+        ],
+        "autonomie": "annoncee",
+        "prix": "indicatif_octobre_2026"
+      }
+    },
+    {
+      "id": "macbook-neo",
+      "nom": "Apple MacBook Neo",
+      "marque": "Apple",
+      "prix_indicatif": 799,
+      "prix_note": "8 Go / 256 Go à 799 € depuis juin 2026 (699 € au lancement). 512 Go avec Touch ID vers 899 €. Batterie 36,5 Wh. Jusqu’à 16 h vidéo, 11 h web, tests Apple.",
+      "caracteristiques": {
+        "processeur": "Apple A18 Pro (6 cœurs, 2 performance)",
+        "ram": "8 Go",
+        "stockage": "256 Go SSD",
+        "ecran": "13\", IPS, 2408 × 1506, 500 nits",
+        "gpu": "GPU intégré 5 cœurs",
+        "poids": "1,23 kg",
+        "autonomie": "jusqu’à 16 h annoncées (vidéo ou constructeur)",
+        "os": "macOS"
+      },
+      "points_forts": [
+        "Le Mac neuf le moins cher",
+        "1,23 kg, 500 nits, une journée en vidéo annoncée"
+      ],
+      "points_faibles": [
+        "8 Go soudés, non évolutifs",
+        "Un des deux USB-C est limité à l’USB 2",
+        "Clavier sans rétroéclairage sur le 256 Go"
+      ],
+      "profil_adapte": [
+        "etudiant",
+        "professionnel"
+      ],
+      "scores": {
+        "performance": 5,
+        "autonomie": 8,
+        "ecran": 6,
+        "prix": 7,
+        "gaming": 3,
+        "mobilite": 9,
+        "memoire": 2
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Apple+MacBook+Neo",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 6,
+        "professionnel": 6,
+        "gamer": 4,
+        "createur": 5
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "IPS",
+          "diagonale_pouces": 13.0,
+          "frequence_max_hz": null,
+          "definition": "2408 × 1506",
+          "luminosite_nits": 500
+        },
+        "performance": {
+          "cpu": "Apple A18 Pro (6 cœurs, 2 performance)",
+          "niveau": 3,
+          "ram_go": 8,
+          "stockage_go": 256
+        },
+        "graphique": {
+          "gpu": "GPU intégré 5 cœurs",
+          "niveau": 0,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": 16,
+          "autonomie_source": "annoncee"
+        },
+        "mobilite": {
+          "poids_kg": 1.23
+        }
+      },
+      "os": "macos",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "Fiche Apple, sept. 2026",
+          "Wanda-techs 2026-10-05"
+        ],
+        "autonomie": "annoncee",
+        "prix": "indicatif_octobre_2026"
+      }
+    },
+    {
+      "id": "macbook-pro-14-m5",
+      "nom": "Apple MacBook Pro 14 (M5)",
+      "marque": "Apple",
+      "prix_indicatif": 2199,
+      "prix_note": "Fiche 16 Go / 1 To à 2 199 € (relevé oct. 2026). Les Numériques affiche un départ vers 1 900 €.",
+      "caracteristiques": {
+        "processeur": "Apple M5",
+        "ram": "16 Go",
+        "stockage": "1 To SSD",
+        "ecran": "14,2\", Mini-LED",
+        "gpu": "GPU intégré Apple M5",
+        "poids": "1,55 kg",
+        "autonomie": "non chiffrée dans le relevé",
+        "os": "macOS"
+      },
+      "points_forts": [
+        "Écran mini-LED de la famille Pro",
+        "1 To dans la config citée",
+        "Châssis encore transportable"
+      ],
+      "points_faibles": [
+        "Le départ Les Numériques est plus bas : une autre config",
+        "16 Go limitent un gros montage"
+      ],
+      "profil_adapte": [
+        "professionnel",
+        "createur"
+      ],
+      "scores": {
+        "performance": 8,
+        "autonomie": 8,
+        "ecran": 9,
+        "prix": 3,
+        "gaming": 6,
+        "mobilite": 7,
+        "memoire": 6
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Apple+MacBook+Pro+14+%28M5%29",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 6,
+        "professionnel": 7,
+        "gamer": 6,
+        "createur": 7
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "Mini-LED",
+          "diagonale_pouces": 14.2,
+          "frequence_max_hz": null,
+          "definition": null,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "Apple M5",
+          "niveau": 6,
+          "ram_go": 16,
+          "stockage_go": 1024
+        },
+        "graphique": {
+          "gpu": "GPU intégré Apple M5",
+          "niveau": 2,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": null,
+          "autonomie_source": null
+        },
+        "mobilite": {
+          "poids_kg": 1.55
+        }
+      },
+      "os": "macos",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "FranceMetrics 2026-10-09",
+          "Les Numériques oct. 2026"
+        ],
+        "autonomie": "estimation_de_categorie",
+        "prix": "indicatif_octobre_2026",
+        "autonomie_detail": "Pas d’heure sourcée : le score d’autonomie suit la catégorie (Arm, ultraportable, polyvalent, gamer), à remplacer par une mesure."
+      }
+    },
+    {
+      "id": "macbook-pro-14-m5-max",
+      "nom": "Apple MacBook Pro 14 (M5 Max)",
+      "marque": "Apple",
+      "prix_indicatif": 4184,
+      "prix_note": "À partir de 4 184 €. Autonomie : jusqu’à 20 h de streaming vidéo, annonce Apple reprise par JVTECH.",
+      "caracteristiques": {
+        "processeur": "Apple M5 Max (18 cœurs CPU)",
+        "ram": "36 Go",
+        "stockage": "2 To SSD",
+        "ecran": "14,2\", Mini-LED, 3024 × 1964, 120 Hz, 1600 nits",
+        "gpu": "GPU Apple M5 Max 32 cœurs",
+        "poids": "1,62 kg",
+        "autonomie": "jusqu’à 20 h annoncées (vidéo ou constructeur)",
+        "os": "macOS"
+      },
+      "points_forts": [
+        "Station de montage dans 1,6 kg",
+        "Écran 120 Hz, 1 600 nits",
+        "36 Go et 2 To minimum sur cette fiche"
+      ],
+      "points_faibles": [
+        "Prix d’une station fixe",
+        "Le GPU Apple ne remplace pas une RTX pour tous les jeux Windows"
+      ],
+      "profil_adapte": [
+        "professionnel",
+        "createur"
+      ],
+      "scores": {
+        "performance": 9,
+        "autonomie": 9,
+        "ecran": 9,
+        "prix": 2,
+        "gaming": 6,
+        "mobilite": 6,
+        "memoire": 9
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Apple+MacBook+Pro+14+%28M5+Max%29",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 6,
+        "professionnel": 8,
+        "gamer": 6,
+        "createur": 8
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "Mini-LED",
+          "diagonale_pouces": 14.2,
+          "frequence_max_hz": 120,
+          "definition": "3024 × 1964",
+          "luminosite_nits": 1600
+        },
+        "performance": {
+          "cpu": "Apple M5 Max (18 cœurs CPU)",
+          "niveau": 7,
+          "ram_go": 36,
+          "stockage_go": 2048
+        },
+        "graphique": {
+          "gpu": "GPU Apple M5 Max 32 cœurs",
+          "niveau": 2,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": 20,
+          "autonomie_source": "annoncee"
+        },
+        "mobilite": {
+          "poids_kg": 1.62
+        }
+      },
+      "os": "macos",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "JVTECH 2026-10-07"
+        ],
+        "autonomie": "annoncee",
+        "prix": "indicatif_octobre_2026"
+      }
+    },
+    {
+      "id": "galaxy-book6-pro",
+      "nom": "Samsung Galaxy Book6 Pro",
+      "marque": "Samsung",
+      "prix_indicatif": 2994,
+      "prix_note": "Fiche JVTECH à partir de 2 994 €. Les Numériques voit un Book6 Pro 14 dès environ 1 740 € : autre configuration.",
+      "caracteristiques": {
+        "processeur": "Intel Core Ultra X7 358H (16 cœurs)",
+        "ram": "32 Go",
+        "stockage": "1 To SSD",
+        "ecran": "OLED, 2880 × 1800, 120 Hz",
+        "gpu": "Intel Arc B390",
+        "poids": "1,59 kg",
+        "autonomie": "jusqu’à 22 h annoncées (vidéo ou constructeur)",
+        "os": "Windows 11"
+      },
+      "points_forts": [
+        "iGPU Arc B390 au-dessus d’un intégré courant",
+        "OLED 120 Hz",
+        "22 h annoncées en streaming"
+      ],
+      "points_faibles": [
+        "Pas de pavé numérique",
+        "La config 32 Go / 1 To n’est pas le prix d’entrée"
+      ],
+      "profil_adapte": [
+        "professionnel",
+        "createur"
+      ],
+      "scores": {
+        "performance": 8,
+        "autonomie": 9,
+        "ecran": 9,
+        "prix": 3,
+        "gaming": 6,
+        "mobilite": 7,
+        "memoire": 8
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Samsung+Galaxy+Book6+Pro",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 7,
+        "professionnel": 8,
+        "gamer": 6,
+        "createur": 8
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "OLED",
+          "diagonale_pouces": null,
+          "frequence_max_hz": 120,
+          "definition": "2880 × 1800",
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "Intel Core Ultra X7 358H (16 cœurs)",
+          "niveau": 6,
+          "ram_go": 32,
+          "stockage_go": 1024
+        },
+        "graphique": {
+          "gpu": "Intel Arc B390",
+          "niveau": 2,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": 22,
+          "autonomie_source": "annoncee"
+        },
+        "mobilite": {
+          "poids_kg": 1.59
+        }
+      },
+      "os": "windows",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "JVTECH 2026-10-07",
+          "Les Numériques oct. 2026"
+        ],
+        "autonomie": "annoncee",
+        "prix": "indicatif_octobre_2026"
+      }
+    },
+    {
+      "id": "galaxy-book4-edge",
+      "nom": "Samsung Galaxy Book4 Edge",
+      "marque": "Samsung",
+      "prix_indicatif": 929,
+      "prix_note": "Couverture couleur annoncée 110 % DCI-P3. Prix JVTECH à partir de 929 €.",
+      "caracteristiques": {
+        "processeur": "Qualcomm Snapdragon X Elite",
+        "ram": "16 Go",
+        "stockage": "1 To SSD",
+        "ecran": "16\", OLED, 2880 × 1800, 120 Hz",
+        "gpu": "GPU Adreno intégré",
+        "poids": "1,55 kg",
+        "autonomie": "jusqu’à 22 h annoncées (vidéo ou constructeur)",
+        "os": "Windows 11"
+      },
+      "points_forts": [
+        "OLED 16 pouces sous 1 000 € dans ce relevé",
+        "1 To",
+        "22 h annoncées"
+      ],
+      "points_faibles": [
+        "Windows sur Arm : vérifier chaque logiciel",
+        "Génération X, pas X2"
+      ],
+      "profil_adapte": [
+        "etudiant",
+        "professionnel"
+      ],
+      "scores": {
+        "performance": 7,
+        "autonomie": 9,
+        "ecran": 9,
+        "prix": 6,
+        "gaming": 5,
+        "mobilite": 7,
+        "memoire": 6
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Samsung+Galaxy+Book4+Edge",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 7,
+        "professionnel": 7,
+        "gamer": 6,
+        "createur": 7
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "OLED",
+          "diagonale_pouces": 16.0,
+          "frequence_max_hz": 120,
+          "definition": "2880 × 1800",
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "Qualcomm Snapdragon X Elite",
+          "niveau": 5,
+          "ram_go": 16,
+          "stockage_go": 1024
+        },
+        "graphique": {
+          "gpu": "GPU Adreno intégré",
+          "niveau": 2,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": 22,
+          "autonomie_source": "annoncee"
+        },
+        "mobilite": {
+          "poids_kg": 1.55
+        }
+      },
+      "os": "windows",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "JVTECH 2026-10-07"
+        ],
+        "autonomie": "annoncee",
+        "prix": "indicatif_octobre_2026"
+      }
+    },
+    {
+      "id": "galaxy-book5-pro-360",
+      "nom": "Samsung Galaxy Book5 Pro 360",
+      "marque": "Samsung",
+      "prix_indicatif": 2204,
+      "prix_note": "Prix FranceMetrics 2 203,99 € le 9 oct. 2026. Les Numériques cite aussi un Galaxy Book5 360 vers 1 199 €, config différente.",
+      "caracteristiques": {
+        "processeur": "Intel Core Ultra 7 256V",
+        "ram": "16 Go",
+        "stockage": "512 Go SSD",
+        "ecran": "16\", OLED",
+        "gpu": "Intel Arc intégré",
+        "poids": "1,69 kg",
+        "autonomie": "non chiffrée dans le relevé",
+        "os": "Windows 11"
+      },
+      "points_forts": [
+        "Charnière 360, utile crayon et visio",
+        "Core Ultra série 200 avec NPU"
+      ],
+      "points_faibles": [
+        "1,69 kg : moins sac à dos qu’un 14 pouces",
+        "512 Go justes si la vidéo s’empile"
+      ],
+      "profil_adapte": [
+        "createur",
+        "etudiant"
+      ],
+      "scores": {
+        "performance": 7,
+        "autonomie": 7,
+        "ecran": 8,
+        "prix": 3,
+        "gaming": 5,
+        "mobilite": 6,
+        "memoire": 6
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Samsung+Galaxy+Book5+Pro+360",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 6,
+        "professionnel": 6,
+        "gamer": 6,
+        "createur": 7
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "OLED",
+          "diagonale_pouces": 16.0,
+          "frequence_max_hz": null,
+          "definition": null,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "Intel Core Ultra 7 256V",
+          "niveau": 5,
+          "ram_go": 16,
+          "stockage_go": 512
+        },
+        "graphique": {
+          "gpu": "Intel Arc intégré",
+          "niveau": 2,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": null,
+          "autonomie_source": null
+        },
+        "mobilite": {
+          "poids_kg": 1.69
+        }
+      },
+      "os": "windows",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "FranceMetrics 2026-10-09"
+        ],
+        "autonomie": "estimation_de_categorie",
+        "prix": "indicatif_octobre_2026",
+        "autonomie_detail": "Pas d’heure sourcée : le score d’autonomie suit la catégorie (Arm, ultraportable, polyvalent, gamer), à remplacer par une mesure."
+      }
+    },
+    {
+      "id": "dell-xps-13-core5",
+      "nom": "Dell XPS 13 (Core 5)",
+      "marque": "Dell",
+      "prix_indicatif": 1149,
+      "prix_note": "Que Choisir, modèle DX13260 : Core 5 320, 8 Go, 512 Go, 13,4 pouces. Départ Les Numériques vers 1 149 €.",
+      "caracteristiques": {
+        "processeur": "Intel Core 5 320",
+        "ram": "8 Go",
+        "stockage": "512 Go SSD",
+        "ecran": "13,4\", IPS",
+        "gpu": "Intel Graphics intégré",
+        "poids": "non cité dans le relevé",
+        "autonomie": "non chiffrée dans le relevé",
+        "os": "Windows 11"
+      },
+      "points_forts": [
+        "Châssis compact",
+        "512 Go"
+      ],
+      "points_faibles": [
+        "8 Go : trop juste dès que plusieurs applis restent ouvertes",
+        "Prix d’ultrabook pour une mémoire d’entrée"
+      ],
+      "profil_adapte": [
+        "etudiant",
+        "professionnel"
+      ],
+      "scores": {
+        "performance": 5,
+        "autonomie": 7,
+        "ecran": 6,
+        "prix": 5,
+        "gaming": 3,
+        "mobilite": 5,
+        "memoire": 3
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Dell+XPS+13+%28Core+5%29",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 5,
+        "professionnel": 5,
+        "gamer": 4,
+        "createur": 5
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "IPS",
+          "diagonale_pouces": 13.4,
+          "frequence_max_hz": null,
+          "definition": null,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "Intel Core 5 320",
+          "niveau": 3,
+          "ram_go": 8,
+          "stockage_go": 512
+        },
+        "graphique": {
+          "gpu": "Intel Graphics intégré",
+          "niveau": 0,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": null,
+          "autonomie_source": null
+        },
+        "mobilite": {
+          "poids_kg": null
+        }
+      },
+      "os": "windows",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "Que Choisir 2026",
+          "Les Numériques oct. 2026"
+        ],
+        "autonomie": "estimation_de_categorie",
+        "prix": "indicatif_octobre_2026",
+        "mobilite": "poids_absent_score_neutre_5",
+        "autonomie_detail": "Pas d’heure sourcée : le score d’autonomie suit la catégorie (Arm, ultraportable, polyvalent, gamer), à remplacer par une mesure."
+      }
+    },
+    {
+      "id": "dell-14-plus-2en1",
+      "nom": "Dell 14 Plus 2-en-1",
+      "marque": "Dell",
+      "prix_indicatif": 1000,
+      "prix_note": "Que Choisir : DB04250, prix indicatif 1 000 €.",
+      "caracteristiques": {
+        "processeur": "Intel Core Ultra 5 226V",
+        "ram": "16 Go",
+        "stockage": "512 Go SSD",
+        "ecran": "14\"",
+        "gpu": "Intel Arc intégré",
+        "poids": "non cité dans le relevé",
+        "autonomie": "non chiffrée dans le relevé",
+        "os": "Windows 11"
+      },
+      "points_forts": [
+        "16 Go dans un 2-en-1 vers 1 000 €",
+        "Core Ultra avec NPU"
+      ],
+      "points_faibles": [
+        "Type de dalle non précisé dans le relevé",
+        "Poids non cité"
+      ],
+      "profil_adapte": [
+        "etudiant",
+        "professionnel"
+      ],
+      "scores": {
+        "performance": 6,
+        "autonomie": 7,
+        "ecran": 5,
+        "prix": 6,
+        "gaming": 5,
+        "mobilite": 5,
+        "memoire": 6
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Dell+14+Plus+2-en-1",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 6,
+        "professionnel": 6,
+        "gamer": 5,
+        "createur": 6
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": null,
+          "diagonale_pouces": 14.0,
+          "frequence_max_hz": null,
+          "definition": null,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "Intel Core Ultra 5 226V",
+          "niveau": 4,
+          "ram_go": 16,
+          "stockage_go": 512
+        },
+        "graphique": {
+          "gpu": "Intel Arc intégré",
+          "niveau": 2,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": null,
+          "autonomie_source": null
+        },
+        "mobilite": {
+          "poids_kg": null
+        }
+      },
+      "os": "windows",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "Que Choisir 2026"
+        ],
+        "autonomie": "estimation_de_categorie",
+        "prix": "indicatif_octobre_2026",
+        "mobilite": "poids_absent_score_neutre_5",
+        "autonomie_detail": "Pas d’heure sourcée : le score d’autonomie suit la catégorie (Arm, ultraportable, polyvalent, gamer), à remplacer par une mesure."
+      }
+    },
+    {
+      "id": "ideapad-slim-3-14-r7",
+      "nom": "Lenovo IdeaPad Slim 3 14 (Ryzen 7)",
+      "marque": "Lenovo",
+      "prix_indicatif": 630,
+      "prix_note": "629,99 €, relevé FranceMetrics du 9 oct. 2026.",
+      "caracteristiques": {
+        "processeur": "AMD Ryzen 7 170",
+        "ram": "16 Go",
+        "stockage": "512 Go SSD",
+        "ecran": "14\", IPS",
+        "gpu": "Radeon intégrée",
+        "poids": "1,39 kg",
+        "autonomie": "non chiffrée dans le relevé",
+        "os": "Windows 11"
+      },
+      "points_forts": [
+        "16 Go / 512 Go sous 650 €",
+        "1,39 kg"
+      ],
+      "points_faibles": [
+        "Dalle IPS, pas OLED",
+        "iGPU insuffisant pour jouer"
+      ],
+      "profil_adapte": [
+        "etudiant",
+        "professionnel"
+      ],
+      "scores": {
+        "performance": 6,
+        "autonomie": 6,
+        "ecran": 6,
+        "prix": 7,
+        "gaming": 4,
+        "mobilite": 8,
+        "memoire": 6
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Lenovo+IdeaPad+Slim+3+14+%28Ryzen+7%29",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 7,
+        "professionnel": 6,
+        "gamer": 5,
+        "createur": 6
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "IPS",
+          "diagonale_pouces": 14.0,
+          "frequence_max_hz": null,
+          "definition": null,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "AMD Ryzen 7 170",
+          "niveau": 4,
+          "ram_go": 16,
+          "stockage_go": 512
+        },
+        "graphique": {
+          "gpu": "Radeon intégrée",
+          "niveau": 0,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": null,
+          "autonomie_source": null
+        },
+        "mobilite": {
+          "poids_kg": 1.39
+        }
+      },
+      "os": "windows",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "FranceMetrics 2026-10-09"
+        ],
+        "autonomie": "estimation_de_categorie",
+        "prix": "indicatif_octobre_2026",
+        "autonomie_detail": "Pas d’heure sourcée : le score d’autonomie suit la catégorie (Arm, ultraportable, polyvalent, gamer), à remplacer par une mesure."
+      }
+    },
+    {
+      "id": "ideapad-slim-3-15",
+      "nom": "Lenovo IdeaPad Slim 3 15",
+      "marque": "Lenovo",
+      "prix_indicatif": 650,
+      "prix_note": "IdeaPad Slim 3 15AMN8, 649,99 € le 9 oct. 2026.",
+      "caracteristiques": {
+        "processeur": "AMD Ryzen 5",
+        "ram": "16 Go",
+        "stockage": "512 Go SSD",
+        "ecran": "15,6\"",
+        "gpu": "Radeon intégrée",
+        "poids": "1,62 kg",
+        "autonomie": "non chiffrée dans le relevé",
+        "os": "Windows 11"
+      },
+      "points_forts": [
+        "Grand écran et 16 Go pour un prix d’étudiant"
+      ],
+      "points_faibles": [
+        "Référence Ryzen 5 non détaillée dans le relevé",
+        "Plus lourd que le 14 pouces"
+      ],
+      "profil_adapte": [
+        "etudiant",
+        "professionnel"
+      ],
+      "scores": {
+        "performance": 5,
+        "autonomie": 6,
+        "ecran": 5,
+        "prix": 7,
+        "gaming": 3,
+        "mobilite": 6,
+        "memoire": 6
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Lenovo+IdeaPad+Slim+3+15",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 6,
+        "professionnel": 6,
+        "gamer": 4,
+        "createur": 5
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": null,
+          "diagonale_pouces": 15.6,
+          "frequence_max_hz": null,
+          "definition": null,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "AMD Ryzen 5",
+          "niveau": 3,
+          "ram_go": 16,
+          "stockage_go": 512
+        },
+        "graphique": {
+          "gpu": "Radeon intégrée",
+          "niveau": 0,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": null,
+          "autonomie_source": null
+        },
+        "mobilite": {
+          "poids_kg": 1.62
+        }
+      },
+      "os": "windows",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "FranceMetrics 2026-10-09"
+        ],
+        "autonomie": "estimation_de_categorie",
+        "prix": "indicatif_octobre_2026",
+        "autonomie_detail": "Pas d’heure sourcée : le score d’autonomie suit la catégorie (Arm, ultraportable, polyvalent, gamer), à remplacer par une mesure."
+      }
+    },
+    {
+      "id": "ideapad-slim-3-14-oled",
+      "nom": "Lenovo IdeaPad Slim 3 14 OLED",
+      "marque": "Lenovo",
+      "prix_indicatif": 864,
+      "prix_note": "IdeaPad Slim 3 14IRH10, à partir de 864 € (JVTECH).",
+      "caracteristiques": {
+        "processeur": "Intel Core i5-13420H",
+        "ram": "16 Go",
+        "stockage": "512 Go SSD",
+        "ecran": "14\", OLED, 1920 × 1200, 400 nits",
+        "gpu": "Intel UHD / Iris intégré",
+        "poids": "1,45 kg",
+        "autonomie": "non chiffrée dans le relevé",
+        "os": "Windows 11"
+      },
+      "points_forts": [
+        "OLED 400 nits à moins de 900 €",
+        "16 Go DDR5"
+      ],
+      "points_faibles": [
+        "Parfois vendu sans Windows",
+        "Puce de génération précédente"
+      ],
+      "profil_adapte": [
+        "etudiant",
+        "professionnel"
+      ],
+      "scores": {
+        "performance": 6,
+        "autonomie": 6,
+        "ecran": 8,
+        "prix": 6,
+        "gaming": 4,
+        "mobilite": 7,
+        "memoire": 6
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Lenovo+IdeaPad+Slim+3+14+OLED",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 6,
+        "professionnel": 6,
+        "gamer": 5,
+        "createur": 6
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "OLED",
+          "diagonale_pouces": 14.0,
+          "frequence_max_hz": null,
+          "definition": "1920 × 1200",
+          "luminosite_nits": 400
+        },
+        "performance": {
+          "cpu": "Intel Core i5-13420H",
+          "niveau": 4,
+          "ram_go": 16,
+          "stockage_go": 512
+        },
+        "graphique": {
+          "gpu": "Intel UHD / Iris intégré",
+          "niveau": 0,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": null,
+          "autonomie_source": null
+        },
+        "mobilite": {
+          "poids_kg": 1.45
+        }
+      },
+      "os": "windows",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "JVTECH 2026-10-07"
+        ],
+        "autonomie": "estimation_de_categorie",
+        "prix": "indicatif_octobre_2026",
+        "autonomie_detail": "Pas d’heure sourcée : le score d’autonomie suit la catégorie (Arm, ultraportable, polyvalent, gamer), à remplacer par une mesure."
+      }
+    },
+    {
+      "id": "yoga-slim-7-14",
+      "nom": "Lenovo Yoga Slim 7 14",
+      "marque": "Lenovo",
+      "prix_indicatif": 980,
+      "prix_note": "Yoga Slim 7 14ILL10, 979,99 € le 9 oct. 2026.",
+      "caracteristiques": {
+        "processeur": "Intel Core Ultra 7 256V",
+        "ram": "16 Go",
+        "stockage": "1 To SSD",
+        "ecran": "14\", OLED",
+        "gpu": "Intel Arc intégré",
+        "poids": "1,19 kg",
+        "autonomie": "non chiffrée dans le relevé",
+        "os": "Windows 11"
+      },
+      "points_forts": [
+        "1,19 kg",
+        "1 To",
+        "Core Ultra 7 Lunar Lake"
+      ],
+      "points_faibles": [
+        "16 Go seulement",
+        "Autonomie non chiffrée dans le relevé"
+      ],
+      "profil_adapte": [
+        "etudiant",
+        "professionnel"
+      ],
+      "scores": {
+        "performance": 7,
+        "autonomie": 7,
+        "ecran": 8,
+        "prix": 6,
+        "gaming": 5,
+        "mobilite": 9,
+        "memoire": 6
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Lenovo+Yoga+Slim+7+14",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 7,
+        "professionnel": 7,
+        "gamer": 6,
+        "createur": 7
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "OLED",
+          "diagonale_pouces": 14.0,
+          "frequence_max_hz": null,
+          "definition": null,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "Intel Core Ultra 7 256V",
+          "niveau": 5,
+          "ram_go": 16,
+          "stockage_go": 1024
+        },
+        "graphique": {
+          "gpu": "Intel Arc intégré",
+          "niveau": 2,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": null,
+          "autonomie_source": null
+        },
+        "mobilite": {
+          "poids_kg": 1.19
+        }
+      },
+      "os": "windows",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "FranceMetrics 2026-10-09"
+        ],
+        "autonomie": "estimation_de_categorie",
+        "prix": "indicatif_octobre_2026",
+        "autonomie_detail": "Pas d’heure sourcée : le score d’autonomie suit la catégorie (Arm, ultraportable, polyvalent, gamer), à remplacer par une mesure."
+      }
+    },
+    {
+      "id": "yoga-slim-7x",
+      "nom": "Lenovo Yoga Slim 7x",
+      "marque": "Lenovo",
+      "prix_indicatif": 1445,
+      "prix_note": "À partir de 1 444,51 € (JVTECH). Les Numériques affiche aussi un départ vers 1 750 €.",
+      "caracteristiques": {
+        "processeur": "Qualcomm Snapdragon X Elite (12 cœurs)",
+        "ram": "32 Go",
+        "stockage": "512 Go SSD",
+        "ecran": "14,5\", OLED, 2944 × 1840, 90 Hz",
+        "gpu": "Adreno intégré",
+        "poids": "1,28 kg",
+        "autonomie": "jusqu’à 15,5 h annoncées (vidéo ou constructeur)",
+        "os": "Windows 11"
+      },
+      "points_forts": [
+        "OLED très couvert (173 % sRGB annoncés)",
+        "32 Go",
+        "1,28 kg"
+      ],
+      "points_faibles": [
+        "512 Go",
+        "90 Hz seulement",
+        "Logiciels x86 à vérifier"
+      ],
+      "profil_adapte": [
+        "etudiant",
+        "professionnel"
+      ],
+      "scores": {
+        "performance": 7,
+        "autonomie": 7,
+        "ecran": 8,
+        "prix": 5,
+        "gaming": 5,
+        "mobilite": 8,
+        "memoire": 8
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Lenovo+Yoga+Slim+7x",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 7,
+        "professionnel": 7,
+        "gamer": 6,
+        "createur": 7
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "OLED",
+          "diagonale_pouces": 14.5,
+          "frequence_max_hz": 90,
+          "definition": "2944 × 1840",
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "Qualcomm Snapdragon X Elite (12 cœurs)",
+          "niveau": 5,
+          "ram_go": 32,
+          "stockage_go": 512
+        },
+        "graphique": {
+          "gpu": "Adreno intégré",
+          "niveau": 2,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": 15.5,
+          "autonomie_source": "annoncee"
+        },
+        "mobilite": {
+          "poids_kg": 1.28
+        }
+      },
+      "os": "windows",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "JVTECH 2026-10-07"
+        ],
+        "autonomie": "annoncee",
+        "prix": "indicatif_octobre_2026"
+      }
+    },
+    {
+      "id": "loq-15-ryzen-5060",
+      "nom": "Lenovo LOQ 15 (Ryzen, RTX 5060)",
+      "marque": "Lenovo",
+      "prix_indicatif": 1449,
+      "prix_note": "LOQ 15AHP10, 1 449 € le 9 oct. 2026. TGP non publié dans le relevé.",
+      "caracteristiques": {
+        "processeur": "AMD Ryzen 7 250",
+        "ram": "32 Go",
+        "stockage": "1 To SSD",
+        "ecran": "15,6\", IPS, QHD",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "poids": "2,4 kg",
+        "autonomie": "non chiffrée dans le relevé",
+        "os": "Windows 11"
+      },
+      "points_forts": [
+        "RTX 5060 avec 32 Go et 1 To",
+        "Dalle QHD"
+      ],
+      "points_faibles": [
+        "2,4 kg",
+        "Autonomie de PC gamer, pas de journée de cours"
+      ],
+      "profil_adapte": [
+        "gamer",
+        "professionnel"
+      ],
+      "scores": {
+        "performance": 7,
+        "autonomie": 4,
+        "ecran": 5,
+        "prix": 5,
+        "gaming": 7,
+        "mobilite": 4,
+        "memoire": 8
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Lenovo+LOQ+15+%28Ryzen%2C+RTX+5060%29",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 5,
+        "professionnel": 6,
+        "gamer": 7,
+        "createur": 6
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "IPS",
+          "diagonale_pouces": 15.6,
+          "frequence_max_hz": null,
+          "definition": "QHD",
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "AMD Ryzen 7 250",
+          "niveau": 5,
+          "ram_go": 32,
+          "stockage_go": 1024
+        },
+        "graphique": {
+          "gpu": "NVIDIA GeForce RTX 5060",
+          "niveau": 4,
+          "dedie": true
+        },
+        "batterie": {
+          "autonomie_heures": null,
+          "autonomie_source": null
+        },
+        "mobilite": {
+          "poids_kg": 2.4
+        }
+      },
+      "os": "windows",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "FranceMetrics 2026-10-09"
+        ],
+        "autonomie": "estimation_de_categorie",
+        "prix": "indicatif_octobre_2026",
+        "autonomie_detail": "Pas d’heure sourcée : le score d’autonomie suit la catégorie (Arm, ultraportable, polyvalent, gamer), à remplacer par une mesure."
+      }
+    },
+    {
+      "id": "loq-15-intel-5060",
+      "nom": "Lenovo LOQ 15 (Intel, RTX 5060)",
+      "marque": "Lenovo",
+      "prix_indicatif": 1215,
+      "prix_note": "LOQ 15IRX10 83JE001QFR, à partir de 1 214,99 € (JVTECH).",
+      "caracteristiques": {
+        "processeur": "Intel Core i5-13450HX",
+        "ram": "16 Go",
+        "stockage": "512 Go SSD",
+        "ecran": "15,6\", IPS, 1920 × 1080, 144 Hz",
+        "gpu": "NVIDIA GeForce RTX 5060 (100 W)",
+        "poids": "non cité dans le relevé",
+        "autonomie": "non chiffrée dans le relevé",
+        "os": "souvent vendu sans Windows"
+      },
+      "points_forts": [
+        "RTX 5060 100 W sous 1 250 €",
+        "144 Hz",
+        "Connectique généreuse"
+      ],
+      "points_faibles": [
+        "Souvent sans Windows",
+        "CPU plus ancien",
+        "FHD seulement"
+      ],
+      "profil_adapte": [
+        "professionnel",
+        "gamer"
+      ],
+      "scores": {
+        "performance": 6,
+        "autonomie": 4,
+        "ecran": 7,
+        "prix": 5,
+        "gaming": 7,
+        "mobilite": 5,
+        "memoire": 6
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Lenovo+LOQ+15+%28Intel%2C+RTX+5060%29",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 4,
+        "professionnel": 6,
+        "gamer": 6,
+        "createur": 6
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "IPS",
+          "diagonale_pouces": 15.6,
+          "frequence_max_hz": 144,
+          "definition": "1920 × 1080",
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "Intel Core i5-13450HX",
+          "niveau": 4,
+          "ram_go": 16,
+          "stockage_go": 512
+        },
+        "graphique": {
+          "gpu": "NVIDIA GeForce RTX 5060 (100 W)",
+          "niveau": 4,
+          "dedie": true
+        },
+        "batterie": {
+          "autonomie_heures": null,
+          "autonomie_source": null
+        },
+        "mobilite": {
+          "poids_kg": null
+        }
+      },
+      "os": "sans",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "JVTECH 2026-10-07"
+        ],
+        "autonomie": "estimation_de_categorie",
+        "prix": "indicatif_octobre_2026",
+        "mobilite": "poids_absent_score_neutre_5",
+        "autonomie_detail": "Pas d’heure sourcée : le score d’autonomie suit la catégorie (Arm, ultraportable, polyvalent, gamer), à remplacer par une mesure."
+      }
+    },
+    {
+      "id": "chromebook-plus-14",
+      "nom": "Lenovo Chromebook Plus 14",
+      "marque": "Lenovo",
+      "prix_indicatif": 640,
+      "prix_note": "Les Numériques : à partir de 639,99 €. Fiche testée PCMag : 16 Go, 256 Go UFS, OLED 60 Hz, 12 h 27 mesurées, NPU 50 TOPS. Vérifier que l’offre à 640 € est bien cette config.",
+      "caracteristiques": {
+        "processeur": "MediaTek Kompanio Ultra 910",
+        "ram": "16 Go",
+        "stockage": "256 Go UFS",
+        "ecran": "14\", OLED, 1920 × 1200, 60 Hz",
+        "gpu": "Arm Immortalis-G925",
+        "poids": "1,17 kg",
+        "autonomie": "12,5 h mesurées en test, pas une annonce marketing",
+        "os": "ChromeOS"
+      },
+      "points_forts": [
+        "OLED dans 1,17 kg",
+        "16 Go",
+        "ChromeOS simple pour les cours en ligne"
+      ],
+      "points_faibles": [
+        "256 Go en UFS, pas un gros SSD",
+        "Pas les logiciels Windows",
+        "Le prix français cité est bas face au tarif US"
+      ],
+      "profil_adapte": [
+        "etudiant",
+        "professionnel"
+      ],
+      "scores": {
+        "performance": 5,
+        "autonomie": 7,
+        "ecran": 8,
+        "prix": 7,
+        "gaming": 3,
+        "mobilite": 9,
+        "memoire": 5
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Lenovo+Chromebook+Plus+14",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 7,
+        "professionnel": 6,
+        "gamer": 3,
+        "createur": 4
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "OLED",
+          "diagonale_pouces": 14.0,
+          "frequence_max_hz": 60,
+          "definition": "1920 × 1200",
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "MediaTek Kompanio Ultra 910",
+          "niveau": 3,
+          "ram_go": 16,
+          "stockage_go": 256
+        },
+        "graphique": {
+          "gpu": "Arm Immortalis-G925",
+          "niveau": 0,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": 12.5,
+          "autonomie_source": "mesuree"
+        },
+        "mobilite": {
+          "poids_kg": 1.17
+        }
+      },
+      "os": "chromeos",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "Les Numériques oct. 2026",
+          "LaptopMedia oct. 2026",
+          "PCMag 2026"
+        ],
+        "autonomie": "mesuree",
+        "prix": "indicatif_octobre_2026"
+      }
+    },
+    {
+      "id": "chromebook-plus-514",
+      "nom": "Acer Chromebook Plus 514",
+      "marque": "Acer",
+      "prix_indicatif": 360,
+      "prix_note": "359,99 € le 9 oct. 2026.",
+      "caracteristiques": {
+        "processeur": "Intel Core 3 N355",
+        "ram": "8 Go",
+        "stockage": "512 Go SSD",
+        "ecran": "14\", IPS",
+        "gpu": "Intel Graphics intégré",
+        "poids": "1,43 kg",
+        "autonomie": "non chiffrée dans le relevé",
+        "os": "ChromeOS"
+      },
+      "points_forts": [
+        "Prix d’entrée réel",
+        "512 Go",
+        "1,43 kg"
+      ],
+      "points_faibles": [
+        "8 Go",
+        "ChromeOS seulement",
+        "Dalle IPS ordinaire"
+      ],
+      "profil_adapte": [
+        "etudiant",
+        "professionnel"
+      ],
+      "scores": {
+        "performance": 4,
+        "autonomie": 6,
+        "ecran": 6,
+        "prix": 9,
+        "gaming": 3,
+        "mobilite": 7,
+        "memoire": 3
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Acer+Chromebook+Plus+514",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 6,
+        "professionnel": 5,
+        "gamer": 3,
+        "createur": 4
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "IPS",
+          "diagonale_pouces": 14.0,
+          "frequence_max_hz": null,
+          "definition": null,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "Intel Core 3 N355",
+          "niveau": 2,
+          "ram_go": 8,
+          "stockage_go": 512
+        },
+        "graphique": {
+          "gpu": "Intel Graphics intégré",
+          "niveau": 0,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": null,
+          "autonomie_source": null
+        },
+        "mobilite": {
+          "poids_kg": 1.43
+        }
+      },
+      "os": "chromeos",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "FranceMetrics 2026-10-09"
+        ],
+        "autonomie": "estimation_de_categorie",
+        "prix": "indicatif_octobre_2026",
+        "autonomie_detail": "Pas d’heure sourcée : le score d’autonomie suit la catégorie (Arm, ultraportable, polyvalent, gamer), à remplacer par une mesure."
+      }
+    },
+    {
+      "id": "chromebook-plus-515",
+      "nom": "Acer Chromebook Plus 515",
+      "marque": "Acer",
+      "prix_indicatif": 391,
+      "prix_note": "CB515-2H, à partir de 391 € (JVTECH). 10 h annoncées.",
+      "caracteristiques": {
+        "processeur": "Intel Core i3-1215U",
+        "ram": "8 Go",
+        "stockage": "128 Go SSD",
+        "ecran": "15,6\", IPS, 1920 × 1080",
+        "gpu": "Intel UHD intégré",
+        "poids": "non cité dans le relevé",
+        "autonomie": "jusqu’à 10 h annoncées (vidéo ou constructeur)",
+        "os": "ChromeOS"
+      },
+      "points_forts": [
+        "Grand écran mat",
+        "Autonomie annoncée correcte pour le prix"
+      ],
+      "points_faibles": [
+        "128 Go : se remplit vite",
+        "8 Go",
+        "Puce ancienne"
+      ],
+      "profil_adapte": [
+        "etudiant",
+        "professionnel"
+      ],
+      "scores": {
+        "performance": 4,
+        "autonomie": 6,
+        "ecran": 5,
+        "prix": 9,
+        "gaming": 3,
+        "mobilite": 5,
+        "memoire": 2
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Acer+Chromebook+Plus+515",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 6,
+        "professionnel": 5,
+        "gamer": 3,
+        "createur": 4
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "IPS",
+          "diagonale_pouces": 15.6,
+          "frequence_max_hz": null,
+          "definition": "1920 × 1080",
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "Intel Core i3-1215U",
+          "niveau": 2,
+          "ram_go": 8,
+          "stockage_go": 128
+        },
+        "graphique": {
+          "gpu": "Intel UHD intégré",
+          "niveau": 0,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": 10,
+          "autonomie_source": "annoncee"
+        },
+        "mobilite": {
+          "poids_kg": null
+        }
+      },
+      "os": "chromeos",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "JVTECH 2026-10-07"
+        ],
+        "autonomie": "annoncee",
+        "prix": "indicatif_octobre_2026",
+        "mobilite": "poids_absent_score_neutre_5"
+      }
+    },
+    {
+      "id": "swift-go-14-oled",
+      "nom": "Acer Swift Go 14 OLED",
+      "marque": "Acer",
+      "prix_indicatif": 1400,
+      "prix_note": "1 399,99 €, Acer, 9 oct. 2026.",
+      "caracteristiques": {
+        "processeur": "AMD Ryzen AI 7 350",
+        "ram": "16 Go",
+        "stockage": "512 Go SSD",
+        "ecran": "14\", OLED",
+        "gpu": "Radeon intégrée",
+        "poids": "1,29 kg",
+        "autonomie": "non chiffrée dans le relevé",
+        "os": "Windows 11"
+      },
+      "points_forts": [
+        "OLED et Ryzen AI dans 1,29 kg"
+      ],
+      "points_faibles": [
+        "16 Go / 512 Go au prix d’un Air M5 mieux doté en stockage",
+        "Autonomie non chiffrée ici"
+      ],
+      "profil_adapte": [
+        "professionnel",
+        "createur"
+      ],
+      "scores": {
+        "performance": 7,
+        "autonomie": 7,
+        "ecran": 8,
+        "prix": 5,
+        "gaming": 5,
+        "mobilite": 8,
+        "memoire": 6
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Acer+Swift+Go+14+OLED",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 6,
+        "professionnel": 7,
+        "gamer": 6,
+        "createur": 7
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "OLED",
+          "diagonale_pouces": 14.0,
+          "frequence_max_hz": null,
+          "definition": null,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "AMD Ryzen AI 7 350",
+          "niveau": 5,
+          "ram_go": 16,
+          "stockage_go": 512
+        },
+        "graphique": {
+          "gpu": "Radeon intégrée",
+          "niveau": 2,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": null,
+          "autonomie_source": null
+        },
+        "mobilite": {
+          "poids_kg": 1.29
+        }
+      },
+      "os": "windows",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "FranceMetrics 2026-10-09"
+        ],
+        "autonomie": "estimation_de_categorie",
+        "prix": "indicatif_octobre_2026",
+        "autonomie_detail": "Pas d’heure sourcée : le score d’autonomie suit la catégorie (Arm, ultraportable, polyvalent, gamer), à remplacer par une mesure."
+      }
+    },
+    {
+      "id": "nitro-v-16",
+      "nom": "Acer Nitro V 16 AI",
+      "marque": "Acer",
+      "prix_indicatif": 1600,
+      "prix_note": "1 599,99 € chez Darty le 9 oct. 2026.",
+      "caracteristiques": {
+        "processeur": "AMD Ryzen 7 260",
+        "ram": "16 Go",
+        "stockage": "512 Go SSD",
+        "ecran": "16\", IPS",
+        "gpu": "NVIDIA GeForce RTX 5060",
+        "poids": "2,1 kg",
+        "autonomie": "non chiffrée dans le relevé",
+        "os": "Windows 11"
+      },
+      "points_forts": [
+        "RTX 5060 en 16 pouces",
+        "Plus léger qu’un 18 pouces"
+      ],
+      "points_faibles": [
+        "16 Go / 512 Go justes pour les jeux installés",
+        "TGP non publié"
+      ],
+      "profil_adapte": [
+        "gamer",
+        "createur"
+      ],
+      "scores": {
+        "performance": 7,
+        "autonomie": 4,
+        "ecran": 5,
+        "prix": 4,
+        "gaming": 7,
+        "mobilite": 5,
+        "memoire": 6
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Acer+Nitro+V+16+AI",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 5,
+        "professionnel": 5,
+        "gamer": 6,
+        "createur": 6
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "IPS",
+          "diagonale_pouces": 16.0,
+          "frequence_max_hz": null,
+          "definition": null,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "AMD Ryzen 7 260",
+          "niveau": 5,
+          "ram_go": 16,
+          "stockage_go": 512
+        },
+        "graphique": {
+          "gpu": "NVIDIA GeForce RTX 5060",
+          "niveau": 4,
+          "dedie": true
+        },
+        "batterie": {
+          "autonomie_heures": null,
+          "autonomie_source": null
+        },
+        "mobilite": {
+          "poids_kg": 2.1
+        }
+      },
+      "os": "windows",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "FranceMetrics 2026-10-09"
+        ],
+        "autonomie": "estimation_de_categorie",
+        "prix": "indicatif_octobre_2026",
+        "autonomie_detail": "Pas d’heure sourcée : le score d’autonomie suit la catégorie (Arm, ultraportable, polyvalent, gamer), à remplacer par une mesure."
+      }
+    },
+    {
+      "id": "predator-helios-neo-16",
+      "nom": "Acer Predator Helios Neo 16 AI",
+      "marque": "Acer",
+      "prix_indicatif": 2299,
+      "prix_note": "Relevé FranceMetrics 2 299 €. TGP non publié.",
+      "caracteristiques": {
+        "processeur": "Intel Core Ultra 9 275HX",
+        "ram": "32 Go",
+        "stockage": "1 To SSD",
+        "ecran": "16\", IPS",
+        "gpu": "NVIDIA GeForce RTX 5070",
+        "poids": "2,7 kg",
+        "autonomie": "non chiffrée dans le relevé",
+        "os": "Windows 11"
+      },
+      "points_forts": [
+        "RTX 5070, 32 Go, 1 To",
+        "CPU HX de station portable"
+      ],
+      "points_faibles": [
+        "2,7 kg, usage sédentaire",
+        "Prix Acer vu à 2 599 € le 25 sept. 2026 selon les offres"
+      ],
+      "profil_adapte": [
+        "gamer",
+        "professionnel"
+      ],
+      "scores": {
+        "performance": 9,
+        "autonomie": 4,
+        "ecran": 5,
+        "prix": 3,
+        "gaming": 8,
+        "mobilite": 3,
+        "memoire": 8
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Acer+Predator+Helios+Neo+16+AI",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 5,
+        "professionnel": 6,
+        "gamer": 7,
+        "createur": 6
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "IPS",
+          "diagonale_pouces": 16.0,
+          "frequence_max_hz": null,
+          "definition": null,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "Intel Core Ultra 9 275HX",
+          "niveau": 7,
+          "ram_go": 32,
+          "stockage_go": 1024
+        },
+        "graphique": {
+          "gpu": "NVIDIA GeForce RTX 5070",
+          "niveau": 5,
+          "dedie": true
+        },
+        "batterie": {
+          "autonomie_heures": null,
+          "autonomie_source": null
+        },
+        "mobilite": {
+          "poids_kg": 2.7
+        }
+      },
+      "os": "windows",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "FranceMetrics 2026-10-09"
+        ],
+        "autonomie": "estimation_de_categorie",
+        "prix": "indicatif_octobre_2026",
+        "autonomie_detail": "Pas d’heure sourcée : le score d’autonomie suit la catégorie (Arm, ultraportable, polyvalent, gamer), à remplacer par une mesure."
+      }
+    },
+    {
+      "id": "zenbook-14-oled",
+      "nom": "Asus Zenbook 14 OLED (UM3406)",
+      "marque": "Asus",
+      "prix_indicatif": 850,
+      "prix_note": "UM3406KA, 849,99 € le 9 oct. 2026. Une autre offre Amazon était à 1 099 € le 6 oct.",
+      "caracteristiques": {
+        "processeur": "AMD Ryzen AI 7 350",
+        "ram": "16 Go",
+        "stockage": "512 Go SSD",
+        "ecran": "14\", OLED",
+        "gpu": "Radeon intégrée",
+        "poids": "1,2 kg",
+        "autonomie": "non chiffrée dans le relevé",
+        "os": "Windows 11"
+      },
+      "points_forts": [
+        "OLED à 850 €",
+        "1,20 kg",
+        "Ryzen AI 7"
+      ],
+      "points_faibles": [
+        "16 Go soudés sur cette fiche",
+        "512 Go"
+      ],
+      "profil_adapte": [
+        "etudiant",
+        "professionnel"
+      ],
+      "scores": {
+        "performance": 7,
+        "autonomie": 7,
+        "ecran": 8,
+        "prix": 7,
+        "gaming": 5,
+        "mobilite": 9,
+        "memoire": 6
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Asus+Zenbook+14+OLED+%28UM3406%29",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 7,
+        "professionnel": 7,
+        "gamer": 6,
+        "createur": 7
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "OLED",
+          "diagonale_pouces": 14.0,
+          "frequence_max_hz": null,
+          "definition": null,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "AMD Ryzen AI 7 350",
+          "niveau": 5,
+          "ram_go": 16,
+          "stockage_go": 512
+        },
+        "graphique": {
+          "gpu": "Radeon intégrée",
+          "niveau": 2,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": null,
+          "autonomie_source": null
+        },
+        "mobilite": {
+          "poids_kg": 1.2
+        }
+      },
+      "os": "windows",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "FranceMetrics 2026-10-09"
+        ],
+        "autonomie": "estimation_de_categorie",
+        "prix": "indicatif_octobre_2026",
+        "autonomie_detail": "Pas d’heure sourcée : le score d’autonomie suit la catégorie (Arm, ultraportable, polyvalent, gamer), à remplacer par une mesure."
+      }
+    },
+    {
+      "id": "zenbook-a14",
+      "nom": "Asus Zenbook A14 (Snapdragon X)",
+      "marque": "Asus",
+      "prix_indicatif": 800,
+      "prix_note": "À partir de 799,99 € (JVTECH). Ne pas confondre avec le Zenbook A14 Snapdragon X Plus, plus cher.",
+      "caracteristiques": {
+        "processeur": "Qualcomm Snapdragon X Elite X1E-78-100",
+        "ram": "16 Go",
+        "stockage": "512 Go SSD",
+        "ecran": "14\", OLED, 2880 × 1800",
+        "gpu": "Adreno intégré",
+        "poids": "0,98 kg",
+        "autonomie": "jusqu’à 32 h annoncées (vidéo ou constructeur)",
+        "os": "Windows 11"
+      },
+      "points_forts": [
+        "Moins d’un kilo",
+        "OLED 2,8K",
+        "Autonomie annoncée très longue"
+      ],
+      "points_faibles": [
+        "JVTECH a mesuré plutôt 20 h que 32 h",
+        "16 Go / 512 Go",
+        "Windows sur Arm"
+      ],
+      "profil_adapte": [
+        "etudiant",
+        "professionnel"
+      ],
+      "scores": {
+        "performance": 7,
+        "autonomie": 9,
+        "ecran": 9,
+        "prix": 7,
+        "gaming": 5,
+        "mobilite": 9,
+        "memoire": 6
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Asus+Zenbook+A14+%28Snapdragon+X%29",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 8,
+        "professionnel": 8,
+        "gamer": 6,
+        "createur": 7
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "OLED",
+          "diagonale_pouces": 14.0,
+          "frequence_max_hz": null,
+          "definition": "2880 × 1800",
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "Qualcomm Snapdragon X Elite X1E-78-100",
+          "niveau": 5,
+          "ram_go": 16,
+          "stockage_go": 512
+        },
+        "graphique": {
+          "gpu": "Adreno intégré",
+          "niveau": 2,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": 32,
+          "autonomie_source": "annoncee"
+        },
+        "mobilite": {
+          "poids_kg": 0.98
+        }
+      },
+      "os": "windows",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "JVTECH 2026-10-07"
+        ],
+        "autonomie": "annoncee",
+        "prix": "indicatif_octobre_2026"
+      }
+    },
+    {
+      "id": "zenbook-a14-x-plus",
+      "nom": "Asus Zenbook A14 (Snapdragon X Plus)",
+      "marque": "Asus",
+      "prix_indicatif": 1200,
+      "prix_note": "1 199,99 € chez Boulanger le 7 oct. 2026. Génération de puce à vérifier sur l’étiquette (X ou X2).",
+      "caracteristiques": {
+        "processeur": "Qualcomm Snapdragon X Plus",
+        "ram": "32 Go",
+        "stockage": "1 To SSD",
+        "ecran": "14\", OLED",
+        "gpu": "Adreno intégré",
+        "poids": "0,98 kg",
+        "autonomie": "non chiffrée dans le relevé",
+        "os": "Windows 11"
+      },
+      "points_forts": [
+        "32 Go et 1 To sous 1 kg",
+        "OLED"
+      ],
+      "points_faibles": [
+        "Plus cher que le A14 X Elite 16 Go",
+        "Heures d’autonomie non citées sur ce relevé"
+      ],
+      "profil_adapte": [
+        "professionnel",
+        "etudiant"
+      ],
+      "scores": {
+        "performance": 7,
+        "autonomie": 8,
+        "ecran": 8,
+        "prix": 5,
+        "gaming": 5,
+        "mobilite": 9,
+        "memoire": 8
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Asus+Zenbook+A14+%28Snapdragon+X+Plus%29",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 7,
+        "professionnel": 8,
+        "gamer": 6,
+        "createur": 7
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "OLED",
+          "diagonale_pouces": 14.0,
+          "frequence_max_hz": null,
+          "definition": null,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "Qualcomm Snapdragon X Plus",
+          "niveau": 5,
+          "ram_go": 32,
+          "stockage_go": 1024
+        },
+        "graphique": {
+          "gpu": "Adreno intégré",
+          "niveau": 2,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": null,
+          "autonomie_source": null
+        },
+        "mobilite": {
+          "poids_kg": 0.98
+        }
+      },
+      "os": "windows",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "FranceMetrics 2026-10-07"
+        ],
+        "autonomie": "estimation_de_categorie",
+        "prix": "indicatif_octobre_2026",
+        "autonomie_detail": "Pas d’heure sourcée : le score d’autonomie suit la catégorie (Arm, ultraportable, polyvalent, gamer), à remplacer par une mesure."
+      }
+    },
+    {
+      "id": "zenbook-a16",
+      "nom": "Asus Zenbook A16",
+      "marque": "Asus",
+      "prix_indicatif": 2500,
+      "prix_note": "À partir de 2 499,95 € (JVTECH).",
+      "caracteristiques": {
+        "processeur": "Qualcomm Snapdragon X2 Elite Extreme (18 cœurs)",
+        "ram": "48 Go",
+        "stockage": "1 To SSD",
+        "ecran": "16\", OLED, 3K, 120 Hz",
+        "gpu": "Adreno intégré",
+        "poids": "1,2 kg",
+        "autonomie": "jusqu’à 20 h annoncées (vidéo ou constructeur)",
+        "os": "Windows 11"
+      },
+      "points_forts": [
+        "16 pouces OLED dans 1,2 kg",
+        "48 Go",
+        "20 h de lecture vidéo annoncées"
+      ],
+      "points_faibles": [
+        "Prix élevé",
+        "Chargeur jugé encombrant",
+        "Pas une RTX"
+      ],
+      "profil_adapte": [
+        "professionnel",
+        "createur"
+      ],
+      "scores": {
+        "performance": 8,
+        "autonomie": 9,
+        "ecran": 9,
+        "prix": 3,
+        "gaming": 6,
+        "mobilite": 9,
+        "memoire": 9
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Asus+Zenbook+A16",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 7,
+        "professionnel": 8,
+        "gamer": 6,
+        "createur": 8
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "OLED",
+          "diagonale_pouces": 16.0,
+          "frequence_max_hz": 120,
+          "definition": "3K",
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "Qualcomm Snapdragon X2 Elite Extreme (18 cœurs)",
+          "niveau": 6,
+          "ram_go": 48,
+          "stockage_go": 1024
+        },
+        "graphique": {
+          "gpu": "Adreno intégré",
+          "niveau": 2,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": 20,
+          "autonomie_source": "annoncee"
+        },
+        "mobilite": {
+          "poids_kg": 1.2
+        }
+      },
+      "os": "windows",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "JVTECH 2026-10-07"
+        ],
+        "autonomie": "annoncee",
+        "prix": "indicatif_octobre_2026"
+      }
+    },
+    {
+      "id": "zenbook-s16-oled",
+      "nom": "Asus Zenbook S 16 OLED",
+      "marque": "Asus",
+      "prix_indicatif": 1800,
+      "prix_note": "Départ Les Numériques 1 799,99 € pour la série Ryzen AI 300. Fiche Asus 2025 : Ryzen AI 7 350, 24 Go, 1 To, OLED tactile 120 Hz. Des séries 2024 montent à 32 Go et un HX 370.",
+      "caracteristiques": {
+        "processeur": "AMD Ryzen AI 7 350",
+        "ram": "24 Go",
+        "stockage": "1 To SSD",
+        "ecran": "16\", OLED, 2880 × 1800, 120 Hz",
+        "gpu": "AMD Radeon intégrée",
+        "poids": "1,5 kg",
+        "autonomie": "non chiffrée dans le relevé",
+        "os": "Windows 11"
+      },
+      "points_forts": [
+        "OLED 120 Hz, 100 % DCI-P3 annoncés",
+        "24 Go et 1 To",
+        "1,5 kg en 16 pouces"
+      ],
+      "points_faibles": [
+        "Mémoire soudée",
+        "Le test Les Numériques plus ancien portait un Ryzen AI 9 HX 370 / 32 Go : lire la puce exacte"
+      ],
+      "profil_adapte": [
+        "professionnel",
+        "createur"
+      ],
+      "scores": {
+        "performance": 7,
+        "autonomie": 7,
+        "ecran": 9,
+        "prix": 4,
+        "gaming": 5,
+        "mobilite": 7,
+        "memoire": 8
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Asus+Zenbook+S+16+OLED",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 6,
+        "professionnel": 7,
+        "gamer": 6,
+        "createur": 7
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "OLED",
+          "diagonale_pouces": 16.0,
+          "frequence_max_hz": 120,
+          "definition": "2880 × 1800",
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "AMD Ryzen AI 7 350",
+          "niveau": 5,
+          "ram_go": 24,
+          "stockage_go": 1024
+        },
+        "graphique": {
+          "gpu": "AMD Radeon intégrée",
+          "niveau": 2,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": null,
+          "autonomie_source": null
+        },
+        "mobilite": {
+          "poids_kg": 1.5
+        }
+      },
+      "os": "windows",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "Les Numériques oct. 2026",
+          "Asus fév. 2025"
+        ],
+        "autonomie": "estimation_de_categorie",
+        "prix": "indicatif_octobre_2026",
+        "autonomie_detail": "Pas d’heure sourcée : le score d’autonomie suit la catégorie (Arm, ultraportable, polyvalent, gamer), à remplacer par une mesure."
+      }
+    },
+    {
+      "id": "rog-strix-scar-18",
+      "nom": "Asus ROG Strix Scar 18",
+      "marque": "Asus",
+      "prix_indicatif": 4569,
+      "prix_note": "Config JVTECH à partir de 4 568,57 €. Ce n’est pas un portable de train.",
+      "caracteristiques": {
+        "processeur": "Intel Core Ultra 9 275HX",
+        "ram": "64 Go",
+        "stockage": "4 To SSD",
+        "ecran": "18\", Mini-LED, 2560 × 1600, 240 Hz",
+        "gpu": "NVIDIA GeForce RTX 5090 (175 W)",
+        "poids": "non cité dans le relevé",
+        "autonomie": "non chiffrée dans le relevé",
+        "os": "Windows 11"
+      },
+      "points_forts": [
+        "RTX 5090 175 W",
+        "64 Go et 4 To",
+        "Mini-LED 240 Hz"
+      ],
+      "points_faibles": [
+        "Bruyant à pleine charge",
+        "Prix et format de remplacement de tour",
+        "Les Numériques a vu 5 600 €"
+      ],
+      "profil_adapte": [
+        "gamer",
+        "createur"
+      ],
+      "scores": {
+        "performance": 9,
+        "autonomie": 4,
+        "ecran": 9,
+        "prix": 2,
+        "gaming": 9,
+        "mobilite": 5,
+        "memoire": 9
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Asus+ROG+Strix+Scar+18",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 5,
+        "professionnel": 7,
+        "gamer": 8,
+        "createur": 8
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "Mini-LED",
+          "diagonale_pouces": 18.0,
+          "frequence_max_hz": 240,
+          "definition": "2560 × 1600",
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "Intel Core Ultra 9 275HX",
+          "niveau": 7,
+          "ram_go": 64,
+          "stockage_go": 4096
+        },
+        "graphique": {
+          "gpu": "NVIDIA GeForce RTX 5090 (175 W)",
+          "niveau": 7,
+          "dedie": true
+        },
+        "batterie": {
+          "autonomie_heures": null,
+          "autonomie_source": null
+        },
+        "mobilite": {
+          "poids_kg": null
+        }
+      },
+      "os": "windows",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "JVTECH 2026-10-07",
+          "Les Numériques oct. 2026"
+        ],
+        "autonomie": "estimation_de_categorie",
+        "prix": "indicatif_octobre_2026",
+        "mobilite": "poids_absent_score_neutre_5",
+        "autonomie_detail": "Pas d’heure sourcée : le score d’autonomie suit la catégorie (Arm, ultraportable, polyvalent, gamer), à remplacer par une mesure."
+      }
+    },
+    {
+      "id": "omnibook-3-16",
+      "nom": "HP OmniBook 3 16",
+      "marque": "HP",
+      "prix_indicatif": 850,
+      "prix_note": "849,99 € le 9 oct. 2026.",
+      "caracteristiques": {
+        "processeur": "Intel Core Ultra 5 225U",
+        "ram": "16 Go",
+        "stockage": "512 Go SSD",
+        "ecran": "16\", IPS",
+        "gpu": "Intel Graphics intégré",
+        "poids": "1,64 kg",
+        "autonomie": "non chiffrée dans le relevé",
+        "os": "Windows 11"
+      },
+      "points_forts": [
+        "16 pouces, 16 Go, sous 900 €",
+        "1,64 kg raisonnable pour la diagonale"
+      ],
+      "points_faibles": [
+        "IPS, iGPU modeste",
+        "Pas une machine de création"
+      ],
+      "profil_adapte": [
+        "etudiant",
+        "professionnel"
+      ],
+      "scores": {
+        "performance": 6,
+        "autonomie": 6,
+        "ecran": 5,
+        "prix": 7,
+        "gaming": 4,
+        "mobilite": 6,
+        "memoire": 6
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=HP+OmniBook+3+16",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 6,
+        "professionnel": 6,
+        "gamer": 5,
+        "createur": 6
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "IPS",
+          "diagonale_pouces": 16.0,
+          "frequence_max_hz": null,
+          "definition": null,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "Intel Core Ultra 5 225U",
+          "niveau": 4,
+          "ram_go": 16,
+          "stockage_go": 512
+        },
+        "graphique": {
+          "gpu": "Intel Graphics intégré",
+          "niveau": 0,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": null,
+          "autonomie_source": null
+        },
+        "mobilite": {
+          "poids_kg": 1.64
+        }
+      },
+      "os": "windows",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "FranceMetrics 2026-10-09"
+        ],
+        "autonomie": "estimation_de_categorie",
+        "prix": "indicatif_octobre_2026",
+        "autonomie_detail": "Pas d’heure sourcée : le score d’autonomie suit la catégorie (Arm, ultraportable, polyvalent, gamer), à remplacer par une mesure."
+      }
+    },
+    {
+      "id": "omnibook-5-16",
+      "nom": "HP OmniBook 5 16",
+      "marque": "HP",
+      "prix_indicatif": 949,
+      "prix_note": "Bas de comparateur idealo.de, oct. 2026, variante 16-bp0153ng. Le prix français peut différer. Batterie des séries HP : 68 Wh sur la fiche support, pas forcément cette variante.",
+      "caracteristiques": {
+        "processeur": "AMD Ryzen AI 5 430",
+        "ram": "16 Go",
+        "stockage": "512 Go SSD",
+        "ecran": "16\", OLED, 1920 × 1200, 300 nits",
+        "gpu": "Radeon intégrée",
+        "poids": "1,69 kg",
+        "autonomie": "jusqu’à 13 h annoncées (vidéo ou constructeur)",
+        "os": "Windows 11"
+      },
+      "points_forts": [
+        "OLED 16 pouces vers 950 €",
+        "13 h annoncées",
+        "HDMI 2.1"
+      ],
+      "points_faibles": [
+        "300 nits : fade en plein jour",
+        "WUXGA, pas 3K",
+        "D’autres configs (Core Ultra 7, Snapdragon) changent tout"
+      ],
+      "profil_adapte": [
+        "etudiant",
+        "professionnel"
+      ],
+      "scores": {
+        "performance": 6,
+        "autonomie": 7,
+        "ecran": 8,
+        "prix": 6,
+        "gaming": 4,
+        "mobilite": 6,
+        "memoire": 6
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=HP+OmniBook+5+16",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 6,
+        "professionnel": 6,
+        "gamer": 5,
+        "createur": 6
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "OLED",
+          "diagonale_pouces": 16.0,
+          "frequence_max_hz": null,
+          "definition": "1920 × 1200",
+          "luminosite_nits": 300
+        },
+        "performance": {
+          "cpu": "AMD Ryzen AI 5 430",
+          "niveau": 4,
+          "ram_go": 16,
+          "stockage_go": 512
+        },
+        "graphique": {
+          "gpu": "Radeon intégrée",
+          "niveau": 0,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": 13,
+          "autonomie_source": "annoncee"
+        },
+        "mobilite": {
+          "poids_kg": 1.69
+        }
+      },
+      "os": "windows",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "idealo.de oct. 2026",
+          "HP Support 2026"
+        ],
+        "autonomie": "annoncee",
+        "prix": "indicatif_octobre_2026"
+      }
+    },
+    {
+      "id": "omen-16-5070",
+      "nom": "HP Omen 16",
+      "marque": "HP",
+      "prix_indicatif": 1671,
+      "prix_note": "Omen 16-ap0034nf, à partir de 1 671,32 € (JVTECH).",
+      "caracteristiques": {
+        "processeur": "AMD Ryzen AI 7 350",
+        "ram": "16 Go",
+        "stockage": "512 Go SSD",
+        "ecran": "16\", IPS, 2560 × 1600, 240 Hz",
+        "gpu": "NVIDIA GeForce RTX 5070",
+        "poids": "non cité dans le relevé",
+        "autonomie": "non chiffrée dans le relevé",
+        "os": "souvent vendu sans Windows"
+      },
+      "points_forts": [
+        "RTX 5070 et dalle 240 Hz",
+        "Rapport cité comme bon pour cette carte"
+      ],
+      "points_faibles": [
+        "16 Go / 512 Go courts pour une 5070",
+        "Souvent sans Windows",
+        "TGP non publié"
+      ],
+      "profil_adapte": [
+        "gamer",
+        "professionnel"
+      ],
+      "scores": {
+        "performance": 7,
+        "autonomie": 4,
+        "ecran": 7,
+        "prix": 4,
+        "gaming": 8,
+        "mobilite": 5,
+        "memoire": 6
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=HP+Omen+16",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 4,
+        "professionnel": 6,
+        "gamer": 7,
+        "createur": 6
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "IPS",
+          "diagonale_pouces": 16.0,
+          "frequence_max_hz": 240,
+          "definition": "2560 × 1600",
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "AMD Ryzen AI 7 350",
+          "niveau": 5,
+          "ram_go": 16,
+          "stockage_go": 512
+        },
+        "graphique": {
+          "gpu": "NVIDIA GeForce RTX 5070",
+          "niveau": 5,
+          "dedie": true
+        },
+        "batterie": {
+          "autonomie_heures": null,
+          "autonomie_source": null
+        },
+        "mobilite": {
+          "poids_kg": null
+        }
+      },
+      "os": "sans",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "JVTECH 2026-10-07"
+        ],
+        "autonomie": "estimation_de_categorie",
+        "prix": "indicatif_octobre_2026",
+        "mobilite": "poids_absent_score_neutre_5",
+        "autonomie_detail": "Pas d’heure sourcée : le score d’autonomie suit la catégorie (Arm, ultraportable, polyvalent, gamer), à remplacer par une mesure."
+      }
+    },
+    {
+      "id": "surface-laptop-8",
+      "nom": "Microsoft Surface Laptop 8 (13,8\")",
+      "marque": "Microsoft",
+      "prix_indicatif": 1450,
+      "prix_note": "1 449,99 € le 9 oct. 2026. Ne pas mélanger avec le Surface Laptop 7.",
+      "caracteristiques": {
+        "processeur": "Qualcomm Snapdragon X2 Plus",
+        "ram": "16 Go",
+        "stockage": "512 Go SSD",
+        "ecran": "13,8\"",
+        "gpu": "Adreno intégré",
+        "poids": "non cité dans le relevé",
+        "autonomie": "non chiffrée dans le relevé",
+        "os": "Windows 11"
+      },
+      "points_forts": [
+        "Format Surface, X2 Plus",
+        "16 Go / 512 Go"
+      ],
+      "points_faibles": [
+        "Dalle et poids absents du relevé",
+        "Windows sur Arm"
+      ],
+      "profil_adapte": [
+        "etudiant",
+        "professionnel"
+      ],
+      "scores": {
+        "performance": 7,
+        "autonomie": 8,
+        "ecran": 5,
+        "prix": 5,
+        "gaming": 5,
+        "mobilite": 5,
+        "memoire": 6
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Microsoft+Surface+Laptop+8+%2813%2C8%22%29",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 6,
+        "professionnel": 6,
+        "gamer": 6,
+        "createur": 6
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": null,
+          "diagonale_pouces": 13.8,
+          "frequence_max_hz": null,
+          "definition": null,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "Qualcomm Snapdragon X2 Plus",
+          "niveau": 5,
+          "ram_go": 16,
+          "stockage_go": 512
+        },
+        "graphique": {
+          "gpu": "Adreno intégré",
+          "niveau": 2,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": null,
+          "autonomie_source": null
+        },
+        "mobilite": {
+          "poids_kg": null
+        }
+      },
+      "os": "windows",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "FranceMetrics 2026-10-09"
+        ],
+        "autonomie": "estimation_de_categorie",
+        "prix": "indicatif_octobre_2026",
+        "mobilite": "poids_absent_score_neutre_5",
+        "autonomie_detail": "Pas d’heure sourcée : le score d’autonomie suit la catégorie (Arm, ultraportable, polyvalent, gamer), à remplacer par une mesure."
+      }
+    },
+    {
+      "id": "surface-laptop-7",
+      "nom": "Microsoft Surface Laptop 7 (13,8\")",
+      "marque": "Microsoft",
+      "prix_indicatif": 1500,
+      "prix_note": "Les Numériques : départ 1 499,99 € en X Elite. FranceMetrics cite aussi 1 649,99 €.",
+      "caracteristiques": {
+        "processeur": "Qualcomm Snapdragon X Elite",
+        "ram": "16 Go",
+        "stockage": "512 Go SSD",
+        "ecran": "13,8\"",
+        "gpu": "Adreno intégré",
+        "poids": "1,34 kg",
+        "autonomie": "non chiffrée dans le relevé",
+        "os": "Windows 11"
+      },
+      "points_forts": [
+        "1,34 kg",
+        "Snapdragon X Elite"
+      ],
+      "points_faibles": [
+        "16 Go / 512 Go",
+        "Génération précédente face au Laptop 8"
+      ],
+      "profil_adapte": [
+        "professionnel",
+        "etudiant"
+      ],
+      "scores": {
+        "performance": 7,
+        "autonomie": 8,
+        "ecran": 5,
+        "prix": 5,
+        "gaming": 5,
+        "mobilite": 8,
+        "memoire": 6
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Microsoft+Surface+Laptop+7+%2813%2C8%22%29",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 6,
+        "professionnel": 7,
+        "gamer": 6,
+        "createur": 6
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": null,
+          "diagonale_pouces": 13.8,
+          "frequence_max_hz": null,
+          "definition": null,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "Qualcomm Snapdragon X Elite",
+          "niveau": 5,
+          "ram_go": 16,
+          "stockage_go": 512
+        },
+        "graphique": {
+          "gpu": "Adreno intégré",
+          "niveau": 2,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": null,
+          "autonomie_source": null
+        },
+        "mobilite": {
+          "poids_kg": 1.34
+        }
+      },
+      "os": "windows",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "Les Numériques oct. 2026",
+          "FranceMetrics 2026-10-09"
+        ],
+        "autonomie": "estimation_de_categorie",
+        "prix": "indicatif_octobre_2026",
+        "autonomie_detail": "Pas d’heure sourcée : le score d’autonomie suit la catégorie (Arm, ultraportable, polyvalent, gamer), à remplacer par une mesure."
+      }
+    },
+    {
+      "id": "msi-katana-15",
+      "nom": "MSI Katana 15 HX",
+      "marque": "MSI",
+      "prix_indicatif": 1399,
+      "prix_note": "Katana 15 HX B14WGK-018FR, 1 399 € le 9 oct. 2026.",
+      "caracteristiques": {
+        "processeur": "Intel Core i7-14650HX",
+        "ram": "16 Go",
+        "stockage": "1 To SSD",
+        "ecran": "15,6\"",
+        "gpu": "NVIDIA GeForce RTX 5070",
+        "poids": "2,4 kg",
+        "autonomie": "non chiffrée dans le relevé",
+        "os": "Windows 11"
+      },
+      "points_forts": [
+        "RTX 5070 et 1 To vers 1 400 €",
+        "CPU HX"
+      ],
+      "points_faibles": [
+        "2,4 kg",
+        "16 Go seulement",
+        "TGP non publié",
+        "Une autre Katana 5070 est listée en 512 Go vers 1 500 €"
+      ],
+      "profil_adapte": [
+        "gamer",
+        "createur"
+      ],
+      "scores": {
+        "performance": 7,
+        "autonomie": 4,
+        "ecran": 5,
+        "prix": 5,
+        "gaming": 8,
+        "mobilite": 4,
+        "memoire": 6
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=MSI+Katana+15+HX",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 5,
+        "professionnel": 5,
+        "gamer": 7,
+        "createur": 6
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": null,
+          "diagonale_pouces": 15.6,
+          "frequence_max_hz": null,
+          "definition": null,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "Intel Core i7-14650HX",
+          "niveau": 5,
+          "ram_go": 16,
+          "stockage_go": 1024
+        },
+        "graphique": {
+          "gpu": "NVIDIA GeForce RTX 5070",
+          "niveau": 5,
+          "dedie": true
+        },
+        "batterie": {
+          "autonomie_heures": null,
+          "autonomie_source": null
+        },
+        "mobilite": {
+          "poids_kg": 2.4
+        }
+      },
+      "os": "windows",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "FranceMetrics 2026-10-09"
+        ],
+        "autonomie": "estimation_de_categorie",
+        "prix": "indicatif_octobre_2026",
+        "autonomie_detail": "Pas d’heure sourcée : le score d’autonomie suit la catégorie (Arm, ultraportable, polyvalent, gamer), à remplacer par une mesure."
+      }
+    },
+    {
+      "id": "thomson-neo-15",
+      "nom": "Thomson Neo 15",
+      "marque": "Thomson",
+      "prix_indicatif": 550,
+      "prix_note": "Neo NX15R5, 549,99 € le 9 oct. 2026.",
+      "caracteristiques": {
+        "processeur": "AMD Ryzen 5 7430U",
+        "ram": "16 Go",
+        "stockage": "512 Go SSD",
+        "ecran": "15,6\", IPS, 1920 × 1080",
+        "gpu": "Radeon intégrée",
+        "poids": "1,8 kg",
+        "autonomie": "non chiffrée dans le relevé",
+        "os": "Windows 11"
+      },
+      "points_forts": [
+        "16 Go / 512 Go à 550 €",
+        "Suffisant pour cours et bureautique"
+      ],
+      "points_faibles": [
+        "Dalle FHD IPS basique",
+        "Puce économe, pas taillée pour durer des années lourdes",
+        "1,8 kg"
+      ],
+      "profil_adapte": [
+        "etudiant",
+        "professionnel"
+      ],
+      "scores": {
+        "performance": 5,
+        "autonomie": 6,
+        "ecran": 5,
+        "prix": 8,
+        "gaming": 3,
+        "mobilite": 6,
+        "memoire": 6
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Thomson+Neo+15",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 6,
+        "professionnel": 6,
+        "gamer": 4,
+        "createur": 5
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "IPS",
+          "diagonale_pouces": 15.6,
+          "frequence_max_hz": null,
+          "definition": "1920 × 1080",
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "AMD Ryzen 5 7430U",
+          "niveau": 3,
+          "ram_go": 16,
+          "stockage_go": 512
+        },
+        "graphique": {
+          "gpu": "Radeon intégrée",
+          "niveau": 0,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": null,
+          "autonomie_source": null
+        },
+        "mobilite": {
+          "poids_kg": 1.8
+        }
+      },
+      "os": "windows",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "FranceMetrics 2026-10-09"
+        ],
+        "autonomie": "estimation_de_categorie",
+        "prix": "indicatif_octobre_2026",
+        "autonomie_detail": "Pas d’heure sourcée : le score d’autonomie suit la catégorie (Arm, ultraportable, polyvalent, gamer), à remplacer par une mesure."
+      }
+    },
+    {
+      "id": "vivobook-16-oled",
+      "nom": "Asus Vivobook 16 OLED",
+      "marque": "Asus",
+      "prix_indicatif": 550,
+      "prix_note": "Relevé FranceMetrics, offre étudiante. Contrôler le prix public avant de comparer.",
+      "caracteristiques": {
+        "processeur": "AMD Ryzen 5",
+        "ram": "16 Go",
+        "stockage": "512 Go SSD",
+        "ecran": "16\", OLED",
+        "gpu": "Radeon intégrée",
+        "poids": "1,88 kg",
+        "autonomie": "non chiffrée dans le relevé",
+        "os": "Windows 11"
+      },
+      "points_forts": [
+        "OLED 16 pouces et 16 Go à prix étudiant dans ce relevé"
+      ],
+      "points_faibles": [
+        "Le prix cité est une offre étudiante, pas le tarif public",
+        "Référence Ryzen 5 incomplète",
+        "1,88 kg"
+      ],
+      "profil_adapte": [
+        "etudiant",
+        "professionnel"
+      ],
+      "scores": {
+        "performance": 5,
+        "autonomie": 6,
+        "ecran": 8,
+        "prix": 8,
+        "gaming": 3,
+        "mobilite": 5,
+        "memoire": 6
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Asus+Vivobook+16+OLED",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 6,
+        "professionnel": 6,
+        "gamer": 5,
+        "createur": 6
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "OLED",
+          "diagonale_pouces": 16.0,
+          "frequence_max_hz": null,
+          "definition": null,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "AMD Ryzen 5",
+          "niveau": 3,
+          "ram_go": 16,
+          "stockage_go": 512
+        },
+        "graphique": {
+          "gpu": "Radeon intégrée",
+          "niveau": 0,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": null,
+          "autonomie_source": null
+        },
+        "mobilite": {
+          "poids_kg": 1.88
+        }
+      },
+      "os": "windows",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "FranceMetrics oct. 2026"
+        ],
+        "autonomie": "estimation_de_categorie",
+        "prix": "indicatif_octobre_2026",
+        "autonomie_detail": "Pas d’heure sourcée : le score d’autonomie suit la catégorie (Arm, ultraportable, polyvalent, gamer), à remplacer par une mesure."
+      }
+    },
+    {
+      "id": "yoga-pro-7-14",
+      "nom": "Lenovo Yoga Pro 7 14",
+      "marque": "Lenovo",
+      "prix_indicatif": 1699,
+      "prix_note": "Yoga Pro 7 14IAH10, tableau comparatif oct. 2026.",
+      "caracteristiques": {
+        "processeur": "Intel Core Ultra 9 285H",
+        "ram": "32 Go",
+        "stockage": "1 To SSD",
+        "ecran": "14,5\", OLED, 3000 × 1876, 120 Hz",
+        "gpu": "Intel Arc intégré",
+        "poids": "1,54 kg",
+        "autonomie": "non chiffrée dans le relevé",
+        "os": "Windows 11"
+      },
+      "points_forts": [
+        "Ultra 9, 32 Go, 1 To",
+        "OLED 3K 120 Hz tactile",
+        "Création sans carte dédiée"
+      ],
+      "points_faibles": [
+        "iGPU : l’export 3D lourd reste plus lent qu’une RTX",
+        "1,54 kg"
+      ],
+      "profil_adapte": [
+        "createur",
+        "professionnel"
+      ],
+      "scores": {
+        "performance": 8,
+        "autonomie": 7,
+        "ecran": 9,
+        "prix": 4,
+        "gaming": 6,
+        "mobilite": 7,
+        "memoire": 8
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Lenovo+Yoga+Pro+7+14",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 6,
+        "professionnel": 7,
+        "gamer": 6,
+        "createur": 8
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": "OLED",
+          "diagonale_pouces": 14.5,
+          "frequence_max_hz": 120,
+          "definition": "3000 × 1876",
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "Intel Core Ultra 9 285H",
+          "niveau": 6,
+          "ram_go": 32,
+          "stockage_go": 1024
+        },
+        "graphique": {
+          "gpu": "Intel Arc intégré",
+          "niveau": 2,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": null,
+          "autonomie_source": null
+        },
+        "mobilite": {
+          "poids_kg": 1.54
+        }
+      },
+      "os": "windows",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "Comparateur pcmalin, oct. 2026"
+        ],
+        "autonomie": "estimation_de_categorie",
+        "prix": "indicatif_octobre_2026",
+        "autonomie_detail": "Pas d’heure sourcée : le score d’autonomie suit la catégorie (Arm, ultraportable, polyvalent, gamer), à remplacer par une mesure."
+      }
+    },
+    {
+      "id": "aspire-go-15",
+      "nom": "Acer Aspire Go 15",
+      "marque": "Acer",
+      "prix_indicatif": 700,
+      "prix_note": "699,99 €, relevé FranceMetrics. Ne pas confondre avec l’Aspire Lite.",
+      "caracteristiques": {
+        "processeur": "AMD Ryzen 5",
+        "ram": "16 Go",
+        "stockage": "512 Go SSD",
+        "ecran": "15\"",
+        "gpu": "Radeon intégrée",
+        "poids": "non cité dans le relevé",
+        "autonomie": "non chiffrée dans le relevé",
+        "os": "Windows 11"
+      },
+      "points_forts": [
+        "16 Go / 512 Go vers 700 €"
+      ],
+      "points_faibles": [
+        "Fiche courte : dalle, poids et référence exacte du Ryzen 5 à lire en magasin"
+      ],
+      "profil_adapte": [
+        "etudiant",
+        "professionnel"
+      ],
+      "scores": {
+        "performance": 5,
+        "autonomie": 6,
+        "ecran": 5,
+        "prix": 7,
+        "gaming": 3,
+        "mobilite": 5,
+        "memoire": 6
+      },
+      "idealo_url": "https://www.idealo.fr/resultats.html?q=Acer+Aspire+Go+15",
+      "fabricant_url": null,
+      "date_verification": "2026-10",
+      "profil_scores": {
+        "etudiant": 6,
+        "professionnel": 5,
+        "gamer": 4,
+        "createur": 5
+      },
+      "compatibilite": {
+        "ecran": {
+          "technologie": null,
+          "diagonale_pouces": 15.0,
+          "frequence_max_hz": null,
+          "definition": null,
+          "luminosite_nits": null
+        },
+        "performance": {
+          "cpu": "AMD Ryzen 5",
+          "niveau": 3,
+          "ram_go": 16,
+          "stockage_go": 512
+        },
+        "graphique": {
+          "gpu": "Radeon intégrée",
+          "niveau": 0,
+          "dedie": false
+        },
+        "batterie": {
+          "autonomie_heures": null,
+          "autonomie_source": null
+        },
+        "mobilite": {
+          "poids_kg": null
+        }
+      },
+      "os": "windows",
+      "ready_for_recommendation": true,
+      "spec_provenance": {
+        "sources": [
+          "FranceMetrics oct. 2026"
+        ],
+        "autonomie": "estimation_de_categorie",
+        "prix": "indicatif_octobre_2026",
+        "mobilite": "poids_absent_score_neutre_5",
+        "autonomie_detail": "Pas d’heure sourcée : le score d’autonomie suit la catégorie (Arm, ultraportable, polyvalent, gamer), à remplacer par une mesure."
+      }
+    }
+  ],
+  "profils": {
+    "etudiant": {
+      "titre": "Étudier",
+      "ligne": "Cours, transports, budget. Le prix, l’autonomie et le poids passent avant la carte graphique.",
+      "surveiller": "16 Go si possible, poids, vrai prix avec Windows."
+    },
+    "professionnel": {
+      "titre": "Travailler",
+      "ligne": "Journée de mails, tableur et visio, parfois hors bureau. Réactivité, écran lisible, batterie.",
+      "surveiller": "16 Go minimum, écran, ports, autonomie qui n’est pas seulement une annonce vidéo."
+    },
+    "gamer": {
+      "titre": "Jouer",
+      "ligne": "La carte et ses watts décident. Le processeur et l’écran suivent. Le poids passe après.",
+      "surveiller": "GPU, TGP, Hz, 16 Go vraiment justes, 32 Go plus confortables."
+    },
+    "createur": {
+      "titre": "Créer",
+      "ligne": "Photo, montage, maquette. L’écran et la mémoire remplacent le capteur photo des smartphones.",
+      "surveiller": "OLED ou mini-LED, 32 Go dès que les fichiers grossissent, GPU si la 3D entre dans le métier."
+    }
+  },
+  "poids_des_profils": {
+    "etudiant": {
+      "prix": 1.15,
+      "autonomie": 0.8,
+      "mobilite": 0.6,
+      "memoire": 0.55,
+      "performance": 0.35,
+      "ecran": 0.25,
+      "gaming": 0.05
+    },
+    "professionnel": {
+      "performance": 0.9,
+      "autonomie": 0.8,
+      "memoire": 0.7,
+      "ecran": 0.65,
+      "mobilite": 0.55,
+      "prix": 0.35,
+      "gaming": 0.1
+    },
+    "gamer": {
+      "gaming": 1.7,
+      "performance": 0.55,
+      "ecran": 0.35,
+      "memoire": 0.3,
+      "prix": 0.2,
+      "autonomie": 0.1,
+      "mobilite": 0.05
+    },
+    "createur": {
+      "ecran": 1.0,
+      "memoire": 0.9,
+      "performance": 0.8,
+      "gaming": 0.45,
+      "autonomie": 0.35,
+      "mobilite": 0.3,
+      "prix": 0.2
+    }
+  },
+  "audit_familles": [
+    {
+      "id": "ecran",
+      "titre": "Écran",
+      "pourquoi": "La techno, la fréquence et la taille se voient tout de suite. Le nombre de pouces ne dit pas si l’image est belle.",
+      "criteres": [
+        "technologie",
+        "frequence_max_hz",
+        "diagonale_pouces"
+      ]
+    },
+    {
+      "id": "memoire",
+      "titre": "Mémoire et stockage",
+      "pourquoi": "8 Go se sentent au quotidien. 256 Go se sentent au bout d’un an. Les deux se lisent avant le processeur.",
+      "criteres": [
+        "ram_go",
+        "stockage_go"
+      ]
+    },
+    {
+      "id": "processeur",
+      "titre": "Processeur",
+      "pourquoi": "Le niveau résume la famille, pas une note de test. Le nom exact reste dans la fiche.",
+      "criteres": [
+        "niveau"
+      ]
+    },
+    {
+      "id": "graphique",
+      "titre": "Graphique",
+      "pourquoi": "C’est le critère qui remplace la photo des smartphones. Intégré ou RTX, puis les watts quand on les a.",
+      "criteres": [
+        "niveau",
+        "dedie"
+      ]
+    },
+    {
+      "id": "mobilite",
+      "titre": "Mobilité",
+      "pourquoi": "Poids et heures. Une heure annoncée n’est pas une heure mesurée : le champ autonomie_source le dit.",
+      "criteres": [
+        "poids_kg",
+        "autonomie_heures"
+      ]
+    }
+  ],
+  "catalogue_meta": {
+    "derniere_verification": "2026-10-09",
+    "count": 40,
+    "note": "Les scores classent une compatibilité avec un profil. Ils sont plafonnés à 9. Ce ne sont pas des notes de laboratoire.",
+    "sources": [
+      "Les Numériques",
+      "JVTECH",
+      "FranceMetrics",
+      "Que Choisir",
+      "fiches Apple, Asus et HP"
+    ],
+    "scoring": {
+      "max": 9,
+      "min": 1,
+      "principe": "performance vient du niveau CPU, gaming du niveau GPU, prix du prix indicatif, écran de la techno, mobilité du poids, autonomie des heures sourcées ou à défaut de la catégorie. Le détail est dans construire.py.",
+      "createur": "Le profil créateur remplace le profil photographe des smartphones : un portable n’a pas de capteur, il a un écran et une mémoire."
+    },
+    "note_fiabilite": "Chaque fiche a ses sources et dit si l’autonomie est annoncée, mesurée ou seulement estimée par catégorie. Les prix bougent. Les configurations (8/256 contre 16/512) changent le produit."
+  },
+  "meta": {
+    "prix_verifies_le": "2026-10-09"
+  }
+}
