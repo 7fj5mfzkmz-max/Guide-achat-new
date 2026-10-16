@@ -169,7 +169,7 @@ body.menu-open,body.search-open{overflow:hidden}
 .hx-fan-base{display:none}
 .hx-fan-card{border-radius:6px;position:absolute;left:50%;bottom:0;width:26%;margin-left:-13%;aspect-ratio:3/4;overflow:hidden;border:1px solid var(--line);background:var(--bg-2);transform:translateX(calc(var(--x)*1%)) rotate(var(--r));transform-origin:50% 120%;transition:transform .5s cubic-bezier(.2,.7,.1,1)}
 .hx-fan-pc .hx-fan-card{aspect-ratio:1}
-.hx-fan-card img{width:100%;height:100%;object-fit:cover;mix-blend-mode:multiply}
+.hx-fan-card img{width:100%;height:100%;object-fit:cover}
 .f1{--x:-130;--r:-12deg}.f2{--x:-65;--r:-6deg}.f3{--x:0;--r:0deg;z-index:2}.f4{--x:65;--r:6deg}.f5{--x:130;--r:12deg}
 .ct-live:hover .f1{--x:-150;--r:-15deg}.ct-live:hover .f2{--x:-75;--r:-7deg}.ct-live:hover .f4{--x:75;--r:7deg}.ct-live:hover .f5{--x:150;--r:15deg}
 @media(min-width:820px){.ct-grid{grid-template-columns:repeat(2,1fr)}.ct-wide{grid-column:1/-1;min-height:200px}.hx-fan{height:280px}}
