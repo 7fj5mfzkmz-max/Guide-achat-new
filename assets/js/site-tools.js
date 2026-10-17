@@ -131,7 +131,7 @@
         event.stopPropagation();
         var next = root.classList.contains("dark-theme") ? "light" : "dark";
         applyTheme(next);
-        var mt = document.querySelector('meta[name="theme-color"]'); if (mt) mt.setAttribute("content", next === "dark" ? "#050706" : "#f8ead3");
+        var mt = document.querySelector('meta[name="theme-color"]'); if (mt) mt.setAttribute("content", next === "dark" ? "#060908" : "#f5ead8");
         try { localStorage.setItem("guide-achat-theme", next); } catch (e) {}
       }, false);
     }

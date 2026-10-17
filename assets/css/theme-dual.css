@@ -5,37 +5,37 @@
    Même système que l'accueil (home.css). Variables en tête : seul endroit à modifier.
    ========================================================================== */
 html.dual{
-  --navy:#23466e; --dusk:#342548;
-  --ground:#f8ead3; --ground-2:#fff6e6; --ground-3:#fdeccf; --panel:#fff6e6;
-  --paper:#f8ead3; --page-sky:#f8ead3; --surface:#fffaf0; --surface-2:#fdeccf;
-  --ink:#1c2f55; --ink-deep:#1c2f55; --paper-txt:#1c2f55;
-  --ink-soft:#3d4d73; --muted:#586585; --paper-dim:#586585;
-  --coral:#d9481f; --coral-deep:#b83a15; --coral-soft:rgba(228,87,46,.14);
+  --navy:#3b5a85; --dusk:#3a2a3c;
+  --ground:#f5ead8; --ground-2:#fbf3e4; --ground-3:#f8ecd8; --panel:#fbf3e4;
+  --paper:#f5ead8; --page-sky:#f5ead8; --surface:#fcf6ea; --surface-2:#f8ecd8;
+  --ink:#2d3b5e; --ink-deep:#2d3b5e; --paper-txt:#2d3b5e;
+  --ink-soft:#4d5a7a; --muted:#697591; --paper-dim:#697591;
+  --coral:#d9653d; --coral-deep:#c05230; --coral-soft:rgba(217,101,61,.12);
   --sage:#3f8a8c; --rose:#d9826f; --cream-btn:#fffaf0;
-  --hair:rgba(35,70,110,.2); --hair-strong:rgba(35,70,110,.4);
+  --hair:rgba(60,80,120,.14); --hair-strong:rgba(60,80,120,.26);
   --line:var(--hair); --line-strong:var(--hair-strong);
   --gold:var(--coral); --gold-deep:var(--coral-deep); --gold-ink:var(--coral); --acid:var(--coral); --cape:var(--coral);
   --text-accent:var(--coral); --tone:var(--coral); --lime:var(--coral); --teal:var(--sage);
-  --on-accent:#fffaf0; --header-bg:rgba(248,234,211,.94); --scrim:rgba(28,47,85,.55);
-  --card-bg:linear-gradient(160deg,#fffaf0 0%,#fdeccf 100%); --card-line:rgba(35,70,110,.28);
-  --card-shadow:0 18px 36px -22px rgba(35,70,110,.45);
-  --sky:linear-gradient(180deg,#b9d0e8 0,#e9dcc9 520px,#f8ead3 900px,#fbe3c0 100%);
+  --on-accent:#fffaf0; --header-bg:#f5ead8; --scrim:rgba(45,59,94,.5);
+  --card-bg:linear-gradient(160deg,#fcf6ea 0%,#f8ecd8 100%); --card-line:rgba(60,80,120,.18);
+  --card-shadow:0 14px 30px -24px rgba(45,59,94,.3);
+  --sky:linear-gradient(180deg,#f5ead8,#f5ead8);
   --mesh:none;
   color-scheme:light;
 }
 html.dual.dark-theme{
-  --navy:#dfe9e4; --dusk:#0b120e;
-  --ground:#050706; --ground-2:#0b100c; --ground-3:#101b15; --panel:#070b09;
-  --paper:#050706; --page-sky:#050706; --surface:#0b120e; --surface-2:#101b15;
-  --ink:#eef3ea; --ink-deep:#eef3ea; --paper-txt:#eef3ea;
-  --ink-soft:#b9c6bf; --muted:#8f9f98; --paper-dim:#8f9f98;
-  --coral:#e0a93f; --coral-deep:#c98f2b; --coral-soft:rgba(224,169,63,.14);
+  --navy:#c4d3cd; --dusk:#0b120e;
+  --ground:#060908; --ground-2:#0b100d; --ground-3:#0f1914; --panel:#070b09;
+  --paper:#060908; --page-sky:#060908; --surface:#0b120e; --surface-2:#0f1914;
+  --ink:#dde5df; --ink-deep:#dde5df; --paper-txt:#dde5df;
+  --ink-soft:#aab8b1; --muted:#8a9a93; --paper-dim:#8a9a93;
+  --coral:#d1a043; --coral-deep:#b98a30; --coral-soft:rgba(209,160,67,.13);
   --sage:#6f93ad; --rose:#c98f2b; --cream-btn:#eef3ea;
-  --hair:rgba(180,210,200,.16); --hair-strong:rgba(180,210,200,.34);
-  --on-accent:#0a0a06; --header-bg:rgba(5,7,6,.88); --scrim:rgba(0,0,0,.7);
-  --card-bg:linear-gradient(160deg,#101b15 0%,#09100c 100%); --card-line:rgba(150,190,180,.24);
+  --hair:rgba(180,210,200,.12); --hair-strong:rgba(180,210,200,.26);
+  --on-accent:#0a0a06; --header-bg:#060908; --scrim:rgba(0,0,0,.7);
+  --card-bg:linear-gradient(160deg,#0f1914 0%,#0a110d 100%); --card-line:rgba(150,190,180,.17);
   --card-shadow:0 20px 40px -24px #000;
-  --mesh:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14'%3E%3Cpath d='M7 0 14 7 7 14 0 7Z' fill='none' stroke='%23b4d2c8' stroke-opacity='.05'/%3E%3C/svg%3E");
+  --mesh:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14'%3E%3Cpath d='M7 0 14 7 7 14 0 7Z' fill='none' stroke='%23b4d2c8' stroke-opacity='.04'/%3E%3C/svg%3E");
   color-scheme:dark;
 }
 
@@ -113,3 +113,36 @@ html.dual .hx-phone-bar i,html.dual .hx-bar-fill{background:var(--coral)!importa
 html.dual .hx-phone-bar,html.dual .hx-bar-track{background:var(--hair)!important}
 html.dual .hx-reading-time{background:var(--coral-soft)!important;color:var(--ink-soft)!important}
 html.dual{--tone-tint:var(--coral-soft);--tone-deep:var(--coral);--tone:var(--coral);--chip:var(--coral-soft);--chip-ink:var(--ink-soft)}
+
+/* ---- Cadrage : en-tête aligné sur le contenu, opaque (le texte ne transparaît plus dessous) ---- */
+html.dual .site-header{padding:0!important;background:var(--header-bg)!important;backdrop-filter:none!important}
+html.dual .site-header .header-inner{width:calc(100% - 40px)!important;max-width:1180px;margin:0 auto!important;padding:12px 0!important;border-radius:0}
+html.dual .site-header .header-tools{margin-left:auto}
+@media(max-width:480px){html.dual .site-header .header-inner{gap:8px}html.dual .site-header .brand-menu-toggle{padding:0 .6rem;margin-left:.1rem}html.dual .site-header .header-tool{width:40px;min-width:40px}}
+
+/* ---- Titres : espacement des mots rétabli ---- */
+html.dual .hx-title,html.dual .hx-hero--page .hx-title,html.dual .hx-head h2,html.dual .hx-copy h2,html.dual .section-heading,html.dual h1,html.dual h2{font-weight:750!important;letter-spacing:-.015em!important;word-spacing:.05em}
+
+/* ---- Texte des boutons toujours lisible sur la couleur d'accent ---- */
+html.dual .btn,html.dual .btn *,html.dual .hx-btn,html.dual .hx-btn *,html.dual .deep-cta,html.dual .deep-cta *,html.dual .deep-next,html.dual .deep-next *,html.dual .amazon-btn,html.dual .amazon-btn *{color:var(--on-accent)!important}
+html.dual .btn:hover,html.dual .btn:hover *{color:var(--ground)!important}
+
+/* ---- Spécificité renforcée : texte des boutons ---- */
+html.dual body a.btn,html.dual body button.btn,html.dual body a.hx-btn{color:var(--on-accent)!important}
+html.dual body a.btn:hover,html.dual body button.btn:hover{color:var(--ground)!important}
+
+/* ---- Guides dépliables : marges internes rétablies, rien ne dépasse du cadre ---- */
+html.dual .deep-dive{overflow:hidden;border-left-width:4px;border-color:var(--card-line);background:var(--card-bg)!important}
+html.dual .deep-dive>section{padding:0 1.1rem 1.4rem!important;max-width:100%;box-sizing:border-box}
+html.dual .deep-dive>summary{padding:1.1rem 1.1rem}
+html.dual .deep-dive .fiche-layout,html.dual .deep-dive .section-heading{min-width:0;max-width:100%}
+html.dual .deep-dive h2{font-size:clamp(1.5rem,6.4vw,2.2rem)!important}
+html.dual .deep-dive .deep-cta{background:var(--coral)!important;border-radius:999px}
+
+/* ---- Repères de la simulation Amazon : accent du thème au lieu de l'orange vif ---- */
+html.dual .amazon-highlight{border-color:var(--coral)!important;box-shadow:0 0 0 999px rgba(209,160,67,.04)!important}
+html.dual .amazon-highlight::after{background:var(--coral)!important}
+html.dual body .hx-cta a.btn.hx-btn,html.dual body .hx-cta a.btn.hx-btn *{color:var(--on-accent)!important}
+html.dual body .amazon-step .amazon-highlight{border-color:var(--coral)!important}
+html.dual body .amazon-step .amazon-highlight::after{background:var(--coral)!important;box-shadow:0 0 0 5px var(--coral-soft)!important}
+html.dual body .amazon-legend i,html.dual body .amazon-note i{background:var(--coral)!important}
