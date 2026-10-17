@@ -121,7 +121,7 @@
 
     var savedTheme = null;
     try { savedTheme = localStorage.getItem("guide-achat-theme"); } catch (e) {}
-    var isHome = document.body && document.body.classList.contains("home");
+    var isHome = (document.body && document.body.classList.contains("home")) || root.classList.contains("dual");
     var fallback = isHome ? ((window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) ? "dark" : "light") : "dark";
     applyTheme(savedTheme === "light" || savedTheme === "dark" ? savedTheme : (isHome ? fallback : "dark"));
 

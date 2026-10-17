@@ -1,0 +1,115 @@
+/* ==========================================================================
+   Guide·Achat — double thème pour les pages « catégorie » (couche chargée en dernier)
+   Clair  : palette du décor dessiné (bleu nuit, couchant orange, jaune, sarcelle).
+   Sombre : palette de la photo (noir, vert forêt, bleu acier, blanc froid, ambre).
+   Même système que l'accueil (home.css). Variables en tête : seul endroit à modifier.
+   ========================================================================== */
+html.dual{
+  --navy:#23466e; --dusk:#342548;
+  --ground:#f8ead3; --ground-2:#fff6e6; --ground-3:#fdeccf; --panel:#fff6e6;
+  --paper:#f8ead3; --page-sky:#f8ead3; --surface:#fffaf0; --surface-2:#fdeccf;
+  --ink:#1c2f55; --ink-deep:#1c2f55; --paper-txt:#1c2f55;
+  --ink-soft:#3d4d73; --muted:#586585; --paper-dim:#586585;
+  --coral:#d9481f; --coral-deep:#b83a15; --coral-soft:rgba(228,87,46,.14);
+  --sage:#3f8a8c; --rose:#d9826f; --cream-btn:#fffaf0;
+  --hair:rgba(35,70,110,.2); --hair-strong:rgba(35,70,110,.4);
+  --line:var(--hair); --line-strong:var(--hair-strong);
+  --gold:var(--coral); --gold-deep:var(--coral-deep); --gold-ink:var(--coral); --acid:var(--coral); --cape:var(--coral);
+  --text-accent:var(--coral); --tone:var(--coral); --lime:var(--coral); --teal:var(--sage);
+  --on-accent:#fffaf0; --header-bg:rgba(248,234,211,.94); --scrim:rgba(28,47,85,.55);
+  --card-bg:linear-gradient(160deg,#fffaf0 0%,#fdeccf 100%); --card-line:rgba(35,70,110,.28);
+  --card-shadow:0 18px 36px -22px rgba(35,70,110,.45);
+  --sky:linear-gradient(180deg,#b9d0e8 0,#e9dcc9 520px,#f8ead3 900px,#fbe3c0 100%);
+  --mesh:none;
+  color-scheme:light;
+}
+html.dual.dark-theme{
+  --navy:#dfe9e4; --dusk:#0b120e;
+  --ground:#050706; --ground-2:#0b100c; --ground-3:#101b15; --panel:#070b09;
+  --paper:#050706; --page-sky:#050706; --surface:#0b120e; --surface-2:#101b15;
+  --ink:#eef3ea; --ink-deep:#eef3ea; --paper-txt:#eef3ea;
+  --ink-soft:#b9c6bf; --muted:#8f9f98; --paper-dim:#8f9f98;
+  --coral:#e0a93f; --coral-deep:#c98f2b; --coral-soft:rgba(224,169,63,.14);
+  --sage:#6f93ad; --rose:#c98f2b; --cream-btn:#eef3ea;
+  --hair:rgba(180,210,200,.16); --hair-strong:rgba(180,210,200,.34);
+  --on-accent:#0a0a06; --header-bg:rgba(5,7,6,.88); --scrim:rgba(0,0,0,.7);
+  --card-bg:linear-gradient(160deg,#101b15 0%,#09100c 100%); --card-line:rgba(150,190,180,.24);
+  --card-shadow:0 20px 40px -24px #000;
+  --mesh:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14'%3E%3Cpath d='M7 0 14 7 7 14 0 7Z' fill='none' stroke='%23b4d2c8' stroke-opacity='.05'/%3E%3C/svg%3E");
+  color-scheme:dark;
+}
+
+/* ---- Fond : clair = ciel fixe ; sombre = aurore lente (transform seul, aucun repaint) ---- */
+html.dual,html.dual body,html.dual body.site-redesign{background:var(--ground)!important;color:var(--ink)!important}
+html.dual body{background-image:var(--mesh)!important}
+html.dual body::before,html.dual body::after{content:"";position:fixed;z-index:-1;pointer-events:none;display:block!important}
+html.dual body::before{inset:0;background:var(--sky)}
+html.dual body::after{display:none!important}
+html.dual.dark-theme body::before{
+  inset:-25%;
+  background:
+    radial-gradient(38% 34% at 18% 22%,rgba(32,86,40,.55),transparent 70%),
+    radial-gradient(34% 30% at 82% 28%,rgba(47,111,115,.42),transparent 70%),
+    radial-gradient(30% 26% at 70% 78%,rgba(111,147,173,.26),transparent 70%);
+  animation:ga-aurora-a 70s ease-in-out infinite alternate;will-change:transform;
+}
+html.dual.dark-theme body::after{
+  display:block!important;inset:-25%;
+  background:
+    radial-gradient(26% 22% at 30% 80%,rgba(224,169,63,.22),transparent 70%),
+    radial-gradient(22% 20% at 60% 18%,rgba(234,243,224,.10),transparent 70%);
+  animation:ga-aurora-b 90s ease-in-out infinite alternate;will-change:transform;
+}
+@keyframes ga-aurora-a{from{transform:translate3d(-4%,-3%,0) scale(1)}to{transform:translate3d(5%,4%,0) scale(1.08)}}
+@keyframes ga-aurora-b{from{transform:translate3d(4%,3%,0) scale(1.05)}to{transform:translate3d(-5%,-4%,0) scale(1)}}
+@media(prefers-reduced-motion:reduce){html.dual.dark-theme body::before,html.dual.dark-theme body::after{animation:none;will-change:auto}}
+html.dual.fx-lite.dark-theme body::before,html.dual.fx-lite.dark-theme body::after{animation:none;will-change:auto}
+html.dual.fx-lite.dark-theme body::after{display:none!important}
+
+/* ---- Bouton de thème visible ---- */
+html.dual #theme-toggle,html.dual .header-tool-theme{display:inline-flex!important}
+
+/* ---- Typographie lisible (même police que l'accueil, plus de titres fins en capitales coupées) ---- */
+html.dual{--font-display:"Inter Tight","Helvetica Neue",Arial,sans-serif;--font-title:var(--font-display);--font-body:var(--font-display)}
+html.dual .hx-title,html.dual .hx-hero--page .hx-title,html.dual .hx-head h2,html.dual .hx-copy h2,html.dual .section-heading,html.dual h1,html.dual h2{
+  font-family:var(--font-display)!important;font-stretch:100%!important;font-weight:800!important;letter-spacing:-.03em!important;
+  text-transform:none!important;color:var(--ink)!important;
+}
+html.dual .hx-title,html.dual .hx-hero--page .hx-title{font-size:clamp(2.3rem,9.5vw,4.6rem)!important;line-height:1.04!important;overflow-wrap:normal;word-break:normal;hyphens:manual}
+html.dual .hx-lead,html.dual .hx-head p,html.dual .hx-copy p,html.dual .section-lead{font-family:var(--font-body)!important;color:var(--ink-soft)!important}
+html.dual .hx-hero::before,html.dual .hx-hero::after{display:none}
+
+/* ---- En-tête ---- */
+html.dual .site-header{background:var(--header-bg)!important;border-bottom:1px solid var(--hair)!important;backdrop-filter:blur(10px)}
+html.dual .site-header .header-inner,html.dual .site-header .header-tools,html.dual .category-menu-panel,html.dual .search-panel-sheet{
+  --ink:var(--ink-deep);--ink-soft:var(--ink-soft);--muted:var(--muted);--line:var(--hair);--line-strong:var(--hair-strong);
+  --surface:var(--surface);--surface-2:var(--surface-2);--text-accent:var(--coral);
+}
+html.dual .site-header .header-inner{background:transparent!important;box-shadow:none!important;color:var(--ink)}
+html.dual .site-header.is-scrolled .header-inner{box-shadow:none!important}
+html.dual .category-menu-panel,html.dual .search-panel-sheet{background:var(--ground-2)!important;color:var(--ink)}
+html.dual .category-menu-backdrop,html.dual .search-panel-backdrop{background:var(--scrim)!important}
+html.dual .brand-mark,html.dual .footer-logo-mark{background:var(--coral);color:var(--on-accent)}
+
+/* ---- Boutons, onglets, cartes, panneaux ---- */
+html.dual .btn,html.dual .hx-btn{background:var(--coral)!important;color:var(--on-accent)!important;border-color:var(--coral)!important}
+html.dual .btn:hover,html.dual .hx-btn:hover{background:var(--navy)!important;color:var(--ground)!important}
+html.dual .profile-card,html.dual .audit-card,html.dual .recap-card,html.dual .pitfall-card,html.dual .two-paths-card,html.dual .journey-step,html.dual .hx-visual,html.dual .callout,html.dual .tool-box,html.dual .warning-panel,html.dual .hx-points li,html.dual .sensor-card,html.dual .hx-phone{
+  background:var(--card-bg)!important;border-color:var(--card-line)!important;color:var(--ink);box-shadow:var(--card-shadow)
+}
+html.dual .hx-phone{background:var(--surface)!important}
+html.dual .hx-chip{background:var(--surface)!important;border-color:var(--card-line)!important;color:var(--ink)}
+html.dual .profile-picker-tab{color:var(--ink-soft)}
+html.dual .profile-picker-tab.is-active,html.dual .profile-picker-tab[aria-selected="true"]{background:var(--navy)!important;color:var(--ground)!important;border-color:var(--navy)!important}
+html.dual input,html.dual textarea,html.dual select{background:var(--surface)!important;color:var(--ink)!important;border-color:var(--hair-strong)!important}
+html.dual .site-footer{background:var(--panel)!important;color:var(--ink)!important;border-top:1px solid var(--hair)!important}
+html.dual .footer-copy,html.dual .footer-copy p{color:var(--ink-soft)!important}
+
+/* ---- États actifs et pastilles ---- */
+html.dual .hx-tab[aria-selected="true"],html.dual .hx-tab.is-active,html.dual .audit-pill.is-selected,html.dual .profile-picker-tab.is-current,html.dual .v88-platform-choice button.is-active{
+  background:var(--navy)!important;color:var(--ground)!important;border-color:var(--navy)!important}
+html.dual .reading-time,html.dual [class*="reading-time"]{background:var(--coral-soft)!important;color:var(--ink-soft)!important;border-color:transparent!important}
+html.dual .hx-phone-bar i,html.dual .hx-bar-fill{background:var(--coral)!important}
+html.dual .hx-phone-bar,html.dual .hx-bar-track{background:var(--hair)!important}
+html.dual .hx-reading-time{background:var(--coral-soft)!important;color:var(--ink-soft)!important}
+html.dual{--tone-tint:var(--coral-soft);--tone-deep:var(--coral);--tone:var(--coral);--chip:var(--coral-soft);--chip-ink:var(--ink-soft)}
